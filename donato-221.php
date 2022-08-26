@@ -207,12 +207,12 @@
 
 				<div class="row">
 					<h2 id="title_floor" class="bebas">PISOS DEL 1 AL 9</h2>
+					<h3 data-aos="fade-up" class="bebas" id="title_ambiente">4 amb PLANTA TIPO</h3>
 				</div>
 
 				<div class="row">
 
 					<div class="col-sm-6 content_plano">
-						<h3 data-aos="fade-up" class="bebas" id="title_ambiente">4 amb PLANTA TIPO</h3>
 						<div data-aos="fade-up" class="content_map">
 							<img class="img-fluid" src="./img/obras-individuales/donato-221/plano.png" alt="plano donato alvarez 221">
 

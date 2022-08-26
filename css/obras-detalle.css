@@ -124,16 +124,10 @@
 
 .obra_detalle .planos_desktop h2 {
 	text-align: center;
-	margin-bottom: 30px;
+	margin-bottom: 0;
 	color: #989797;
 	font-size: 2.25rem;
 }
-
-/* Aranguren 1061 */
-.aranguren_1061 .planos_desktop h2 {
-	margin-bottom: 0;
-}
-/* Aranguren 1061 end*/
 /* Planos Desktop */
 
 /* Planos Mobile */
