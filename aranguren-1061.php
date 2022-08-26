@@ -220,78 +220,134 @@
 						<div data-aos="fade-up" class="content_map">
 							<img class="img-fluid" src="./img/obras-individuales/aranguren-1061/planos-aranguren-b.jpg" alt="plano aranguren 1061">
 
-							<svg version="1.1" id="map1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-								 viewBox="0 0 250 243" style="enable-background:new 0 0 250 243;" xml:space="preserve">
-							<path 
-								data-plano="1" 
-								data-plano-title="Duplex - 4 amb. Planta alta" 
-								data-plano-floor="PISO 7 FRENTE" 
-								class="map transition" 
-								d="M248.9,84.34c-0.24,0.71,0.71,64.79,0,65.03c-0.71,0.24-9.05,0-9.05,0v92.9h-63.12v-24.06L2.1,218.81L0.83,0.73
-								h98.24l-0.55,51.22l-14.69-0.01l0.06,64.08l102.37-0.07l-0.06-31.68L248.9,84.34z"/>
+							<svg 
+								version="1.1" 
+								id="map1" 
+								xmlns="http://www.w3.org/2000/svg" 
+								xmlns:xlink="http://www.w3.org/1999/xlink" 
+								x="0px" 
+								y="0px" 
+								viewBox="0 0 250 243" 
+								style="enable-background:new 0 0 250 243;" 
+								xml:space="preserve">
+								<path 
+									data-plano="1" 
+									data-plano-title="Duplex - 4 amb. Planta alta" 
+									data-plano-floor="PISO 7 FRENTE" 
+									class="map transition" 
+									d="M248.9,84.34c-0.24,0.71,0.71,64.79,0,65.03c-0.71,0.24-9.05,0-9.05,0v92.9h-63.12v-24.06L2.1,218.81L0.83,0.73
+									h98.24l-0.55,51.22l-14.69-0.01l0.06,64.08l102.37-0.07l-0.06-31.68L248.9,84.34z"/>
 							</svg>
 
-							<svg version="1.1" id="map2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-								 viewBox="0 0 259 206" style="enable-background:new 0 0 259 206;" xml:space="preserve">
-							<path 
-								data-plano="2" 
-								data-plano-title="4 amb" 
-								data-plano-floor="PISO 7 FRENTE" 
-								class="map transition" 
-								d="M258.69,72.62v132.95h-60.78v-20.54L26.27,185.3V97.26H0.31V9.5h25.96V0.43h95.59l0.31,42.95h-14.35
-								l-0.31,54.96h101.7V72.72L258.69,72.62z"/>
+							<svg 
+								version="1.1" 
+								id="map2" 
+								xmlns="http://www.w3.org/2000/svg" 
+								xmlns:xlink="http://www.w3.org/1999/xlink" 
+								x="0px" 
+								y="0px" 
+								viewBox="0 0 259 206" 
+								style="enable-background:new 0 0 259 206;" 
+								xml:space="preserve">
+								<path 
+									data-plano="2" 
+									data-plano-title="4 amb" 
+									data-plano-floor="PISO 7 FRENTE" 
+									class="map transition" 
+									d="M258.69,72.62v132.95h-60.78v-20.54L26.27,185.3V97.26H0.31V9.5h25.96V0.43h95.59l0.31,42.95h-14.35
+									l-0.31,54.96h101.7V72.72L258.69,72.62z"/>
 							</svg>
 
-							<svg version="1.1" id="map3" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-								 viewBox="0 0 115 131" style="enable-background:new 0 0 115 131;" xml:space="preserve">
-							<path 
-								data-plano="3" 
-								data-plano-title="Duplex - 4 amb. Planta baja" 
-								data-plano-floor="PISO 8 FRENTE" 
-								class="map transition active" 
-								d="M114.22,45.52c-0.13,0.38,0.38,34.83,0,34.96c-0.38,0.13-4.87,0-4.87,0v49.95H75.42v-12.93l-74.79,0.26V0.57
-								h33.04l-0.3,27.54l-7.9,0l0.03,34.45l55.04-0.04l-0.03-17.03L114.22,45.52z"/>
+							<svg 
+								version="1.1" 
+								id="map3" 
+								xmlns="http://www.w3.org/2000/svg" 
+								xmlns:xlink="http://www.w3.org/1999/xlink" 
+								x="0px" 
+								y="0px"
+								viewBox="0 0 115 131" 
+								style="enable-background:new 0 0 115 131;" 
+								xml:space="preserve">
+								<path 
+									data-plano="3" 
+									data-plano-title="Duplex - 4 amb. Planta baja" 
+									data-plano-floor="PISO 8 FRENTE" 
+									class="map transition active" 
+									d="M114.22,45.52c-0.13,0.38,0.38,34.83,0,34.96c-0.38,0.13-4.87,0-4.87,0v49.95H75.42v-12.93l-74.79,0.26V0.57
+									h33.04l-0.3,27.54l-7.9,0l0.03,34.45l55.04-0.04l-0.03-17.03L114.22,45.52z"/>
 							</svg>
 
-							<svg version="1.1" id="map4" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-								 viewBox="0 0 72 75" style="enable-background:new 0 0 72 75;" xml:space="preserve">
-							<path 
-								data-plano="4" 
-								data-plano-title="2 ambientes" 
-								data-plano-floor="PISOS 1 AL 8 LATERAL" 
-								class="map transition" 
-								d="M71.44,0.74v73.51h-33.9V61.34H0.56V0.74H71.44z"/>
+							<svg 
+								version="1.1" 
+								id="map4" 
+								xmlns="http://www.w3.org/2000/svg" 
+								xmlns:xlink="http://www.w3.org/1999/xlink" 
+								x="0px" 
+								y="0px" 
+								viewBox="0 0 72 75" 
+								style="enable-background:new 0 0 72 75;" 
+								xml:space="preserve">
+								<path 
+									data-plano="4" 
+									data-plano-title="2 ambientes" 
+									data-plano-floor="PISOS 1 AL 8 LATERAL" 
+									class="map transition" 
+									d="M71.44,0.74v73.51h-33.9V61.34H0.56V0.74H71.44z"/>
 							</svg>
 
-							<svg version="1.1" id="map5" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-								 viewBox="0 0 72 75" style="enable-background:new 0 0 72 75;" xml:space="preserve">
-							<path 
-								data-plano="5" 
-								data-plano-title="2 ambientes" 
-								data-plano-floor="PISOS 1 AL 8 LATERAL" 
-								class="map transition" 
-								d="M71.44,0.74v73.51h-33.9V61.34H0.56V0.74H71.44z"/>
+							<svg 
+								version="1.1" 
+								id="map5" 
+								xmlns="http://www.w3.org/2000/svg" 
+								xmlns:xlink="http://www.w3.org/1999/xlink" 
+								x="0px" 
+								y="0px" 
+								viewBox="0 0 72 75" 
+								style="enable-background:new 0 0 72 75;" 
+								xml:space="preserve">
+								<path 
+									data-plano="5" 
+									data-plano-title="2 ambientes" 
+									data-plano-floor="PISOS 1 AL 8 LATERAL" 
+									class="map transition" 
+									d="M71.44,0.74v73.51h-33.9V61.34H0.56V0.74H71.44z"/>
 							</svg>
 
-							<svg version="1.1" id="map6" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-								 viewBox="0 0 91 101" style="enable-background:new 0 0 91 101;" xml:space="preserve">
-							<path 
-								data-plano="6" 
-								data-plano-title="3 ambientes" 
-								data-plano-floor="PISOS 2 AL 8 CONTRAFRENTE" 
-								class="map transition" 
-								d="M92.01,4.83v70.73H79.59v24.93H-1.01V27.53l14.44-0.13l0.16-26.9h65.53L79.1,4.58L92.01,4.83z"/>
+							<svg 
+								version="1.1" 
+								id="map6" 
+								xmlns="http://www.w3.org/2000/svg" 
+								xmlns:xlink="http://www.w3.org/1999/xlink" 
+								x="0px" 
+								y="0px" 
+								viewBox="0 0 91 101" 
+								style="enable-background:new 0 0 91 101;" 
+								xml:space="preserve">
+								<path 
+									data-plano="6" 
+									data-plano-title="3 ambientes" 
+									data-plano-floor="PISOS 2 AL 8 CONTRAFRENTE" 
+									class="map transition" 
+									d="M92.01,4.83v70.73H79.59v24.93H-1.01V27.53l14.44-0.13l0.16-26.9h65.53L79.1,4.58L92.01,4.83z"/>
 							</svg>
 
-							<svg version="1.1" id="map7" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-								 viewBox="0 0 121 109" style="enable-background:new 0 0 121 109;" xml:space="preserve">
-							<polygon 
-								data-plano="7" 
-								data-plano-title="3 ambientes" 
-								data-plano-floor="PISO 1 CONTRAFRENTE" 
-								class="map transition" 
-								points="120.16,5.5 120.16,81.73 108.76,81.73 108.76,108.3 35.11,108.41 35.11,30.92 0.84,30.7 0.84,0.59 
-								108.87,0.59 108.87,5.54 "/>
+							<svg 
+								version="1.1" 
+								id="map7" 
+								xmlns="http://www.w3.org/2000/svg" 
+								xmlns:xlink="http://www.w3.org/1999/xlink" 
+								x="0px" 
+								y="0px" 
+								viewBox="0 0 121 109" 
+								style="enable-background:new 0 0 121 109;" 
+								xml:space="preserve">
+								<polygon 
+									data-plano="7" 
+									data-plano-title="3 ambientes" 
+									data-plano-floor="PISO 1 CONTRAFRENTE" 
+									class="map transition" 
+									points="120.16,5.5 120.16,81.73 108.76,81.73 108.76,108.3 35.11,108.41 35.11,30.92 0.84,30.7 0.84,0.59 
+									108.87,0.59 108.87,5.54 "/>
 							</svg>
 
 						</div>
