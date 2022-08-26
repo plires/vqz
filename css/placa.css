@@ -1,0 +1,103 @@
+@import url('fonts.css');
+
+html, body {
+	margin:0;
+	padding:0;
+}
+.video-container video {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+	z-index: -100;
+	transform: translateX(-50%) translateY(-50%);
+}
+.welcome {
+	display: flex;
+	flex-direction: column;
+	min-height:100vh;
+	justify-content:center;
+	align-items:center;
+	text-align:center;
+}
+
+.welcome h1 {
+	font-size: 3rem;
+	padding: 60px;
+	background: white;
+	color: black;
+	font-family: 'Bebas Neue', cursive;
+	display: flex;
+	flex-direction: column;
+	justify-content:center;
+	align-items:center;
+	margin-bottom: 30px;
+}
+
+.logo {
+	margin-bottom: 30px;
+}
+
+.content p {
+	font-family: 'Bebas Neue', cursive;
+	font-size: 2rem;
+}
+
+.content a {
+	font-family: 'Montserrat', sans-serif;
+	color: black;
+	text-decoration: none;
+	-webkit-transition: all ease-in-out .3s; /* Safari */
+  transition: all ease-in-out .3s;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
+.content a:last-child {
+  margin-bottom: 0;
+}
+
+.content a:hover {
+	color: white;
+}
+
+/* MEDIA QUERIES */
+@media (min-width: 576px) {
+
+	.welcome h1 {
+		font-size: 3.5rem;
+	}
+
+	.content p {
+		font-size: 2.5rem;
+	}
+
+	.content a {
+		font-size: 1.25rem;
+	}
+
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 992px) {
+
+}
+
+@media (min-width: 1200px) {
+
+}
+
+@media (min-width: 1400px) {
+
+}
+
+@media (min-width: 1600px) {
+
+}
+

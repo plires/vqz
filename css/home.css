@@ -1,0 +1,286 @@
+/* Video */
+.home .video {
+  padding: 0;
+  position: relative;
+  background-color: black;
+  height: 45vh;
+  min-height: 45vh;
+  width: 100%;
+  overflow: hidden;
+}
+
+.home .video video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.home .video .overlay {
+  /*position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.2;
+  z-index: 1;*/
+}
+/* Video end */
+
+/* Video Info */
+.home .video_info {
+	position: relative;
+	top: -350px;
+	z-index: 2;
+}
+
+.home .video_info .content {
+	position: relative;
+	max-width: 80%;
+}
+
+.home .video_info .content .img {
+	background: white;
+	padding: 20px;
+}
+
+.home .video_info .content .content_frase {
+	background: white;
+	padding: 20px;
+	top: -90px;
+	position: relative;
+	right: -73px;
+}
+
+.home .video_info .content .content_frase h1 {
+	font-size: 3rem;
+	color: var(--primary-color);
+}
+
+.home .video_info .content .content_frase h1 span {
+	display: inline-block;
+	background: black;
+	padding: 9px 9px 3px 9px;
+	color: white;
+	line-height: 1;
+}
+/* Video Info end */
+
+/* Ubicaciones */
+.home .ubicaciones {
+	margin-bottom: 60px;
+}
+
+.home .ubicaciones .content_mapa {
+	margin-bottom: 15px;
+}
+
+.home .ubicaciones .content_frase {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.home .ubicaciones h2 {
+	font-size: 3rem;
+	color: var(--primary-color);
+	margin-bottom: 0;
+	text-align: center;
+}
+
+.home .ubicaciones h2 span {
+	display: inline-block;
+	background: black;
+	padding: 9px 9px 3px 9px;
+	color: white;
+	line-height: 1;
+}
+/* Ubicaciones end */
+
+
+
+
+/* MEDIA QUERIES */
+@media (min-width: 576px) {
+
+	/* Video */
+	.home .video {
+	  height: 60vh;
+	  min-height: 60vh;
+	}
+
+	.home .video video {
+	}
+	/* Video end */
+
+	/* Video Info */
+	.home .video_info .content .content_frase {
+		max-width: 300px;
+	}
+
+	.home .video_info .content .content_frase h1 {
+		font-size: 3.5rem;
+	}
+
+	.home .video_info {
+		top: -420px;
+		z-index: 0;
+	}
+
+	.home .video_info .content .content_frase {
+		top: -323px;
+		right: -255px;
+		min-height: 320px;
+	}
+	/* Video Info end */
+
+	/* Ubicaciones */
+	.home .ubicaciones .content_mapa {
+		margin-bottom: 60px;
+	}
+
+	.home .ubicaciones h2 {
+		font-size: 3.5rem;
+	}
+	/* Ubicaciones end */
+
+}
+
+@media (min-width: 768px) {
+
+	/* Video */
+	.home .video {
+		height: 75vh;
+		min-height: 75vh;
+	}
+	/* Video end */
+
+	/* Video Info */
+	.home .video_info {
+		top: -500px;
+	}
+
+	.home .video_info .content .img {
+		padding: 30px;
+	}
+
+	.home .video_info .content .content_frase {
+		right: -325px;
+		max-width: 355px;
+		padding: 30px;
+	}
+
+
+	.home .video_info .content .content_frase h1 {
+		font-size: 4rem;
+	}
+	/* Video Info end */
+
+	/* Ubicaciones */
+	.home .ubicaciones h2 {
+		font-size: 4rem;
+	}
+
+	.home .ubicaciones .content_mapa {
+		margin-bottom: 0;
+		padding: 0;
+	}
+	/* Ubicaciones end */
+
+}
+
+@media (min-width: 992px) {
+
+	/* Video */
+	.home .video {
+		height: 80vh;
+		min-height: 80vh;
+	}
+	/* Video end */
+
+	/* Video Info */
+	.home .video_info .content {
+		max-width: 65%;
+	}
+
+	.home .video_info {
+		top: -555px;
+	}
+
+	.home .video_info .content .content_frase {
+		top: -480px;
+		right: -480px;
+		max-width: 405px;
+		height: 500px;
+	}
+
+	.home .video_info .content .content_frase h1 {
+		font-size: 4.5rem;
+	}
+	/* Video Info end */
+
+	/* Ubicaciones */
+	.home .ubicaciones h2 {
+		font-size: 4.5rem;
+	}
+	/* Ubicaciones end */
+
+}
+
+@media (min-width: 1200px) {
+
+	/* Video Info */
+	.home .video_info .content {
+		max-width: 55%;
+		margin-left: 9%;
+	}
+
+	.home .video_info .content .content_frase {
+		top: -550px;
+		right: -435px;
+		max-width: 465px;
+		height: 540px;
+	}
+
+	.home .video_info .content .content_frase h1 {
+		font-size: 5.5rem;
+	}
+	/* Video Info end */
+
+	/* Ubicaciones */
+	.home .ubicaciones h2 {
+		font-size: 5rem;
+	}
+	/* Ubicaciones end */
+
+}
+
+@media (min-width: 1400px) {
+
+	/* Video Info */
+	.home .video_info .content {
+		max-width: 50%;
+		margin-left: 15%;
+	}
+
+	.home .video_info .content .content_frase {
+		top: -590px;
+		height: 580px;
+	}
+	/* Video Info end */
+
+}
+
+@media (min-width: 1600px) {
+
+}
+

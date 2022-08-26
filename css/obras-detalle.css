@@ -1,0 +1,1134 @@
+/* Video */
+.obra_detalle .video_content {
+  position: relative;
+}
+
+.obra_detalle .video {
+  padding: 0;
+  position: relative;
+  background-color: black;
+  height: 45vh;
+  min-height: 45vh;
+  width: 100%;
+  overflow: hidden;
+}
+
+.obra_detalle .video video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.obra_detalle .direccion {
+	position: absolute;
+	bottom: -25%;
+	right: 5%;
+	background: white;
+	padding: 10px;
+}
+
+.obra_detalle .direccion h1 {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	flex-direction: column;
+	width: 100%;
+	line-height: 0.8;
+	margin-bottom: 0;
+}
+
+.obra_detalle .direccion h1 span {
+	display: block;
+}
+
+.obra_detalle .direccion .numero {
+	font-size: 10rem;
+	font-weight: 400;
+}
+
+.obra_detalle .direccion .calle {
+	order: 1;
+	font-size: 2rem;
+	color: #979696;
+	letter-spacing: 0.035em;
+}
+
+/* Aranguren 1061 */
+.aranguren_1061 .direccion .calle {
+	font-size: 2rem;
+	letter-spacing: 0.355em;
+	padding-left: 32px;
+}
+/* Aranguren 1061 end*/
+/* Video end */
+
+/* Caracteristicas */
+.obra_detalle .caracteristicas {
+	margin-top: 100px;
+	margin-bottom: 30px;
+}
+
+.obra_detalle .caracteristicas h2 {
+	font-size: 3.5rem;
+	color: #979696;
+}
+
+.obra_detalle .caracteristicas h2 span {
+	color: black;
+}
+
+.obra_detalle .caracteristicas .content_icons {
+	margin-top: 30px;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.obra_detalle .caracteristicas .icon {
+	max-width: 80px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	margin-bottom: 30px;
+	margin-left: 12px;
+	margin-right: 12px;
+}
+
+.obra_detalle .caracteristicas .icon img {
+	margin-bottom: 10px;
+	max-width: 80%;
+}
+
+.obra_detalle .caracteristicas .icon h3 {
+	margin-bottom: 0;
+	font-size: 1.5rem;
+}
+/* Caracteristicas end */
+
+/* Planos Desktop */
+.obra_detalle .planos_desktop {
+	display: none;
+}
+
+.obra_detalle .planos_desktop h2 {
+	text-align: center;
+	margin-bottom: 30px;
+	color: #989797;
+	font-size: 2.25rem;
+}
+
+/* Aranguren 1061 */
+.aranguren_1061 .planos_desktop h2 {
+	margin-bottom: 0;
+}
+/* Aranguren 1061 end*/
+/* Planos Desktop */
+
+/* Planos Mobile */
+.obra_detalle .planos_mobile {
+	margin-bottom: 60px;
+	background: var(--light-color);
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+.obra_detalle .planos_mobile .carousel-item {
+	text-align: center;
+}
+
+/* Aranguren 1061 */
+.aranguren_1061 .planos_mobile .carousel-item {
+	mix-blend-mode: multiply;
+}
+/* Aranguren 1061 end */
+
+.obra_detalle .planos_mobile .carousel-item h3 {
+	color: #989797;
+	font-size: 1.75rem;
+	margin-bottom: 0;
+}
+
+.obra_detalle .planos_mobile h2 {
+	text-align: center;
+	margin-bottom: 10px;
+	color: #989797;
+	font-size: 2.25rem;
+}
+
+.obra_detalle .planos_mobile .carousel-item h4 {
+	color: #989797;
+	font-size: 1.5rem;
+}
+
+.obra_detalle .planos_mobile .carousel-item img {
+	max-width: 375px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.obra_detalle .planos_mobile .carousel-control-next-icon {
+	background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23989797'%3e%3cpath d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+}
+
+.obra_detalle .planos_mobile .carousel-control-prev-icon {
+	  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23989797'%3e%3cpath d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/%3e%3c/svg%3e");
+}
+/* Planos Mobile end */
+
+/* Avance de Obra */
+.obra_detalle .avance .content_title h2 {
+	text-align: center;
+	margin-bottom: 30px;
+	color: #979696;
+	font-size: 2.5rem;
+}
+
+.obra_detalle .avance .content_avances {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.obra_detalle .avance .content_avances .etapa {
+	max-width: 50%;
+	width: 50%;
+	margin-bottom: 60px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.obra_detalle .avance .content_avances .content_number {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.obra_detalle .avance .content_avances .etapa .percentage,
+.obra_detalle .avance .content_avances .etapa span {
+	color: #989897;
+	font-size: 2rem;
+	margin-bottom: 0;
+	line-height: 1;
+}
+
+.obra_detalle .avance .content_avances .etapa span {
+	font-size: 1.5rem;
+	margin-left: 3px;
+}
+
+.obra_detalle .avance .content_avances .etapa .circle {
+	color: #989897;
+	font-size: 1.5rem;
+}
+
+.obra_detalle .avance .content_avances .etapa .title {
+	font-size: 2rem;
+	margin-bottom: 0;
+	text-transform: uppercase;
+}
+/* Avance de Obra end */
+
+/* Galería */
+.obra_detalle .galeria a {
+	position: relative;
+	display: inline-block;
+	overflow: hidden;
+	margin-bottom: 30px;
+}
+
+.obra_detalle .galeria a:hover .content {
+	left: 0;
+}
+
+.obra_detalle .galeria a img {
+	transition: all 0.25s ease-out;
+	filter: grayscale(75%);
+}
+
+.obra_detalle .galeria a:hover img {
+	filter: grayscale(0%);
+}
+
+.obra_detalle .galeria a .content {
+	position: absolute;
+	width: 100%;
+	height: 60px;
+	left: -100%;
+	bottom: 0;
+	background: rgba(0, 0, 0, 0.8);
+	display: flex;
+	align-items: center;
+	padding-left: 10px;
+	padding-right: 10px;
+	transition: all 0.25s ease-out;
+}
+
+.obra_detalle .galeria a .content h4 {
+	color: white;
+	font-size: 2rem;
+	margin-bottom: 0;
+}
+/* Galería end */
+
+/* Ubicacion */
+.obra_detalle .ubicacion {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.obra_detalle .ubicacion h2 {
+	text-align: center;
+	margin-bottom: 30px;
+	color: #979696;
+	font-size: 2.5rem;
+}
+
+.obra_detalle .ubicacion p {
+	font-weight: 300;
+}
+
+.obra_detalle .ubicacion p:last-child {
+	margin-bottom: 30px;
+}
+
+.obra_detalle .featured {
+	background: black;
+	text-align: center;
+	margin-bottom: 30px;
+	color: white;
+	font-size: 1.125rem;
+	font-weight: 700;
+}
+
+.obra_detalle .content_map {
+	position: relative;
+}
+
+.obra_detalle .content_medios {
+	display: none;
+}
+/* Ubicacion end */
+
+/* MEDIA QUERIES */
+@media (min-width: 576px) {
+
+	/* Caracteristicas */
+	.obra_detalle .caracteristicas .content_icons {
+		margin-top: 30px;
+	}
+
+	.obra_detalle .caracteristicas .icon {
+		max-width: 200px;
+	}
+	/* Caracteristicas end */
+
+	/* Planos Mobile */
+	.obra_detalle .planos_mobile {
+		display: none;
+	}
+	/* Planos Mobile end */
+
+	/* Planos Dektop */
+	.obra_detalle .planos_desktop {
+		display: inline-block;
+		margin-bottom: 60px;
+		background: var(--light-color);
+		padding-top: 60px;
+		padding-bottom: 60px;
+	}
+
+	.obra_detalle .planos_desktop h3 {
+		color: #989797;
+		margin-bottom: 15px;
+		text-align: center;
+	}
+
+	.obra_detalle .planos_desktop .content_plano,
+	.obra_detalle .planos_desktop .content_render {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.obra_detalle .planos_desktop .content_render {
+		justify-content: flex-end;
+	}
+
+	/* Aranguren 1061 */
+	.aranguren_1061 .planos_desktop .content_render {
+		justify-content: center;
+	}
+	/* Aranguren 1061 end */
+
+	.obra_detalle .planos_desktop #ambiente {
+		text-align: center;
+		text-transform: uppercase;
+		margin-bottom: 30px;
+	}
+
+	.obra_detalle .planos_desktop .content_map {
+		position: relative;
+	}
+
+	/* Aranguren 1061 */
+	.aranguren_1061 .planos_desktop .content_map,
+	.aranguren_1061 .planos_desktop .content_render {
+		mix-blend-mode: multiply;
+	}
+	/* Aranguren 1061 end */
+
+	.obra_detalle .planos_desktop .content_render .render {
+		display: none;
+	}
+
+	.obra_detalle .planos_desktop .content_render .render.active {
+		display: flex
+	}
+
+	.obra_detalle .map {
+		opacity: 0;
+		fill: red;
+	}
+
+	.obra_detalle .map.active {
+		opacity: 0.5;
+	}
+
+	.obra_detalle .map:hover {
+  	opacity: 0.7;
+  	cursor: pointer;
+	}
+
+	.obra_detalle #map1 {
+  	position: absolute;
+		bottom: 6%;
+		right: 0.5%;
+		width: 44.9%;
+		height: 46.9%;
+	}
+
+	.obra_detalle #map2 {
+		position: absolute;
+		top: 1.5%;
+		left: 20%;
+		width: 45.5%;
+		height: 45.5%;
+	}
+
+	.obra_detalle #map3 {
+		position: absolute;
+		top: 1.7%;
+		right: -0.01%;
+		width: 46%;
+		height: 46.2%;
+	}
+
+	.obra_detalle #map4 {
+		position: absolute;
+		bottom: 0%;
+		left: 1%;
+		width: 40%;
+		height: 43%;
+	}
+
+	.obra_detalle #map5 {
+	  position: absolute;
+	  bottom: 35.3%;
+	  left: 1%;
+	  width: 29%;
+	  height: 31%;
+	}
+
+	.obra_detalle #map6 {
+		position: absolute;
+		bottom: 6.7%;
+		left: 41%;
+		width: 24%;
+		height: 29%;
+	}
+
+	/* Aranguren 1061 */
+	.aranguren_1061 #map1 {
+		position: absolute;
+		bottom: 49.5%;
+		right: 60.5%;
+		width: 29.9%;
+		height: 24.9%;
+		z-index: 1;
+	}
+
+	.aranguren_1061 #map2 {
+    position: absolute;
+		top: 51.9%;
+		left: 6.2%;
+		width: 32.2%;
+		height: 19.9%;
+	}
+
+	.aranguren_1061 #map3 {
+	  position: absolute;
+		top: 2.3%;
+		right: 59.99%;
+		width: 26%;
+		height: 24.8%;
+	}
+
+	.aranguren_1061 #map4 {
+	  position: absolute;
+		bottom: 28.5%;
+		left: 38.5%;
+		width: 16%;
+		height: 14%;
+	}
+
+	.aranguren_1061 #map5 {
+	  position: absolute;
+		bottom: 28.5%;
+		left: 54.2%;
+		width: 16%;
+		height: 14%;
+	}
+
+	.aranguren_1061 #map6 {
+    position: absolute;
+		bottom: 28.6%;
+		left: 69.8%;
+		width: 21%;
+		height: 20%;
+	}
+
+	.aranguren_1061 #map7 {
+    position: absolute;
+		bottom: 7.6%;
+		left: 60.8%;
+		width: 30%;
+		height: 17%;
+	}
+	/* Aranguren 1061 end */
+
+	/* Planos Dektop end */
+
+	/* Avance de Obra */
+	.obra_detalle .avance .content_title h2 {
+		margin-bottom: 50px;
+	}
+
+	.obra_detalle .avance .content_avances .etapa {
+		max-width: 33%;
+		width: 33%;
+	}
+
+	.obra_detalle .avance .content_avances .etapa .percentage {
+		font-size: 3rem;
+		line-height: 1.2;
+	}
+
+	.obra_detalle .avance .content_avances .etapa span {
+		font-size: 2rem;
+	}
+
+	.obra_detalle .avance .content_avances .etapa .circle {
+		font-size: 2rem;
+		margin-bottom: 10px;
+	}
+
+	.obra_detalle .avance .content_avances .etapa .title {
+
+	}
+	/* Avance de Obra end */
+
+	/* Ubicacion */
+	.obra_detalle .content_medios {
+		position: absolute;
+		top: 0;
+		right: 5%;
+		padding: 10px;
+		height: 100%;
+		background: black;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		align-items: center;
+	}
+
+	.obra_detalle .content_medios h4 {
+		background: white;
+		color: black;
+		text-align: center;
+		font-size: 1rem;
+	}
+
+	.obra_detalle .content_medios p {
+		color: white;
+		font-size: 0.8rem;
+		margin-bottom: 10px;
+		text-align: center;
+	}
+
+	.obra_detalle .content_medios .medios {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.obra_detalle .content_medios img {
+		max-width: 90%;
+		margin-bottom: 10px;
+	}
+	/* Ubicacion end */
+
+}
+
+@media (min-width: 768px) {
+
+	/* Video */
+	.obra_detalle .video {
+		height: 55vh;
+		min-height: 55vh;
+	}
+
+	.obra_detalle .direccion {
+		right: 8%;
+		bottom: -35%;
+		padding: 20px;
+	}
+
+	.obra_detalle .direccion .numero {
+		font-size: 17rem;
+		letter-spacing: -10.5;
+	}
+
+	.obra_detalle .direccion .calle {
+		font-size: 3.2rem;
+	}
+
+	/* Aranguren 1061 */
+	.aranguren_1061 .direccion .calle {
+		padding-left: 50px;
+	}
+	/* Aranguren 1061 end */
+	/* Video end */
+
+	/* Caracteristicas */
+	.obra_detalle .caracteristicas {
+		margin-top: 170px;
+		margin-bottom: 60px;
+	}
+
+	.obra_detalle .caracteristicas h2 {
+		font-size: 4.9rem;
+		text-align: right;
+		margin-bottom: 0;
+	}
+
+	.obra_detalle .caracteristicas p:last-child {
+		margin-bottom: 20px;
+	}
+
+	.obra_detalle .caracteristicas .content_icons {
+		margin-top: 60px;
+	}
+
+	.obra_detalle .caracteristicas .icon {
+		max-width: 72px;
+		width: 72px;
+	}
+
+	.obra_detalle .caracteristicas .icon h3 {
+		font-size: 1.25rem;
+	}
+	/* Caracteristicas end */
+
+	/* Planos Dektop */
+	.obra_detalle .planos_desktop {
+		margin-bottom: 60px;
+	}
+
+	.obra_detalle .planos_desktop h3 {
+		font-size: 2rem;
+	}
+
+	.obra_detalle .planos_desktop .col-sm-6 {
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-end;
+		align-items: center;
+	}
+
+	/* Aranguren 1061 */
+	.aranguren_1061 .planos_desktop .col-sm-6 {
+		justify-content: center;
+	}
+	/* Aranguren 1061 end */
+	/* Planos Dektop end */
+
+	/* Avance de Obra */
+	.obra_detalle .avance .content_avances {
+		flex-wrap: nowrap;
+		justify-content: space-between;
+	}
+
+	.obra_detalle .avance .content_avances .etapa {
+		max-width: 90px;
+		width: 90px;
+	}
+
+	.obra_detalle .avance .content_avances .etapa .percentage {
+		font-size: 1.75rem;
+	}
+
+	.obra_detalle .avance .content_avances .etapa span {
+		font-size: 1.5rem;
+	}
+
+	.obra_detalle .avance .content_avances .etapa .title {
+		font-size: 1.3rem;
+	}
+
+	.obra_detalle .avance .content_avances .etapa .fa-bars-progress {
+		display: none;
+	}
+
+	.obra_detalle .avance .content_avances .etapa .circle {
+		width: 10px;
+		height: 10px;
+		border-radius: 50%;
+		background: black;
+		position: relative;
+		display: inline-block;
+		margin-top: 15px;
+		margin-bottom: 15px;
+	}
+
+	.obra_detalle .avance .content_avances .etapa .circle:after {
+		content: '';
+		position: absolute;
+		left: calc( 50% - 61px);
+		bottom: calc( 50% - 1px );
+		width: 122px;
+		height: 2px;
+		background: black;
+		border-radius: 0%;
+	}
+
+	.obra_detalle .avance .content_avances .etapa .first:after {
+		left: 0;
+		width: 65px;
+	}
+
+	.obra_detalle .avance .content_avances .etapa .last:after {
+		left: -60px;
+		width: 60px;
+	}
+	/* Avance de Obra end */
+
+	/* Galeria */
+	/* Aranguren 1061 */
+	.aranguren_1061 .galeria {
+		margin-bottom: 30px;
+	}
+
+	.aranguren_1061 .galeria a {
+		margin: 0;
+	}
+
+	.aranguren_1061 .galeria .content_imgs .col-md-6 {
+		min-height: 510px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.aranguren_1061 .galeria .content_imgs .col-md-6:first-child img {
+		min-height: 468px;
+	}
+
+	.aranguren_1061 .galeria .content_imgs .col-md-6:last-child .col-md-12:first-child {
+		padding-bottom: 20px;
+	}
+
+	.aranguren_1061 .galeria .content_imgs .col-md-6:last-child .col-md-12:first-child {
+		padding-bottom: 20px;
+	}
+	/* Aranguren 1061 end*/
+	/* Galeria end */
+
+}
+
+@media (min-width: 992px) {
+
+	/* Video */
+	.obra_detalle .video {
+		height: 70vh;
+		min-height: 70vh;
+	}
+
+	.obra_detalle .direccion {
+		right: 5%;
+		bottom: -28%;
+		padding-top: 25px;
+	}
+
+	.obra_detalle .direccion .numero {
+		font-size: 20rem;
+		letter-spacing: -16.5;
+	}
+
+	.obra_detalle .direccion .calle {
+		padding-left: 0.5rem;
+		font-size: 3.6rem;
+		margin-top: -20px;
+	}
+
+	/* Aranguren 1061 */
+	.aranguren_1061 .direccion .calle {
+		padding-left: 3.8rem;
+	}
+	/* Aranguren 1061 end */
+	/* Video end */
+
+	/* Caracteristicas */
+	.obra_detalle .caracteristicas .icon {
+		max-width: 105px;
+		width: 105px;
+	}
+
+	.obra_detalle .caracteristicas h2 {
+		font-size: 6.5rem;
+		margin-bottom: 0;
+		line-height: 1.1;
+	}
+
+	/* Aranguren 1061 */
+	.aranguren_1061 .caracteristicas .col-md-6 {
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-end;
+		align-items: center;
+	}
+	/* Aranguren 1061 end */
+	/* Caracteristicas end */
+
+	/* Avance de Obra */
+	.obra_detalle .avance .content_title h2 {
+		font-size: 3rem;
+	}
+
+	.obra_detalle .avance .content_avances .etapa .percentage {
+		font-size: 2rem;
+	}
+
+	.obra_detalle .avance .content_avances .etapa span {
+		font-size: 1.75rem;
+	}
+
+	.obra_detalle .avance .content_avances .etapa .circle::after {
+		left: calc( 50% - 85px);
+		width: 170px;
+	}
+
+	.obra_detalle .avance .content_avances .etapa .first::after {
+		left: 0;
+		width: 90px;
+	}
+
+	.obra_detalle .avance .content_avances .etapa .last::after {
+		left: -80px;
+		width: 80px;
+	}
+	/* Avance de Obra end */
+
+	/* Galeria */
+	.obra_detalle .galeria {
+		margin-bottom: 60px;
+	}	
+
+	.obra_detalle .galeria .last {
+		margin-bottom: 0;
+	}
+
+	/* Aranguren 1061 */
+	.aranguren_1061 .galeria .content_imgs .col-md-6 {
+	  min-height: 680px;
+	}
+
+	.aranguren_1061 .galeria .content_imgs .col-md-6:first-child img {
+		min-height: 628px;
+	}
+	/* Aranguren 1061 end */
+	/* Galeria end */
+
+	/* Ubicacion */
+	.obra_detalle .ubicacion h2 {
+		font-size: 3rem;
+	}	
+
+	.obra_detalle .ubicacion .content_map {
+		margin-top: 30px;
+	}	
+	/* Ubicacion end */
+
+}
+
+@media (min-width: 1200px) {
+
+	/* Video */
+	.obra_detalle .video {
+		height: 75vh;
+		min-height: 75vh;
+	}
+
+	.obra_detalle .direccion {
+		right: 23%;
+		padding-top: 35px;
+		bottom: -20%;
+	}
+
+	.obra_detalle .direccion .numero {
+		font-size: 24rem;
+		letter-spacing: -20.5;
+	}
+
+	.obra_detalle .direccion .calle {
+		margin-top: -28px;
+		padding-left: 0.8rem;
+		letter-spacing: 0.10em;
+	}
+
+	/* Aranguren 1061 */
+	.aranguren_1061 .direccion .calle {
+		padding-left: 5rem;
+		font-size: 4.5rem;
+		letter-spacing: 1.37rem;
+		margin-top: -20px;
+	}
+	/* Aranguren 1061 end */
+	/* Video end */
+
+	/* Caracteristicas */
+	.obra_detalle .caracteristicas {
+		margin-bottom: 90px;
+	}
+
+	.obra_detalle .caracteristicas .icon {
+		max-width: 135px;
+		width: 135px;
+	}
+
+	.obra_detalle .caracteristicas h2 {
+		font-size: 7.5rem;
+	}
+
+	.obra_detalle .caracteristicas p {
+		font-size: 1.125rem;
+	}
+
+	.obra_detalle .caracteristicas .content_icons {
+		margin-top: 90px;
+	}
+
+	.obra_detalle .caracteristicas .icon img {
+		margin-bottom: 10px;
+	}
+
+	.obra_detalle .caracteristicas .icon h3 {
+		font-size: 1.5rem;
+	}
+	/* Caracteristicas end */
+
+	/* Avance de Obra */
+	.obra_detalle .avance .content_avances .etapa {
+		max-width: 100%;
+		width: 100%;
+	}
+
+	.obra_detalle .avance .content_avances .etapa .circle {
+		width: 15px;
+		height: 15px;
+	}
+
+	.obra_detalle .avance .content_avances .etapa .circle::after {
+		left: calc( 50% - 105px);
+		width: 210px;
+	}
+
+	.obra_detalle .avance .content_avances .etapa .first::after {
+		left: 0;
+		width: 110px;
+	}
+
+	.obra_detalle .avance .content_avances .etapa .last::after {
+		left: -110px;
+		width: 110px;
+	}
+
+	.obra_detalle .avance .content_avances .etapa .percentage {
+		font-size: 2.25rem;
+	}
+
+	.obra_detalle .avance .content_avances .etapa .title {
+		font-size: 1.75rem;
+	}
+	/* Avance de Obra end */
+
+	/* Galeria */
+	/* Aranguren 1061 */
+	.aranguren_1061 .galeria .content_imgs .col-md-6 {
+		min-height: 800px;
+	}
+	.aranguren_1061 .galeria .content_imgs .col-md-6:first-child img {
+		min-height: 748px;
+	}
+	/* Aranguren 1061 end */
+	/* Galeria end */
+
+}
+
+@media (min-width: 1400px) {
+
+	/* Planos Dektop */
+	.obra_detalle .planos_desktop {
+		margin-bottom: 90px;
+	}
+	/* Planos Dektop end */
+
+	/* Avances de Obra */
+	.obra_detalle .avance {
+		margin-bottom: 60px;
+	}
+
+	.obra_detalle .avance .content_avances .etapa .circle::after {
+		left: calc( 50% - 108px);
+		width: 216px;
+	}
+
+	.obra_detalle .avance .content_avances .etapa .first::after {
+		left: 0;
+		width: 120px;
+	}
+
+	.obra_detalle .avance .content_avances .etapa .last::after {
+		left: -120px;
+		width: 120px;
+	}
+	/* Avances de Obra end */
+
+	/* Galeria */
+	.obra_detalle .galeria {
+		margin-bottom: 90px;
+	}
+
+	.obra_detalle .ubicacion .content_map {
+		margin-top: 60px;
+	}
+
+	/* Aranguren 1061 */
+	.aranguren_1061 .galeria .content_imgs .col-md-6 {
+		min-height: 920px;
+	}
+	.aranguren_1061 .galeria .content_imgs .col-md-6:first-child img {
+		min-height: 868px;
+	}
+	/* Aranguren 1061 end */
+	/* Galeria end */
+
+}
+
+@media (min-width: 1600px) {
+
+	/* Manchas */
+	.obra_detalle #manchas_top {
+		display: inline-block;
+		background: url('../img/obras-individuales/manchas-top.png');
+		position: absolute;
+		width: 755px;
+		height: 1185px;
+		right: 0;
+		top: 945px;
+		z-index: 0;
+	}
+
+	/* Aranguren 1061 */
+	.aranguren_1061 #manchas_top {
+		top: 635px;
+	}
+	/* Aranguren 1061 end */
+	/* Manchas end */
+
+	/* Manchas */
+	.obra_detalle #manchas_middle {
+		display: inline-block;
+		background: url('../img/obras-individuales/manchas-middle.png');
+		position: absolute;
+		width: 605px;
+		height: 1235px;
+		left: 0;
+		top: 2780px;
+		z-index: 0;
+	}
+
+	.obra_detalle #manchas_bottom {
+		display: inline-block;
+		background: url('../img/obras-individuales/manchas-bottom.png');
+		position: absolute;
+		width: 555px;
+		height: 1517px;
+		right: 0;
+		top: 4300px;
+		z-index: 0;
+	}
+	/* Manchas end */
+
+	/* Caracteristicas */
+	.obra_detalle .caracteristicas {
+		margin-bottom: 120px;
+	}
+
+	.obra_detalle .caracteristicas .content_icons {
+		margin-top: 120px;
+	}
+
+	.obra_detalle .caracteristicas .icon {
+		width: 100%;
+		max-width: 100%;
+	}
+
+	.obra_detalle .caracteristicas .content_icons {
+		flex-wrap: nowrap;
+	}
+	/* Caracteristicas end */
+
+	/* Planos Dektop */
+	.obra_detalle .planos_desktop {
+		margin-bottom: 120px;
+	}
+	/* Planos Dektop end */
+
+	/* Avance de Obra */
+	.obra_detalle .avance .content_title h2 {
+		margin-bottom: 70px;
+	}
+	/* Avance de Obra end */
+
+}
+
+
+
+

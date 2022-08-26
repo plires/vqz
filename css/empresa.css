@@ -1,0 +1,183 @@
+/* Informacion */
+.empresa .informacion h1 {
+	font-size: 2.5rem;
+}
+
+.empresa .informacion p {
+	margin-bottom: 1rem;
+}
+
+.empresa .informacion .titulo {
+	margin-top: 10px;
+	margin-bottom: 40px;
+}
+
+.empresa .informacion .content_data {
+	text-align: left;
+}
+
+.empresa .informacion .content_data h2 {
+	font-size: 2rem;
+}
+
+.empresa .informacion .content_data p {
+	font-size: 1rem;
+}
+
+.empresa .informacion .content_img {
+	margin-top: 15px;
+	margin-bottom: 30px;
+}
+/* Informacion end */
+
+/* Números */
+.empresa .numeros {
+	background: url('../img/empresa/cemento.jpg');
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	background-size: cover;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.empresa .numeros .content_numeros p {
+	margin-bottom: 0;
+	font-size: 4.5rem;
+	color: #999998;
+	mix-blend-mode: multiply;
+	line-height: 0.7;
+}
+
+.empresa .numeros .content_numeros #constructions {
+	position: relative;
+}
+
+.empresa .numeros .content_numeros #constructions:before {
+  content: '+';
+  top: calc(50% - 15px);
+  position: absolute;
+  font-size: 3.25rem;
+  left: -30px;
+}
+
+.empresa .numeros .content_numeros p .description {
+	font-size: 2rem;
+}
+
+.empresa .numeros .container_numeros {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.empresa .numeros .content_numeros {
+	text-align: center;
+	margin-right: 120px;
+}
+
+.empresa .numeros .content_numeros:last-child {
+	margin-right: 0;
+}
+/* Números end */
+
+/* MEDIA QUERIES */
+@media (min-width: 576px) {
+
+}
+
+@media (min-width: 768px) {
+
+	/* Informacion */
+	.empresa .informacion h1 {
+		font-size: 3rem;
+	}
+
+	.empresa .informacion .content_data h2 {
+		font-size: 3rem;
+	}
+
+	.empresa .informacion .content_data .col-der p:first-child {
+		margin-top: 95px;
+	}
+
+	.empresa .informacion .content_img {
+		margin-top: 0;
+		background: white;
+		padding: 10px;
+	}
+
+	.empresa .informacion .innovacion {
+		margin-top: -95px;
+	}
+
+	.empresa .informacion .innovacion .col-izq .content_img {
+		padding: 0;
+	}
+
+	.empresa .informacion .innovacion .col-der {
+		padding-top: 95px;
+	}
+	/* Informacion end */
+
+	/* Números */
+	.empresa .numeros {
+		margin-top: -190px;
+		padding-top: 190px;
+		padding-bottom: 100px;
+	}
+
+	.empresa .numeros .content_numeros {
+		margin-right: 200px;
+	}
+
+	.empresa .numeros .content_numeros p {
+		font-size: 9rem;
+		line-height: 0.4;
+	}
+
+	.empresa .numeros .content_numeros p .description {
+		font-size: 3.5rem;
+	}
+	/* Números end */
+
+
+}
+
+@media (min-width: 992px) {
+
+}
+
+@media (min-width: 1200px) {
+
+	/* Informacion */
+	.empresa .informacion h1 {
+		font-size: 3.5rem;
+	}
+
+	.empresa .informacion .content_data h2 {
+		font-size: 3.5rem;
+	}
+
+	.empresa .informacion .innovacion {
+		margin-top: -35px;
+	}
+
+	.empresa .informacion .content_img {
+		padding: 15px;
+	}
+	/* Informacion end */
+
+}
+
+@media (min-width: 1400px) {
+
+}
+
+@media (min-width: 1600px) {
+
+}
+
+
+
+
+
