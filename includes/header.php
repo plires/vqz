@@ -25,7 +25,7 @@
 						<a class="transition bebas" href="./aranguren-1061.php">aranguren 1061</a>
 					</li>
 					<li>
-						<a class="transition bebas" href="#">Honorio Pueyrredón 434</a>
+						<a class="transition bebas" href="./pueyrredon-434.php">Honorio Pueyrredón 434</a>
 					</li>
 					<li>
 						<a class="transition bebas" href="#">Nicasio Oroño 480</a>

@@ -516,6 +516,59 @@
 	}
 	/* Aranguren 1061 end */
 
+	/* Pueyrredon 434 */
+	.pueyrredon_434 #map1 {
+		position: absolute;
+		bottom: 7.8%;
+		right: 2.5%;
+		width: 45.9%;
+		height: 20.9%;
+		z-index: 1;
+	}
+
+	.pueyrredon_434 #map2 {
+    position: absolute;
+		top: 71.5%;
+		left: 2.4%;
+		width: 48.9%;
+		height: 20.9%;
+	}
+
+	.pueyrredon_434 #map3 {
+	  position: absolute;
+		top: 39.3%;
+		right: 2.2%;
+		width: 35.5%;
+		height: 21.8%;
+	}
+
+	.pueyrredon_434 #map4 {
+	  position: absolute;
+		bottom: 39.8%;
+		left: 0.63%;
+		width: 42.2%;
+		height: 20.1%;
+	}
+
+	.pueyrredon_434 #map5 {
+	  position: absolute;
+		bottom: 71.9%;
+		left: 64%;
+		width: 33.9%;
+		height: 20.5%;
+	}
+
+	.pueyrredon_434 #map6 {
+    position: absolute;
+		bottom: 71.2%;
+		left: 2.4%;
+		width: 38.5%;
+		height: 21.2%;
+	}
+	/* Pueyrredon 434 end */
+
+
+
 	/* Planos Dektop end */
 
 	/* Avance de Obra */

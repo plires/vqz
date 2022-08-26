@@ -153,7 +153,7 @@
 
 					<!-- Pueyrredon -->
 					<div data-aos="fade-up" class="col-sm-6 col-md-4 col-lg-3 item_project">
-						<a href="#" class="content_img">
+						<a href="./pueyrredon-434.php" class="content_img">
 							<img class="img-fluid img_listado" src="./img/home/listado-donato.jpg" alt="listado pueyrredon">
 						</a>
 						<div class="content_data">
@@ -173,7 +173,7 @@
 										<p>ÚLTIMA UNIDAD</p>
 									</div>
 								</div>
-								<a class="ver_mas transition" href="#">
+								<a class="ver_mas transition" href="./pueyrredon-434.php">
 									<i class="fa-solid fa-circle-plus"></i>
 									VER
 								</a>
