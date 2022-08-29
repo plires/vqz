@@ -69,6 +69,14 @@
 	padding-left: 32px;
 }
 /* Aranguren 1061 end*/
+
+/* Pueyrredon 434 */
+.pueyrredon_434 .direccion .calle {
+	font-size: 2rem;
+	letter-spacing: 0.102em;
+	padding-left: 0;
+}
+/* Pueyrredon 434 end*/
 /* Video end */
 
 /* Caracteristicas */
@@ -115,6 +123,16 @@
 	margin-bottom: 0;
 	font-size: 1.5rem;
 }
+
+/* Pueyrredon 434 */
+.pueyrredon_434 .caracteristicas .ultimas_unidades {
+	background: black;
+	color: white;
+	font-size: 2rem;
+	text-align: center;
+	padding: 5px;
+}
+/* Pueyrredon 434 end*/
 /* Caracteristicas end */
 
 /* Planos Desktop */
@@ -671,6 +689,12 @@
 		padding-left: 50px;
 	}
 	/* Aranguren 1061 end */
+
+	/* Pueyrredon 434 */
+	.pueyrredon_434 .direccion .calle {
+		padding-left: 0;
+	}
+	/* Pueyrredon 434 end */
 	/* Video end */
 
 	/* Caracteristicas */
@@ -815,6 +839,21 @@
 		padding-bottom: 20px;
 	}
 	/* Aranguren 1061 end*/
+
+	/* Pueyrredon 434 */
+	.pueyrredon_434 .galeria .content_imgs .col-md-6 {
+		min-height: auto!important;
+	}
+
+	.pueyrredon_434 .galeria .content_imgs .col-md-6:first-child img {
+		min-height: auto!important;
+	}
+
+	.pueyrredon_434 .galeria .content_imgs {
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+	/* Pueyrredon 434 end */
 	/* Galeria end */
 
 }
@@ -849,6 +888,12 @@
 		padding-left: 3.8rem;
 	}
 	/* Aranguren 1061 end */
+
+	/* Pueyrredon 434 */
+	.pueyrredon_434 .direccion .calle {
+		padding-left: 0;
+	}
+	/* Pueyrredon 434 end */
 	/* Video end */
 
 	/* Caracteristicas */
@@ -871,6 +916,16 @@
 		align-items: center;
 	}
 	/* Aranguren 1061 end */
+
+	/* Pueyrredon 434 */
+	.pueyrredon_434 .caracteristicas .ultimas_unidades {
+		margin-top: 30px;
+	}
+
+	.pueyrredon_434 .caracteristicas .col-md-6:last-child {
+		align-items: flex-start;
+	}
+	/* Pueyrredon 434 end */
 	/* Caracteristicas end */
 
 	/* Avance de Obra */
@@ -967,6 +1022,13 @@
 		margin-top: -20px;
 	}
 	/* Aranguren 1061 end */
+
+	/* Pueyrredon 434 */
+	.pueyrredon_434 .direccion .calle {
+		padding-left: 7px;
+		letter-spacing: 0.361rem;
+	}
+	/* Pueyrredon 434 end */
 	/* Video end */
 
 	/* Caracteristicas */
