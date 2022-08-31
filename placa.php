@@ -10,8 +10,8 @@
 	<!-- Favicons -->
 	<?php include('includes/favicon.php'); ?>
 
-	<link rel="stylesheet" type="text/css" href="./node_modules/normalize.css/normalize.css">
-	<link rel="stylesheet" type="text/css" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="./css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="./css/placa.css">
 
 </head>
@@ -22,14 +22,20 @@
 	    <source id="mp4" src="videos/nubes.mp4" type="video/mp4">
 	  </video>
 	</div>
-	<div class="welcome">
-		<img class="img-fluid logo" src="./img/header/logo-vazquez.png" alt="logo vqz">
-	  <h1>sitio en <br>construccion</h1>
-	  <div class="content">
-		  <p>¿No podes esperar?</p>
-		  <a target="_blank" rel="noopener" href="mailto:info@vazquez.net">Contactanos info@vazquez.net</a> <br>
-		  <a target="_blank" rel="noopener" href="tel:541146331200">+54 11 4633-1200</a>
-	  </div>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6 offset-md-3 col-lg-4 offset-lg-4">
+				<div class="welcome">
+					<img class="img-fluid logo" src="./img/header/logo-vazquez.png" alt="logo vqz">
+				  <h1>estamos trabajando en un nuevo sitio web, por favor volvé a ingresar en 15 días</h1>
+				  <div class="content">
+					  <p>¿No podes esperar?</p>
+					  <a target="_blank" rel="noopener" href="mailto:info@vazquez.net">info@vazquez.net</a> <br>
+				  </div>
+				</div>
+			</div>
+		</div>
 	</div>
 
 </body>
