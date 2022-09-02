@@ -116,7 +116,7 @@
 
 		  <div class="row">
 		  	<div class="col-md-8 offset-md-2 col-lg-6 offset-lg-3">
-		  		<h2 class="bebas ultimas_unidades">¡ÚLTIMAS UNIDADES DISPONIBLES!</h2>
+		  		<h2 class="bebas ultimas_unidades">Entrega inmediata - Ultima unidad</h2>
 		  	</div>
 		  </div>
 		  

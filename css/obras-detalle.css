@@ -124,15 +124,14 @@
 	font-size: 1.5rem;
 }
 
-/* Pueyrredon 434 */
-.pueyrredon_434 .caracteristicas .ultimas_unidades {
+.obra_detalle .caracteristicas .ultimas_unidades {
 	background: black;
 	color: white;
-	font-size: 2rem;
+	font-size: 1.5rem;
 	text-align: center;
 	padding: 5px;
+	text-transform: uppercase;
 }
-/* Pueyrredon 434 end*/
 /* Caracteristicas end */
 
 /* Planos Desktop */
@@ -908,6 +907,11 @@
 		line-height: 1.1;
 	}
 
+	.obra_detalle .caracteristicas .ultimas_unidades {
+		margin-top: 30px;
+		font-size: 2rem;
+	}
+
 	/* Aranguren 1061 */
 	.aranguren_1061 .caracteristicas .col-md-6 {
 		display: flex;
@@ -918,10 +922,6 @@
 	/* Aranguren 1061 end */
 
 	/* Pueyrredon 434 */
-	.pueyrredon_434 .caracteristicas .ultimas_unidades {
-		margin-top: 30px;
-	}
-
 	.pueyrredon_434 .caracteristicas .col-md-6:last-child {
 		align-items: flex-start;
 	}

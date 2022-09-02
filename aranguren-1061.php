@@ -113,6 +113,12 @@
 
 		  	</div>
 		  </div>
+
+		  <div class="row">
+		  	<div class="col-md-8 offset-md-2 col-lg-6 offset-lg-3">
+		  		<h2 data-aos="fade-up" class="bebas ultimas_unidades">Obra comenzada - Entrega julio 2024</h2>
+		  	</div>
+		  </div>
 		  
 		</section>
 		<!-- Caracteristicas end -->
