@@ -103,7 +103,7 @@
 							<div class="content_icons">
 								<div class="content_caracteristicas">
 									<div class="caracteristica">
-										<img class="img-fluid" src="./img/home/icono-argentina.png" alt="icono argentina donato">
+										<img class="img-fluid" src="./img/home/icono-argentina-color.png" alt="icono argentina donato">
 										<p>argentina</p>
 									</div>
 									<div class="caracteristica">
@@ -134,7 +134,7 @@
 							<div class="content_icons">
 								<div class="content_caracteristicas">
 									<div class="caracteristica">
-										<img class="img-fluid" src="./img/home/icono-argentina.png" alt="icono argentina aranguren">
+										<img class="img-fluid" src="./img/home/icono-argentina-color.png" alt="icono argentina aranguren">
 										<p>argentina</p>
 									</div>
 									<div class="caracteristica">
@@ -161,7 +161,7 @@
 							<div class="content_icons">
 								<div class="content_caracteristicas">
 									<div class="caracteristica">
-										<img class="img-fluid" src="./img/home/icono-argentina.png" alt="icono argentina pueyrredon">
+										<img class="img-fluid" src="./img/home/icono-argentina-color.png" alt="icono argentina pueyrredon">
 										<p>argentina</p>
 									</div>
 									<div class="caracteristica">
@@ -192,7 +192,7 @@
 							<div class="content_icons">
 								<div class="content_caracteristicas">
 									<div class="caracteristica">
-										<img class="img-fluid" src="./img/home/icono-argentina.png" alt="icono argentina nicasio">
+										<img class="img-fluid" src="./img/home/icono-argentina-color.png" alt="icono argentina nicasio">
 										<p>argentina</p>
 									</div>
 									<div class="caracteristica">
@@ -223,7 +223,7 @@
 							<div class="content_icons">
 								<div class="content_caracteristicas">
 									<div class="caracteristica">
-										<img class="img-fluid" src="./img/home/icono-argentina.png" alt="icono argentina muniz">
+										<img class="img-fluid" src="./img/home/icono-argentina-color.png" alt="icono argentina muniz">
 										<p>argentina</p>
 									</div>
 									<div class="caracteristica">
@@ -250,7 +250,7 @@
 							<div class="content_icons">
 								<div class="content_caracteristicas">
 									<div class="caracteristica">
-										<img class="img-fluid" src="./img/home/icono-espana.png" alt="icono espana sant">
+										<img class="img-fluid" src="./img/home/icono-espana-color.png" alt="icono espana sant">
 										<p>españa</p>
 									</div>
 									<div class="caracteristica">
@@ -281,7 +281,7 @@
 							<div class="content_icons">
 								<div class="content_caracteristicas">
 									<div class="caracteristica">
-										<img class="img-fluid" src="./img/home/icono-espana.png" alt="icono espana plaza">
+										<img class="img-fluid" src="./img/home/icono-espana-color.png" alt="icono espana plaza">
 										<p>españa</p>
 									</div>
 									<div class="caracteristica">
