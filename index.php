@@ -154,7 +154,7 @@
 					<!-- Pueyrredon -->
 					<div data-aos="fade-up" class="col-sm-6 col-md-4 col-lg-3 item_project">
 						<a href="./pueyrredon-434.php" class="content_img">
-							<img class="img-fluid img_listado" src="./img/home/listado-donato.jpg" alt="listado pueyrredon">
+							<img class="img-fluid img_listado" src="./img/home/listado-pueyrredon.jpg" alt="listado pueyrredon">
 						</a>
 						<div class="content_data">
 							<h3 class="bebas">Honorio <br>Pueyrredón <br>434</h3>
