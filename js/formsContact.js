@@ -1,4 +1,5 @@
 const btnSend = document.getElementById('send')
+const spinner = document.getElementById('spinner');
 
 document.addEventListener("DOMContentLoaded", function(event) {
 
@@ -15,9 +16,13 @@ document.addEventListener("DOMContentLoaded", function(event) {
       event.stopPropagation();
       errorsInFieldsFront = true
     }
+
     form.classList.add('was-validated');
 
     if (!errorsInFieldsFront) {
+
+      // Habilitar spniner en button
+      spinner.style.display = 'flex'
 
       grecaptcha.ready(function() {
 
