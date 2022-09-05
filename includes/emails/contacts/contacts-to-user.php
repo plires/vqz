@@ -195,9 +195,9 @@
         }
       .button-td-primary:hover,
       .button-a-primary:hover {
-          background: #fff5e3 !important;
-            border-color: #4bc186 !important;
-          color: #4bc186 !important;
+          background: #000000 !important;
+            border-color: #FFFFFF !important;
+          color: #FFFFFF !important;
       }
 
         .button-td-secondary:hover,
@@ -278,8 +278,6 @@
     <![endif]-->
     <!-- Estilos solo para outlook no compatibles con tipografia web END -->
 
-
-
 </head>
 <!--
   El color de fondo del correo electronico (#222222) se define en tres lugares:
@@ -308,8 +306,6 @@
         </div>
         <!-- Vista previa Hack de espaciado de texto : END -->
 
-
-
         <!-- Cuerpo del Email : BEGIN -->
         <table align="center" role="presentation" cellspacing="0" cellpadding="0" border="0" width="600" style="margin: auto; background-color: #ffffff;" class="email-container">
 
@@ -317,14 +313,14 @@
           <tr>
               <td style="vertical-align: middle;">
                   
-                  <img src="https://sonrielavida.org/img/email/email-header.jpg" style="margin:0; padding:0; border:none; display:block; width: 100%; height: auto;" border="0" alt="header" />
+                  <img src="https://vqz.net/img/email/header-email.jpg" style="margin:0; padding:0; border:none; display:block; width: 100%; height: auto;" border="0" alt="header" />
 
               </td>
           </tr>
           <!-- Header end-->
 
           <!-- Texto-->
-          <tr style="background-color: #4bc186;">
+          <tr style="background-color: #000000;">
               <td style="padding: 10px; vertical-align: middle;">
                   
                   <h1 class="fallback-font" style="margin: 0px!important; font-family: 'Montserrat', sans-serif; font-size: 28px; color: #FFFFFF; text-align: center; font-weight: 700;">
@@ -358,15 +354,15 @@
                   </p>
 
                   <p class="fallback-font" style="margin: 0 0 10px; font-family: 'Montserrat', sans-serif; font-size: 16px; line-height: 26px; color: #575756; text-align: left; font-weight: 400;">
-                      <strong>Apellido:</strong> {last_name_user}
-                  </p>
-
-                  <p class="fallback-font" style="margin: 0 0 10px; font-family: 'Montserrat', sans-serif; font-size: 16px; line-height: 26px; color: #575756; text-align: left; font-weight: 400;">
                       <strong>Email:</strong> {email_user}
                   </p>
 
                   <p class="fallback-font" style="margin: 0 0 10px; font-family: 'Montserrat', sans-serif; font-size: 16px; line-height: 26px; color: #575756; text-align: left; font-weight: 400;">
                       <strong>Tel&eacute;fono:</strong> {phone_user}
+                  </p>
+
+                  <p class="fallback-font" style="margin: 0 0 10px; font-family: 'Montserrat', sans-serif; font-size: 16px; line-height: 26px; color: #575756; text-align: left; font-weight: 400;">
+                      <strong>Comentarios:</strong> {comments_user}
                   </p>
 
                   <p class="fallback-font" style="margin: 0 0 10px; font-family: 'Montserrat', sans-serif; font-size: 16px; line-height: 26px; color: #575756; text-align: left; font-weight: 400;">
@@ -378,8 +374,8 @@
           <!-- Texto end-->
 
           <!-- Boton : BEGIN -->
-          <tr style="background-color: #4bc186;">
-              <td style="background-color: #4bc186; text-align: center; padding: 40px;">
+          <tr style="background-color: #000000;">
+              <td style="background-color: #000000; text-align: center; padding: 40px;">
 
                 <p class="fallback-font" style="margin: 0 0 10px; margin-bottom: 20px; font-family: 'Montserrat', sans-serif; font-size: 16px; line-height: 26px; color: #FFFFFF; text-align: center; font-weight: 400;">
                   <strong>¿Necesitas realizar otra consulta?</strong>
@@ -388,7 +384,7 @@
                   <table align="center" role="presentation" cellspacing="0" cellpadding="0" border="0" style="margin: auto;">
                       <tr>
                           <td class="button-td button-td-primary" style="border-radius: 4px; background: #FFFFFF;">
-                              <a class="fallback-font button-a button-a-primary" target="_blank" rel="noopener" href="{base}" style="background: #FFFFFF; border: 1px solid #FFFFFF; font-family: 'Montserrat', sans-serif; font-size: 18px; line-height: 28px; font-weight: 700; text-decoration: none; padding: 10px 20px; color: #4bc186; display: block; border-radius: 4px;">VER MÁS
+                              <a class="fallback-font button-a button-a-primary" target="_blank" rel="noopener" href="{base}" style="background: #FFFFFF; border: 1px solid #FFFFFF; font-family: 'Montserrat', sans-serif; font-size: 18px; line-height: 28px; font-weight: 700; text-decoration: none; padding: 10px 20px; color: #000000; display: block; border-radius: 4px;">VER MÁS
                               </a>
                           </td>
                       </tr>
@@ -402,16 +398,16 @@
           <tr align="center" style="background-color: #FFFFFF;">
               <td align="center"  style="background-color: #FFFFFF;padding: 10px;">
                 
-                <a target="_blank" rel="noopener noreferrer" href="{facebook}">
-                  <img src="https://sonrielavida.org/landing/img/facebook.png" style="margin:0; margin-right: 20px; padding:0; border:none; display:inline-block; width: 16px; height: auto;" border="0" alt="facebook" />
+                <a target="_blank" rel="noopener noreferrer" href="{whatsapp_client}">
+                  <img src="https://vqz.net/img/email/whatsapp-14.png" style="margin:0; margin-right: 20px; padding:0; border:none; display:inline-block; width: 16px; height: auto;" border="0" alt="whatsapp" />
                 </a>
 
-                <a target="_blank" rel="noopener noreferrer" href="{instagram}">
-                  <img src="https://sonrielavida.org/landing/img/instagram.png" style="margin:0; margin-right: 20px; padding:0; border:none; display:inline-block; width: 16px; height: auto;" border="0" alt="instagram" />
+                <a target="_blank" rel="noopener noreferrer" href="tel:{phone_client}">
+                  <img src="https://vqz.net/img/email/phone-14.png" style="margin:0; margin-right: 20px; padding:0; border:none; display:inline-block; width: 16px; height: auto;" border="0" alt="phone" />
                 </a>
 
-                <a target="_blank" rel="noopener noreferrer" href="{youtube}">
-                  <img src="https://sonrielavida.org/landing/img/youtube.png" style="margin:0; margin-right: 20px; padding:0; border:none; display:inline-block; width: 16px; height: auto;" border="0" alt="youtube" />
+                <a target="_blank" rel="noopener noreferrer" href="mailto:{email_client}">
+                  <img src="https://vqz.net/img/email/email-14.png" style="margin:0; margin-right: 0; padding:0; border:none; display:inline-block; width: 16px; height: auto;" border="0" alt="email" />
                 </a>
 
               </td>

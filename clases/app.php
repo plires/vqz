@@ -138,6 +138,10 @@ use PHPMailer\PHPMailer\Exception;
       $vars = array(
         '{name_client}',
         '{email_client}',
+        '{phone_client}',
+        '{phone_show_client}',
+        '{whatsapp_client}',
+        '{whatsapp_show_client}',
         '{origin}',
         '{name_user}',
         '{email_user}',
@@ -150,6 +154,10 @@ use PHPMailer\PHPMailer\Exception;
       $values = array( 
         $_ENV['NAME_CLIENT'],
         $_ENV['EMAIL_CLIENT'],
+        $_ENV['PHONE_CLIENT'],
+        $_ENV['PHONE_SHOW_CLIENT'],
+        $_ENV['WHATSAPP_CLIENT'],
+        $_ENV['PHONE_SHOW_CLIENT'],
         $post['origin'],
         $post['name'],
         $post['email'],
