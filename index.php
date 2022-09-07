@@ -184,7 +184,7 @@
 
 					<!-- Nicasio -->
 					<div data-aos="fade-up" class="col-sm-6 col-md-4 col-lg-3 item_project">
-						<a href="nicasio-480.php" class="content_img">
+						<a href="./nicasio-480.php" class="content_img">
 							<img class="img-fluid img_listado" src="./img/home/listado-nicasio.jpg" alt="listado nicasio">
 						</a>
 						<div class="content_data">
@@ -204,7 +204,7 @@
 										<p>ÚLTIMAS UNIDADES</p>
 									</div>
 								</div>
-								<a class="ver_mas transition" href="nicasio-480.php">
+								<a class="ver_mas transition" href="./nicasio-480.php">
 									<i class="fa-solid fa-circle-plus"></i>
 									VER
 								</a>
@@ -215,11 +215,11 @@
 
 					<!-- Muniz -->
 					<div data-aos="fade-up" class="col-sm-6 col-md-4 col-lg-3 item_project">
-						<a href="#" class="content_img">
+						<a href="./muniz-1060.php" class="content_img">
 							<img class="img-fluid img_listado" src="./img/home/listado-muniz.jpg" alt="listado muniz">
 						</a>
 						<div class="content_data">
-							<h3 class="bebas">muniz 1060</h3>
+							<h3 class="bebas">muñiz 1060</h3>
 							<div class="content_icons">
 								<div class="content_caracteristicas">
 									<div class="caracteristica">
@@ -231,7 +231,7 @@
 										<p>LANZAMIENTO</p>
 									</div>
 								</div>
-								<a class="ver_mas transition" href="#">
+								<a class="ver_mas transition" href="./muniz-1060.php">
 									<i class="fa-solid fa-circle-plus"></i>
 									VER
 								</a>

@@ -19,7 +19,7 @@
 				argentina
 				<ul id="content_arg" class="pais">
 					<li>
-						<a class="transition bebas" href="donato-221.php">donato álvarez 221</a>
+						<a class="transition bebas" href="./donato-221.php">donato álvarez 221</a>
 					</li>
 					<li>
 						<a class="transition bebas" href="./aranguren-1061.php">aranguren 1061</a>
@@ -28,10 +28,10 @@
 						<a class="transition bebas" href="./pueyrredon-434.php">Honorio Pueyrredón 434</a>
 					</li>
 					<li>
-						<a class="transition bebas" href="nicasio-480.php">Nicasio Oroño 480</a>
+						<a class="transition bebas" href="./nicasio-480.php">Nicasio Oroño 480</a>
 					</li>
 					<li>
-						<a class="transition bebas" href="#">muniz 1060</a>
+						<a class="transition bebas" href="./muniz-1060.php">muniz 1060</a>
 					</li>
 				</ul>
 			</li>

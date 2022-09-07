@@ -85,6 +85,12 @@
 	padding-left: 0;
 }
 /* Nicasio 480 end*/
+
+/* Muñiz 1060 */
+.muniz_1060 .direccion .calle {
+	letter-spacing: 1.183em;
+}
+/* Muñiz 1060 end*/
 /* Video end */
 
 /* Caracteristicas */
@@ -749,8 +755,13 @@
 
 	/* Caracteristicas */
 	.obra_detalle .caracteristicas {
-		margin-top: 170px;
+		margin-top: 250px;
 		margin-bottom: 60px;
+	}
+
+	.obra_detalle .caracteristicas .row {
+		display: flex;
+		align-items: flex-end;
 	}
 
 	.obra_detalle .caracteristicas h2 {
@@ -775,6 +786,12 @@
 	.obra_detalle .caracteristicas .icon h3 {
 		font-size: 1.25rem;
 	}
+
+	/* Muñiz 1060 */
+	.muniz_1060 .caracteristicas .ultimas_unidades {
+		margin-top: 30px;
+	}
+	/* Muñiz 1060 end */
 	/* Caracteristicas end */
 
 	/* Planos Dektop */
@@ -911,6 +928,12 @@
 		margin-bottom: 30px;
 	}
 	/* Nicasio 480 end */
+
+	/* Muñiz 1060 */
+	.muniz_1060 .galeria .row:first-child {
+		margin-bottom: 30px;
+	}
+	/* Muñiz 1060 end */
 	/* Galeria end */
 
 }
@@ -957,7 +980,12 @@
 		padding-left: 0;
 		padding-top: 15px;
 	}
-	/* Nicasio 480 end */
+
+	/* Muñiz 1060 */
+	.muniz_1060 .direccion .calle {
+		padding-top: 15px;
+	}
+	/* Muñiz 1060 end */
 	/* Video end */
 
 	/* Caracteristicas */
@@ -1101,6 +1129,16 @@
 		letter-spacing: 0.4rem;
 	}
 	/* Nicasio 480 end */
+
+	/* Muñiz 1060 */
+	.muniz_1060 .direccion {
+		right: 15%;
+	}
+
+	.muniz_1060 .direccion .calle {
+		letter-spacing: 4.8rem;
+	}
+	/* Muñiz 1060 end */
 	/* Video end */
 
 	/* Caracteristicas */
@@ -1275,6 +1313,16 @@
 		top: 4300px;
 		z-index: 0;
 	}
+
+	/* Muñiz 1060 */
+	.muniz_1060 #manchas_middle {
+		top: 1780px;
+	}
+
+	.muniz_1060 #manchas_bottom {
+		top: 2220px;
+	}
+	/* Muñiz 1060 end */
 	/* Manchas end */
 
 	/* Caracteristicas */
