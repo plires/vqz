@@ -77,6 +77,14 @@
 	padding-left: 0;
 }
 /* Pueyrredon 434 end*/
+
+/* Nicasio 480 */
+.nicasio_480 .direccion .calle {
+	font-size: 2rem;
+	letter-spacing: 0.106em;
+	padding-left: 0;
+}
+/* Nicasio 480 end*/
 /* Video end */
 
 /* Caracteristicas */
@@ -533,6 +541,43 @@
 	}
 	/* Aranguren 1061 end */
 
+	/* Nicasio 480 */
+	.nicasio_480 #map1 {
+		position: absolute;
+		bottom: 0.8%;
+		right: 31.2%;
+		width: 19%;
+		height: 42.9%;
+		z-index: 1;
+	}
+
+	.nicasio_480 #map2 {
+		position: absolute;
+		top: 62.5%;
+		left: 31.0%;
+		width: 24.5%;
+		height: 36.9%;
+	}
+
+	.nicasio_480 #map3 {
+    position: absolute;
+	  top: 0.3%;
+	  right: 44.7%;
+	  width: 25%;
+	  height: 39.8%;
+	}
+
+	.nicasio_480 #map4 {
+	  position: absolute;
+		top: 0.5%;
+		right: 44.99%;
+		width: 24.7%;
+		height: 43.8%;
+		bottom: 28.9%;
+		left: 46.8%;
+	}
+	/* Nicasio 480 end */
+
 	/* Pueyrredon 434 */
 	.pueyrredon_434 #map1 {
 		position: absolute;
@@ -694,6 +739,12 @@
 		padding-left: 0;
 	}
 	/* Pueyrredon 434 end */
+
+	/* Nicasio 480 */
+	.nicasio_480 .direccion .calle {
+		padding-left: 0;
+	}
+	/* Nicasio 480 end */
 	/* Video end */
 
 	/* Caracteristicas */
@@ -853,6 +904,13 @@
 		padding-bottom: 20px;
 	}
 	/* Pueyrredon 434 end */
+
+	/* Nicasio 480 */
+	.nicasio_480 .galeria .row:nth-child(2) {
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+	/* Nicasio 480 end */
 	/* Galeria end */
 
 }
@@ -893,6 +951,13 @@
 		padding-left: 0;
 	}
 	/* Pueyrredon 434 end */
+
+	/* Nicasio 480 */
+	.nicasio_480 .direccion .calle {
+		padding-left: 0;
+		padding-top: 15px;
+	}
+	/* Nicasio 480 end */
 	/* Video end */
 
 	/* Caracteristicas */
@@ -1029,6 +1094,13 @@
 		letter-spacing: 0.361rem;
 	}
 	/* Pueyrredon 434 end */
+
+	/* Nicasio 480 */
+	.nicasio_480 .direccion .calle {
+		padding-left: 0;
+		letter-spacing: 0.4rem;
+	}
+	/* Nicasio 480 end */
 	/* Video end */
 
 	/* Caracteristicas */

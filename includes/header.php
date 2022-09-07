@@ -28,7 +28,7 @@
 						<a class="transition bebas" href="./pueyrredon-434.php">Honorio Pueyrredón 434</a>
 					</li>
 					<li>
-						<a class="transition bebas" href="#">Nicasio Oroño 480</a>
+						<a class="transition bebas" href="nicasio-480.php">Nicasio Oroño 480</a>
 					</li>
 					<li>
 						<a class="transition bebas" href="#">muniz 1060</a>
