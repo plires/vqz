@@ -73,7 +73,7 @@
 		  
 		  <div class="row">
 		  	<div class="col-md-6">
-		  		<h2 data-aos="fade-up" class="bebas"><span>NUEVA</span> <br>PERSPECTIVA <br>A LA CIUDAD</h2>
+		  		<h2 data-aos="fade-up" class="bebas">NUEVA<br>PERSPECTIVA<br><span>A LA CIUDAD</span></h2>
 		  	</div>
 		  	<div class="col-md-6">
 		  		<p data-aos="fade-up">
