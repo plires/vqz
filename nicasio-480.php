@@ -393,11 +393,11 @@
 						data-aos="fade-up"
 						href="./img/obras-individuales/nicasio-480/vista-central-large.jpg" 
 						data-lightbox="nicasio"
-						data-title="Interior Nicasio Oroño 480"
-						data-alt="Interior Nicasio Oroño 480 large">
+						data-title="Vista Central Nicasio Oroño 480"
+						data-alt="Vista Central Nicasio Oroño 480 large">
 						<img class="img-fluid" src="./img/obras-individuales/nicasio-480/vista-central.jpg" alt="Vista central Nicasio Oroño 480">
 						<div class="content">
-							<h4 class="bebas">Interior</h4>
+							<h4 class="bebas">Vista Central</h4>
 						</div>
 					</a>
 				</div>
@@ -409,8 +409,8 @@
 						data-aos="fade-up"
 						href="./img/obras-individuales/nicasio-480/interior-large.jpg" 
 						data-lightbox="nicasio"
-						data-title="Hall Nicasio Oroño 480"
-						data-alt="Hall Nicasio Oroño 480 large">
+						data-title="Interior Nicasio Oroño 480"
+						data-alt="Interior Nicasio Oroño 480 large">
 						<img class="img-fluid" src="./img/obras-individuales/nicasio-480/interior.jpg" alt="Interior Nicasio Oroño 480">
 						<div class="content">
 							<h4 class="bebas">Interior</h4>
@@ -425,8 +425,8 @@
 						data-aos="fade-up"
 						href="./img/obras-individuales/nicasio-480/interior-2-large.jpg" 
 						data-lightbox="nicasio"
-						data-title="Hall Nicasio Oroño 480"
-						data-alt="Hall Nicasio Oroño 480 large">
+						data-title="Interior Nicasio Oroño 480"
+						data-alt="Interior Nicasio Oroño 480 large">
 						<img class="img-fluid" src="./img/obras-individuales/nicasio-480/interior-2.jpg" alt="Interior Nicasio Oroño 480">
 						<div class="content">
 							<h4 class="bebas">Interior</h4>
