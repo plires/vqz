@@ -91,6 +91,25 @@
 	letter-spacing: 1.183em;
 }
 /* Muñiz 1060 end*/
+
+/* Plaça de les Casernas 12 */
+.placa_casernas_12 .video {
+	background: url('../img/obras-individuales/casernas-12/header-casernas.jpg');
+	background-size: auto;
+	min-height: 45vh;
+	background-repeat: no-repeat;
+	background-position: 65% 100%;
+}
+
+.placa_casernas_12 .direccion .calle {
+	letter-spacing: 0;
+	padding-left: 0;
+}
+
+.placa_casernas_12 .direccion h1 {
+	text-align: center;
+}
+/* Plaça de les Casernas 12 end*/
 /* Video end */
 
 /* Caracteristicas */
@@ -328,7 +347,7 @@
 }
 
 .obra_detalle .ubicacion p:last-child {
-	margin-bottom: 30px;
+	margin-bottom: 0;
 }
 
 .obra_detalle .featured {
@@ -347,6 +366,13 @@
 .obra_detalle .content_medios {
 	display: none;
 }
+
+/* Plaça de les Casernas 12 */
+.placa_casernas_12 .ubicacion .featured {
+	padding-left: 5px;
+	padding-right: 5px;
+}
+/* Plaça de les Casernas 12 end */
 /* Ubicacion end */
 
 /* MEDIA QUERIES */
@@ -634,9 +660,6 @@
 		height: 21.2%;
 	}
 	/* Pueyrredon 434 end */
-
-
-
 	/* Planos Dektop end */
 
 	/* Avance de Obra */
@@ -751,6 +774,12 @@
 		padding-left: 0;
 	}
 	/* Nicasio 480 end */
+
+	/* Plaça de les Casernas 12 */
+	.placa_casernas_12 .direccion .calle {
+		padding-left: 0;
+	}
+	/* Plaça de les Casernas 12 end */
 	/* Video end */
 
 	/* Caracteristicas */
@@ -934,6 +963,12 @@
 		margin-bottom: 30px;
 	}
 	/* Muñiz 1060 end */
+
+	/* Plaça de les Casernas 12 */
+	.placa_casernas_12 .galeria .col-md-12:first-child {
+		margin-bottom: 30px;
+	}
+	/* Plaça de les Casernas 12 end*/
 	/* Galeria end */
 
 }
@@ -986,6 +1021,16 @@
 		padding-top: 15px;
 	}
 	/* Muñiz 1060 end */
+
+	/* Plaça de les Casernas 12 */
+	.placa_casernas_12 .video {
+		background-position: 50% 100%;
+	}
+
+	.placa_casernas_12 .direccion .calle {
+		padding-left: 0;
+	}
+	/* Plaça de les Casernas 12 end*/
 	/* Video end */
 
 	/* Caracteristicas */
@@ -1139,6 +1184,13 @@
 		letter-spacing: 4.8rem;
 	}
 	/* Muñiz 1060 end */
+
+	/* Plaça de les Casernas 12 */
+	.placa_casernas_12 .direccion .calle {
+		letter-spacing: 0;
+		padding-left: 0;
+	}
+	/* Plaça de les Casernas 12 end*/
 	/* Video end */
 
 	/* Caracteristicas */
@@ -1324,6 +1376,14 @@
 	}
 	/* Muñiz 1060 end */
 	/* Manchas end */
+
+	/* Video */
+	/* Plaça de les Casernas 12 */
+	.placa_casernas_12 .video {
+		background-position: 100% 100%;
+	}
+	/* Plaça de les Casernas 12 end*/
+	/* Video end */
 
 	/* Caracteristicas */
 	.obra_detalle .caracteristicas {

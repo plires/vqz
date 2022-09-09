@@ -43,7 +43,7 @@
 						<a class="transition bebas" href="#">Sant Honorat 24</a>
 					</li>
 					<li>
-						<a class="transition bebas" href="#">Plaça de les Casernes 12</a>
+						<a class="transition bebas" href="./placa-casernas-12.php">Plaça de les Casernes 12</a>
 					</li>
 				</ul>
 			</li>
