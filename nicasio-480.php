@@ -99,8 +99,8 @@
 		  		</div>
 
 		  		<div data-aos="fade-up" class="icon">
-		  			<img class="img-fluid" src="./img/obras-individuales/icono-sum.gif" alt="icono sum">
-		  			<h3 class="bebas">MODERNO <br>SUM</h3>
+		  			<img class="img-fluid" src="./img/obras-individuales/icono-parrilla.gif" alt="icono parrilla">
+		  			<h3 class="bebas">TERRAZA <br>C/PARRILLA</h3>
 		  		</div>
 
 		  	</div>
