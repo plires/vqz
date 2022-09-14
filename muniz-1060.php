@@ -86,7 +86,7 @@
 
 		  <div class="row">
 		  	<div class="col-md-8 offset-md-2 col-lg-6 offset-lg-3">
-		  		<h2 class="bebas ultimas_unidades">Comienzo de Obra SEPTIEMbre 2022</h2>
+		  		<h2 class="bebas ultimas_unidades">Lanzamiento octubre 2022 - entrega diciembre 2024</h2>
 		  	</div>
 		  </div>
 		  
