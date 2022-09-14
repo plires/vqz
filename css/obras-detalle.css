@@ -811,6 +811,12 @@
 		font-size: 3.2rem;
 	}
 
+	/* Donato 221 */
+	.donato_221 .direccion .calle {
+		letter-spacing: 0.06em;
+	}
+	/* Donato 221 end */
+
 	/* Aranguren 1061 */
 	.aranguren_1061 .direccion .calle {
 		padding-left: 50px;
