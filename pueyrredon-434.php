@@ -93,7 +93,7 @@
 
 		  		<div data-aos="fade-up" class="icon">
 		  			<img class="img-fluid" src="./img/obras-individuales/icono-ambientes.gif" alt="icono ambientes">
-		  			<h3 class="bebas">2-3-4 <br>aMBIENTES</h3>
+		  			<h3 class="bebas">3 y 4 <br>aMBIENTES</h3>
 		  		</div>
 
 		  		<div data-aos="fade-up" class="icon">
@@ -133,7 +133,7 @@
 
 					    <div class="carousel-item active">
 								<h2 class="bebas">PISO 2 CONTRAFRENTE</h2>
-					    	<h4 class="bebas">3 ambientes</h4>
+					    	<h4 class="bebas">3 ambientes - <span class="vendido">VENDIDO</span></h4>
 					      <img 
 					      	src="./img/obras-individuales/pueyrredon-434/slide-mobile/slide-1-mobile.jpg"
 					      	class="d-block w-100" 
@@ -142,7 +142,7 @@
 
 					    <div class="carousel-item">
 								<h2 class="bebas">PISO 2 FRENTE</h2>
-					    	<h4 class="bebas">4 ambientes</h4>
+					    	<h4 class="bebas">4 ambientes - <span class="vendido">VENDIDO</span></h4>
 					      <img 
 					      	src="./img/obras-individuales/pueyrredon-434/slide-mobile/slide-2-mobile.jpg"
 					      	class="d-block w-100" 
@@ -151,7 +151,7 @@
 
 					    <div class="carousel-item">
 								<h2 class="bebas">PISOS 3 AL 12 CONTRAFRENTE</h2>
-					    	<h4 class="bebas">3 ambientes</h4>
+					    	<h4 class="bebas">3 ambientes - <span class="vendido">VENDIDO</span></h4>
 					      <img 
 					      	src="./img/obras-individuales/pueyrredon-434/slide-mobile/slide-3-mobile.jpg"
 					      	class="d-block w-100" 
@@ -160,7 +160,7 @@
 
 					    <div class="carousel-item">
 								<h2 class="bebas">PISOS 3 AL 12 FRENTE</h2>
-					    	<h4 class="bebas">4 ambientes</h4>
+					    	<h4 class="bebas">4 ambientes - <span class="vendido">VENDIDO</span></h4>
 					      <img 
 					      	src="./img/obras-individuales/pueyrredon-434/slide-mobile/slide-4-mobile.jpg"
 					      	class="d-block w-100" 
@@ -169,7 +169,7 @@
 
 					    <div class="carousel-item">
 								<h2 class="bebas">PISO 14 CONTRAFRENTE</h2>
-					    	<h4 class="bebas">3 ambientes</h4>
+					    	<h4 class="bebas">3 ambientes - <span class="vendido">VENDIDO</span></h4>
 					      <img 
 					      	src="./img/obras-individuales/pueyrredon-434/slide-mobile/slide-5-mobile.jpg"
 					      	class="d-block w-100" 
@@ -178,7 +178,7 @@
 
 					    <div class="carousel-item">
 								<h2 class="bebas">PISO 13 FRENTE</h2>
-					    	<h4 class="bebas">4 ambientes</h4>
+					    	<h4 class="bebas">4 ambientes - <span class="disponible">ULTIMA UNIDAD</span></h4>
 					      <img 
 					      	src="./img/obras-individuales/pueyrredon-434/slide-mobile/slide-6-mobile.jpg"
 					      	class="d-block w-100" 
@@ -207,7 +207,7 @@
 
 				<div class="row">
 					<h2 data-aos="fade-up" id="title_floor" class="bebas">PISO 2 CONTRAFRENTE</h2>
-					<h3 data-aos="fade-up" class="bebas" id="title_ambiente">3 ambientes</h3>
+					<h3 data-aos="fade-up" class="bebas" id="title_ambiente">3 ambientes - <span class="vendido">VENDIDO</span></h3>
 				</div>
 
 				<div class="row">
@@ -217,67 +217,114 @@
 						<div data-aos="fade-up" class="content_map">
 							<img class="img-fluid" src="./img/obras-individuales/pueyrredon-434/planos-pueyrredon-434.jpg" alt="plano Honorio Pueyrredon 434">
 
-							<svg version="1.1" id="map1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-								 viewBox="0 0 271 150" style="enable-background:new 0 0 271 150;" xml:space="preserve">
-							<polygon 
-								data-plano="1" 
-								data-plano-title="4 ambientes" 
-								data-plano-floor="PISO 13 FRENTE" 
-								class="map transition" 
-								points="248.93,0.81 248.93,5.36 270.1,5.36 270.1,144.42 249.02,144.08 248.93,149.19 73.49,149.14 
-								73.49,86.17 0.9,86.35 0.9,0.81 "/>
+							<svg 
+								version="1.1" 
+								id="map1" 
+								xmlns="http://www.w3.org/2000/svg" 
+								xmlns:xlink="http://www.w3.org/1999/xlink" 
+								x="0px" 
+								y="0px" 
+								viewBox="0 0 271 150" 
+								style="enable-background:new 0 0 271 150;" 
+								xml:space="preserve">
+								<polygon 
+									data-plano="1" 
+									data-plano-title="4 ambientes - <span class='disponible'>ULTIMA UNIDAD</span>" 
+									data-plano-floor="PISO 13 FRENTE" 
+									class="map transition" 
+									points="248.93,0.81 248.93,5.36 270.1,5.36 270.1,144.42 249.02,144.08 248.93,149.19 73.49,149.14 
+									73.49,86.17 0.9,86.35 0.9,0.81 "/>
 							</svg>
 
-							<svg version="1.1" id="map2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-								 viewBox="0 0 288 149" style="enable-background:new 0 0 288 149;" xml:space="preserve">
-							<path 
-								data-plano="2" 
-								data-plano-title="3 ambientes" 
-								data-plano-floor="PISO 14 CONTRAFRENTE" 
-								class="map transition" 
-								d="M287.5,0.59v85.6l-81-0.41l-0.14,62.59l-187.9,0.05l-0.09-5.38l-17.6,0.29L0.5,5.28l17.97,0.55V0.86L287.5,0.59
-								z"/>
+							<svg 
+								version="1.1" 
+								id="map2" 
+								xmlns="http://www.w3.org/2000/svg" 
+								xmlns:xlink="http://www.w3.org/1999/xlink" 
+								x="0px" 
+								y="0px" 
+								viewBox="0 0 288 149" 
+								style="enable-background:new 0 0 288 149;" 
+								xml:space="preserve">
+								<path 
+									data-plano="2" 
+									data-plano-title="3 ambientes - <span class='vendido'>VENDIDO</span>" 
+									data-plano-floor="PISO 14 CONTRAFRENTE" 
+									class="map transition" 
+									d="M287.5,0.59v85.6l-81-0.41l-0.14,62.59l-187.9,0.05l-0.09-5.38l-17.6,0.29L0.5,5.28l17.97,0.55V0.86L287.5,0.59
+									z"/>
 							</svg>
 
-							<svg version="1.1" id="map3" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-								 viewBox="0 0 206 151" style="enable-background:new 0 0 206 151;" xml:space="preserve">
-							
-							<path 
-								data-plano="3" 
-								data-plano-title="4 ambientes" 
-								data-plano-floor="PISOS 3 AL 12 FRENTE" 
-								class="map transition" 
-								d="M184.86,1.03l0.02,4.86L205.5,6v138.32l-20.79,0.23v5.2L8.49,149.97L8.3,87.59H0.5V1.03H184.86z"/>
+							<svg 
+								version="1.1" 
+								id="map3" 
+								xmlns="http://www.w3.org/2000/svg" 
+								xmlns:xlink="http://www.w3.org/1999/xlink" 
+								x="0px" 
+								y="0px" 
+								viewBox="0 0 206 151" 
+								style="enable-background:new 0 0 206 151;" 
+								xml:space="preserve">
+								<path 
+									data-plano="3" 
+									data-plano-title="4 ambientes - <span class='vendido'>VENDIDO</span>" 
+									data-plano-floor="PISOS 3 AL 12 FRENTE" 
+									class="map transition" 
+									d="M184.86,1.03l0.02,4.86L205.5,6v138.32l-20.79,0.23v5.2L8.49,149.97L8.3,87.59H0.5V1.03H184.86z"/>
 							</svg>
 
-							<svg version="1.1" id="map4" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-								 viewBox="0 0 225 149" style="enable-background:new 0 0 225 149;" xml:space="preserve">
-							<path 
-								data-plano="4" 
-								data-plano-title="3 ambientes" 
-								data-plano-floor="PISOS 3 AL 12 CONTRAFRENTE" 
-								class="map transition"
-								d="M224.34,0.6v84.93h-17.51v62.87H17.48v-4.41l-16.82-0.28V5.29l17.1-0.28l0.28-4.41H224.34z"/>
+							<svg 
+								version="1.1" 
+								id="map4" 
+								xmlns="http://www.w3.org/2000/svg" 
+								xmlns:xlink="http://www.w3.org/1999/xlink" 
+								x="0px" 
+								y="0px" 
+								viewBox="0 0 225 149" 
+								style="enable-background:new 0 0 225 149;" 
+								xml:space="preserve">
+								<path 
+									data-plano="4" 
+									data-plano-title="3 ambientes - <span class='vendido'>VENDIDO</span>" 
+									data-plano-floor="PISOS 3 AL 12 CONTRAFRENTE" 
+									class="map transition"
+									d="M224.34,0.6v84.93h-17.51v62.87H17.48v-4.41l-16.82-0.28V5.29l17.1-0.28l0.28-4.41H224.34z"/>
 							</svg>
 
-							<svg version="1.1" id="map5" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-								 viewBox="0 0 197 150" style="enable-background:new 0 0 197 150;" xml:space="preserve">
-							<path 
-								data-plano="5" 
-								data-plano-title="4 ambientes" 
-								data-plano-floor="PISO 2 FRENTE" 
-								class="map transition" 
-								d="M196.49,5.53v138.93h-20.81v5.03L0.51,148.83v-64.6l12.06-0.5L12.41,0.5h163.28l-0.03,5.12L196.49,5.53z"/>
+							<svg 
+								version="1.1" 
+								id="map5" 
+								xmlns="http://www.w3.org/2000/svg" 
+								xmlns:xlink="http://www.w3.org/1999/xlink" 
+								x="0px" 
+								y="0px" 
+								viewBox="0 0 197 150" 
+								style="enable-background:new 0 0 197 150;" 
+								xml:space="preserve">
+								<path 
+									data-plano="5" 
+									data-plano-title="4 ambientes - <span class='vendido'>VENDIDO</span>" 
+									data-plano-floor="PISO 2 FRENTE" 
+									class="map transition" 
+									d="M196.49,5.53v138.93h-20.81v5.03L0.51,148.83v-64.6l12.06-0.5L12.41,0.5h163.28l-0.03,5.12L196.49,5.53z"/>
 							</svg>
 
-							<svg version="1.1" id="map6" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-								 viewBox="0 0 225 150" style="enable-background:new 0 0 225 150;" xml:space="preserve">
-							<path 
-								data-plano="6" 
-								data-plano-title="3 ambientes" 
-								data-plano-floor="PISO 2 CONTRAFRENTE" 
-								class="map transition active"
-								d="M223.53,0.56v85.5h-16.16v63.38H18.06v-5.96H1.47V6.09h15.92l0.03-5.53H223.53z"/>
+							<svg 
+								version="1.1" 
+								id="map6" 
+								xmlns="http://www.w3.org/2000/svg" 
+								xmlns:xlink="http://www.w3.org/1999/xlink" 
+								x="0px" 
+								y="0px" 
+								viewBox="0 0 225 150" 
+								style="enable-background:new 0 0 225 150;" 
+								xml:space="preserve">
+								<path 
+									data-plano="6" 
+									data-plano-title="3 ambientes - <span class='vendido'>VENDIDO</span>" 
+									data-plano-floor="PISO 2 CONTRAFRENTE" 
+									class="map transition active"
+									d="M223.53,0.56v85.5h-16.16v63.38H18.06v-5.96H1.47V6.09h15.92l0.03-5.53H223.53z"/>
 							</svg>
 
 						</div>

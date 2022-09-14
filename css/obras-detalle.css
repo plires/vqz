@@ -232,6 +232,14 @@
 	font-size: 1.5rem;
 }
 
+.obra_detalle .planos_mobile .carousel-item h4 span.vendido {
+	color: red!important;
+}
+
+.obra_detalle .planos_mobile .carousel-item h4 span.disponible {
+	color: green!important;
+}
+
 .obra_detalle .planos_mobile .carousel-item img {
 	max-width: 375px;
 	margin-left: auto;
@@ -458,6 +466,14 @@
 
 	.obra_detalle .planos_desktop .content_render {
 		justify-content: flex-end;
+	}
+
+	.obra_detalle .planos_desktop .vendido {
+		color: red;
+	}
+
+	.obra_detalle .planos_desktop .disponible {
+		color: green;
 	}
 
 	/* Aranguren 1061 */

@@ -183,7 +183,7 @@ if ( typeof(section_detalle) !== 'undefined' ) { // Seccion de obra individual
 					item.classList.add('active')
 					
 					// Cambiar el titulo al departamento:
-					title.innerText = titleDataMap
+					title.innerHTML = titleDataMap
 
 					// Cambiar el titulo al piso:
 					titleFloor.innerText = floor
