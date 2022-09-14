@@ -116,7 +116,7 @@
 
 		  <div class="row">
 		  	<div class="col-md-8 offset-md-2 col-lg-6 offset-lg-3">
-		  		<h2 data-aos="fade-up" class="bebas ultimas_unidades">Obra comenzada - Entrega julio 2024</h2>
+		  		<h2 data-aos="fade-up" class="bebas ultimas_unidades">En obra - Entrega Diciembre 2024</h2>
 		  	</div>
 		  </div>
 		  
@@ -452,7 +452,7 @@
 
 					<div data-aos="fade-up" class="etapa">
 						<div class="content_number">
-							<p id="mamposteria" data-value="40" class="percentage bebas">40</p><span class="bebas">%</span>
+							<p id="mamposteria" data-value="0" class="percentage bebas">0</p><span class="bebas">%</span>
 						</div>
 						<span class="circle">
 							<i class="fa-solid fa-bars-progress"></i>
