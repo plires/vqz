@@ -107,7 +107,7 @@
 
 		  <div class="row">
 		  	<div class="col-md-8 offset-md-2 col-lg-6 offset-lg-3">
-		  		<h2 data-aos="fade-up" class="bebas ultimas_unidades">¡2 ULTIMAS UNIDADES!</h2>
+		  		<h2 data-aos="fade-up" class="bebas ultimas_unidades">¡2 ULTIMAS UNIDADES! - entrega inmediata</h2>
 		  	</div>
 		  </div>
 		  
