@@ -114,11 +114,23 @@
 	text-align: center;
 }
 /* Plaça de les Casernas 12 end*/
+
+/* Sant Honorat */
+.san_honorat_24 .direccion .calle {
+	letter-spacing: 0;
+	padding-left: 12px;
+}
+
+.san_honorat_24 .direccion .numero {
+	letter-spacing: 1rem;
+	padding-left: 10px;
+}
+/* Sant Honorat end*/
 /* Video end */
 
 /* Caracteristicas */
 .obra_detalle .caracteristicas {
-	margin-top: 100px;
+	margin-top: 170px;
 	margin-bottom: 30px;
 }
 
@@ -233,6 +245,12 @@
 .obra_detalle .planos_mobile .carousel-control-prev-icon {
 	  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23989797'%3e%3cpath d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/%3e%3c/svg%3e");
 }
+
+/* Sant Honorat */
+.san_honorat_24 .planos_mobile .carousel-item {
+	mix-blend-mode: multiply;
+}
+/* Sant Honorat end */
 /* Planos Mobile end */
 
 /* Avance de Obra */
@@ -333,6 +351,27 @@
 }
 /* Galería end */
 
+/* Video Completo */
+/* Sant Honorat */
+.san_honorat_24 .video_completo {
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+.san_honorat_24 .video_completo .content {
+	border-top: solid 1px #939292;
+	border-bottom: solid 1px #939292;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.video_completo h2 {
+	font-size: 1.25rem;
+	font-weight: 700;
+}
+/* Sant Honorat end */
+/* Video Completo end */
+
 /* Ubicacion */
 .obra_detalle .ubicacion {
 	padding-left: 0;
@@ -348,10 +387,6 @@
 
 .obra_detalle .ubicacion p {
 	font-weight: 300;
-}
-
-.obra_detalle .ubicacion p:last-child {
-	margin-bottom: 0;
 }
 
 .obra_detalle .featured {
@@ -447,6 +482,21 @@
 		mix-blend-mode: multiply;
 	}
 	/* Aranguren 1061 end */
+
+	/* Sant Honorat */
+	.san_honorat_24 .planos_desktop .col-sm-12 {
+		mix-blend-mode: multiply;
+	}
+
+	.san_honorat_24 .planos_desktop #title_floor,
+	.san_honorat_24 .planos_desktop #title_ambiente {
+		display: none;
+	}
+
+	.san_honorat_24 .planos_desktop .plano {
+		margin-bottom: 30px;
+	}
+	/* Sant Honorat end */
 
 	.obra_detalle .planos_desktop .content_render .render {
 		display: none;
@@ -1209,6 +1259,18 @@
 		letter-spacing: 1rem;
 	}
 	/* Plaça de les Casernas 12 end*/
+
+	/* Sant Honorat */
+	.san_honorat_24 .direccion .numero {
+		letter-spacing: 12.5;
+		margin-bottom: 10px;
+	}
+
+	.san_honorat_24 .direccion .calle {
+		padding-left: 20px;
+		letter-spacing: 0.07em;
+	}
+	/* Sant Honorat end */
 	/* Video end */
 
 	/* Caracteristicas */
@@ -1338,6 +1400,20 @@
 	/* Aranguren 1061 end */
 	/* Galeria end */
 
+	/* Video Completo */
+	/* Sant Honorat */
+	.san_honorat_24 .video_completo .content {
+		padding-top: 60px;
+		padding-bottom: 60px;
+	}
+
+	.san_honorat_24 .video_completo h2 {
+		font-size: 1.75rem;
+		margin-bottom: 15px;
+	}
+	/* Sant Honorat end */
+	/* Video Completo end */
+	
 }
 
 @media (min-width: 1600px) {

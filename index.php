@@ -242,7 +242,7 @@
 
 					<!-- Sant -->
 					<div data-aos="fade-up" class="col-sm-6 col-md-4 col-lg-3 item_project">
-						<a href="#" class="content_img">
+						<a href="./san-honorat-24.php" class="content_img">
 							<img class="img-fluid img_listado" src="./img/home/listado-sant.jpg" alt="listado sant">
 						</a>
 						<div class="content_data">
@@ -262,7 +262,7 @@
 										<p>ÚLTIMAS UNIDADES</p>
 									</div>
 								</div>
-								<a class="ver_mas transition" href="#">
+								<a class="ver_mas transition" href="./san-honorat-24.php">
 									<i class="fa-solid fa-circle-plus"></i>
 									VER
 								</a>
