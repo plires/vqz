@@ -89,7 +89,7 @@
 
 		  		<div data-aos="fade-up" class="icon">
 		  			<img class="img-fluid" src="./img/obras-individuales/icono-ambientes.gif" alt="icono ambientes">
-		  			<h3 class="bebas">3-4 <br>aMBIENTES</h3>
+		  			<h3 class="bebas">3-4 <br>habitaciones</h3>
 		  		</div>
 
 		  		<div data-aos="fade-up" class="icon">
