@@ -92,64 +92,6 @@
 				</div>
 
 				<div class="row">
-					
-					<!-- Donato -->
-					<div data-aos="fade-up" class="col-sm-6 col-md-4 col-lg-3 item_project">
-						<a href="./donato-221.php" class="content_img">
-							<img class="img-fluid img_listado" src="./img/home/listado-donato.jpg" alt="listado donato">
-						</a>
-						<div class="content_data">
-							<h3 class="bebas">donato <br>álvarez 221</h3>
-							<div class="content_icons">
-								<div class="content_caracteristicas">
-									<div class="caracteristica">
-										<img class="img-fluid" src="./img/home/icono-argentina-color.png" alt="icono argentina donato">
-										<p>argentina</p>
-									</div>
-									<div class="caracteristica">
-										<img class="img-fluid" src="./img/home/icono-entrega.png" alt="icono entrega donato">
-										<p>ENTREGA INMEDIATA</p>
-									</div>
-									<div class="caracteristica">
-										<img class="img-fluid" src="./img/home/icono-ultimas-unidades.png" alt="icono ultimas donato">
-										<p>ÚLTIMAS UNIDADES</p>
-									</div>
-								</div>
-								<a class="ver_mas transition" href="./donato-221.php">
-									<i class="fa-solid fa-circle-plus"></i>
-									VER
-								</a>
-							</div>
-						</div>
-					</div>
-					<!-- Donato end -->
-
-					<!-- Aranguren -->
-					<div data-aos="fade-up" class="col-sm-6 col-md-4 col-lg-3 item_project">
-						<a href="./aranguren-1061.php" class="content_img">
-							<img class="img-fluid img_listado" src="./img/home/listado-aranguren.jpg" alt="listado aranguren">
-						</a>
-						<div class="content_data">
-							<h3 class="bebas">aranguren <br>1061</h3>
-							<div class="content_icons">
-								<div class="content_caracteristicas">
-									<div class="caracteristica">
-										<img class="img-fluid" src="./img/home/icono-argentina-color.png" alt="icono argentina aranguren">
-										<p>argentina</p>
-									</div>
-									<div class="caracteristica">
-										<img class="img-fluid" src="./img/home/icono-obra.png" alt="icono obra aranguren">
-										<p>EN OBRA</p>
-									</div>
-								</div>
-								<a class="ver_mas transition" href="./aranguren-1061.php">
-									<i class="fa-solid fa-circle-plus"></i>
-									VER
-								</a>
-							</div>
-						</div>
-					</div>
-					<!-- Aranguren end -->
 
 					<!-- Pueyrredon -->
 					<div data-aos="fade-up" class="col-sm-6 col-md-4 col-lg-3 item_project">
@@ -213,33 +155,6 @@
 					</div>
 					<!-- Nicasio end -->
 
-					<!-- Muniz -->
-					<div data-aos="fade-up" class="col-sm-6 col-md-4 col-lg-3 item_project">
-						<a href="./muniz-1060.php" class="content_img">
-							<img class="img-fluid img_listado" src="./img/home/listado-muniz.jpg" alt="listado muniz">
-						</a>
-						<div class="content_data">
-							<h3 class="bebas">muñiz 1060</h3>
-							<div class="content_icons">
-								<div class="content_caracteristicas">
-									<div class="caracteristica">
-										<img class="img-fluid" src="./img/home/icono-argentina-color.png" alt="icono argentina muniz">
-										<p>argentina</p>
-									</div>
-									<div class="caracteristica">
-										<img class="img-fluid" src="./img/home/icono-lanzamiento.png" alt="icono lanzamiento muniz">
-										<p>LANZAMIENTO</p>
-									</div>
-								</div>
-								<a class="ver_mas transition" href="./muniz-1060.php">
-									<i class="fa-solid fa-circle-plus"></i>
-									VER
-								</a>
-							</div>
-						</div>
-					</div>
-					<!-- Muniz end -->
-
 					<!-- Sant -->
 					<div data-aos="fade-up" class="col-sm-6 col-md-4 col-lg-3 item_project">
 						<a href="./san-honorat-24.php" class="content_img">
@@ -270,6 +185,91 @@
 						</div>
 					</div>
 					<!-- Sant end -->
+					
+					<!-- Donato -->
+					<div data-aos="fade-up" class="col-sm-6 col-md-4 col-lg-3 item_project">
+						<a href="./donato-221.php" class="content_img">
+							<img class="img-fluid img_listado" src="./img/home/listado-donato.jpg" alt="listado donato">
+						</a>
+						<div class="content_data">
+							<h3 class="bebas">donato <br>álvarez 221</h3>
+							<div class="content_icons">
+								<div class="content_caracteristicas">
+									<div class="caracteristica">
+										<img class="img-fluid" src="./img/home/icono-argentina-color.png" alt="icono argentina donato">
+										<p>argentina</p>
+									</div>
+									<div class="caracteristica">
+										<img class="img-fluid" src="./img/home/icono-entrega.png" alt="icono entrega donato">
+										<p>ENTREGA INMEDIATA</p>
+									</div>
+									<div class="caracteristica">
+										<img class="img-fluid" src="./img/home/icono-ultimas-unidades.png" alt="icono ultimas donato">
+										<p>ÚLTIMAS UNIDADES</p>
+									</div>
+								</div>
+								<a class="ver_mas transition" href="./donato-221.php">
+									<i class="fa-solid fa-circle-plus"></i>
+									VER
+								</a>
+							</div>
+						</div>
+					</div>
+					<!-- Donato end -->
+
+					<!-- Aranguren -->
+					<div data-aos="fade-up" class="col-sm-6 col-md-4 col-lg-3 item_project">
+						<a href="./aranguren-1061.php" class="content_img">
+							<img class="img-fluid img_listado" src="./img/home/listado-aranguren.jpg" alt="listado aranguren">
+						</a>
+						<div class="content_data">
+							<h3 class="bebas">aranguren <br>1061</h3>
+							<div class="content_icons">
+								<div class="content_caracteristicas">
+									<div class="caracteristica">
+										<img class="img-fluid" src="./img/home/icono-argentina-color.png" alt="icono argentina aranguren">
+										<p>argentina</p>
+									</div>
+									<div class="caracteristica">
+										<img class="img-fluid" src="./img/home/icono-obra.png" alt="icono obra aranguren">
+										<p>EN OBRA</p>
+									</div>
+								</div>
+								<a class="ver_mas transition" href="./aranguren-1061.php">
+									<i class="fa-solid fa-circle-plus"></i>
+									VER
+								</a>
+							</div>
+						</div>
+					</div>
+					<!-- Aranguren end -->
+
+					<!-- Muniz -->
+					<div data-aos="fade-up" class="col-sm-6 col-md-4 col-lg-3 item_project">
+						<a href="./muniz-1060.php" class="content_img">
+							<img class="img-fluid img_listado" src="./img/home/listado-muniz.jpg" alt="listado muniz">
+						</a>
+						<div class="content_data">
+							<h3 class="bebas">muñiz 1060</h3>
+							<div class="content_icons">
+								<div class="content_caracteristicas">
+									<div class="caracteristica">
+										<img class="img-fluid" src="./img/home/icono-argentina-color.png" alt="icono argentina muniz">
+										<p>argentina</p>
+									</div>
+									<div class="caracteristica">
+										<img class="img-fluid" src="./img/home/icono-lanzamiento.png" alt="icono lanzamiento muniz">
+										<p>LANZAMIENTO</p>
+									</div>
+								</div>
+								<a class="ver_mas transition" href="./muniz-1060.php">
+									<i class="fa-solid fa-circle-plus"></i>
+									VER
+								</a>
+							</div>
+						</div>
+					</div>
+					<!-- Muniz end -->
 
 					<!-- Plaza -->
 					<div data-aos="fade-up" class="col-sm-6 col-md-4 col-lg-3 item_project">
