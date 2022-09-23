@@ -19,10 +19,6 @@
 			<div class="col-md-12 col-lg-3 content_data">
 				<ul>
 					<li>
-						<i class="fa-brands fa-whatsapp"></i>
-						<a class="transition" target="_blank" rel="noopener" href="https://web.whatsapp.com/send?phone=+541164601160&text=Hola%20VQZ,%20Necesito%20hacer%20una%20consulta...%20">+54 9 11 6460-1160</a>
-					</li>
-					<li>
 						<i class="fa-solid fa-mobile-screen"></i>
 						<a class="transition" target="_blank" rel="noopener" href="tel:541146331200">+54 11 4633-1200</a>
 					</li>
