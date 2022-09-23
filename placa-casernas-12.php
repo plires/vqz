@@ -210,10 +210,10 @@
 					<div class="col-md-8 offset-md-2">
 						<h2 data-aos="fade-up" class="bebas">UBICACIÓN</h2>
 
-						<p data-aos="fade-up" class="featured">VILLANUEVA Y GELTRÚ, tierra de buen clima</p>
+						<p data-aos="fade-up" class="featured">VILANOVA I LA GELTRÚ, tierra de buen clima</p>
 
 						<p data-aos="fade-up">
-							Villanueva y Geltrú es una ciudad y municipio de la provincia de Barcelona (Cataluña), España, capital de la comarca del Garraf. Se sitúa a 45 km tanto de Barcelona como de Tarragona.
+							Vilanova i la Geltrú es una ciudad y municipio de la provincia de Barcelona (Cataluña), España, capital de la comarca del Garraf. Se sitúa a 45 km tanto de Barcelona como de Tarragona.
 						</p>
 
 						<p data-aos="fade-up">
