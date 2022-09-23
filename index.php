@@ -201,11 +201,11 @@
 									</div>
 									<div class="caracteristica">
 										<img class="img-fluid" src="./img/home/icono-entrega.png" alt="icono entrega donato">
-										<p>ENTREGA INMEDIATA</p>
+										<p>ENTREGA JUNIO 2023</p>
 									</div>
 									<div class="caracteristica">
 										<img class="img-fluid" src="./img/home/icono-ultimas-unidades.png" alt="icono ultimas donato">
-										<p>ÚLTIMAS UNIDADES</p>
+										<p>UNIDADES EN VENTA</p>
 									</div>
 								</div>
 								<a class="ver_mas transition" href="./donato-221.php">
@@ -229,6 +229,10 @@
 									<div class="caracteristica">
 										<img class="img-fluid" src="./img/home/icono-argentina-color.png" alt="icono argentina aranguren">
 										<p>argentina</p>
+									</div>
+									<div class="caracteristica">
+										<img class="img-fluid" src="./img/home/icono-entrega.png" alt="icono entrega aranguren">
+										<p>ENTREGA DICIEMBRE 2024</p>
 									</div>
 									<div class="caracteristica">
 										<img class="img-fluid" src="./img/home/icono-obra.png" alt="icono obra aranguren">
@@ -259,7 +263,11 @@
 									</div>
 									<div class="caracteristica">
 										<img class="img-fluid" src="./img/home/icono-lanzamiento.png" alt="icono lanzamiento muniz">
-										<p>LANZAMIENTO</p>
+										<p>LANZAMIENTO OCTUBRE 2022</p>
+									</div>
+									<div class="caracteristica">
+										<img class="img-fluid" src="./img/home/icono-lanzamiento.png" alt="icono entrega muniz">
+										<p>ENTREGA DICIEMBRE 2024</p>
 									</div>
 								</div>
 								<a class="ver_mas transition" href="./muniz-1060.php">
