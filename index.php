@@ -295,47 +295,41 @@
 						  <div class="carousel-inner">
 
 						    <div class="carousel-item active">
-						    	<a href="#" title="Abrir en Google Maps" target="_blank" rel="noopener">
+						    	<a href="./donato-221.php">
 						      	<img src="./img/home/mapa-donato.jpg" class="d-block w-100" alt="mapa donato">
 						    	</a>
 						    </div>
 
 						    <div class="carousel-item">
-						    	<a href="#" title="Abrir en Google Maps" target="_blank" rel="noopener">
+						    	<a href="./aranguren-1061.php">
 						      	<img src="./img/home/mapa-aranguren.jpg" class="d-block w-100" alt="mapa aranguren">
 						    	</a>
 						    </div>
 
 						    <div class="carousel-item">
-						    	<a href="#" title="Abrir en Google Maps" target="_blank" rel="noopener">
+						    	<a href="./pueyrredon-434.php">
 						      	<img src="./img/home/mapa-pueyrredon.jpg" class="d-block w-100" alt="mapa pueyrredon">
 						    	</a>
 						    </div>
 
 						    <div class="carousel-item">
-						    	<a href="#" title="Abrir en Google Maps" target="_blank" rel="noopener">
+						    	<a href="./nicasio-480.php">
 						      	<img src="./img/home/mapa-nicasio.jpg" class="d-block w-100" alt="mapa nicasio">
 						    	</a>
 						    </div>
 
 						    <div class="carousel-item">
-						    	<a href="#" title="Abrir en Google Maps" target="_blank" rel="noopener">
+						    	<a href="./muniz-1060.php">
 						      	<img src="./img/home/mapa-muniz.jpg" class="d-block w-100" alt="mapa muniz">
 						    	</a>
 						    </div>
 
 						    <div class="carousel-item">
-						    	<a href="#" title="Abrir en Google Maps" target="_blank" rel="noopener">
+						    	<a href="./san-honorat-24.php">
 						      	<img src="./img/home/mapa-sant.jpg" class="d-block w-100" alt="mapa sant">
 						    	</a>
 						    </div>
 
-						    <div class="carousel-item">
-						    	<a href="#" title="Abrir en Google Maps" target="_blank" rel="noopener">
-						      	<img src="./img/home/mapa-plaza.jpg" class="d-block w-100" alt="mapa plaza">
-						    	</a>
-						    </div>
-						    
 						  </div>
 						  <button class="carousel-control-prev" type="button" data-bs-target="#carouselMapsControls" data-bs-slide="prev">
 						    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
