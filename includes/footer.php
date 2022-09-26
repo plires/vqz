@@ -9,8 +9,6 @@
 			<div class="col-md-8 col-lg-6 content_links">
 				<ul>
 					<li><a class="transition" href="./empresa.php">EMPRESA</a></li>
-					<li><a class="transition" href="donato-221.php">ARGENTINA</a></li>
-					<li><a class="transition" href="#">ESPAÑA</a></li>
 					<li><a class="transition" href="./obras-realizadas.php">REALIZADAS</a></li>
 					<li><a class="transition" href="./contacto.php">CONTACTO</a></li>
 				</ul>
