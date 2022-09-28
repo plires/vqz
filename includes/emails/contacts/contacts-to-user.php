@@ -398,10 +398,6 @@
           <tr align="center" style="background-color: #FFFFFF;">
               <td align="center"  style="background-color: #FFFFFF;padding: 10px;">
                 
-                <a target="_blank" rel="noopener noreferrer" href="{whatsapp_client}">
-                  <img src="https://vqz.net/img/email/whatsapp-14.png" style="margin:0; margin-right: 20px; padding:0; border:none; display:inline-block; width: 16px; height: auto;" border="0" alt="whatsapp" />
-                </a>
-
                 <a target="_blank" rel="noopener noreferrer" href="tel:{phone_client}">
                   <img src="https://vqz.net/img/email/phone-14.png" style="margin:0; margin-right: 20px; padding:0; border:none; display:inline-block; width: 16px; height: auto;" border="0" alt="phone" />
                 </a>
