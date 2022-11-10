@@ -168,7 +168,7 @@
 					    </div>
 
 					    <div class="carousel-item">
-					    	<h4 class="bebas">3 amb PLANTA TIPO</h4>
+					    	<h4 class="bebas">4 amb PLANTA TIPO</h4>
 					      <img 
 					      	src="./img/obras-individuales/donato-221/slide-mobile/3-amb-mobile-tipo-planta-a.png" ,
 					      	class="d-block w-100" 
@@ -272,7 +272,7 @@
 								xml:space="preserve">
 								<polygon 
 									data-plano="3" 
-									data-plano-title="3 amb PLANTA TIPO" 
+									data-plano-title="4 amb PLANTA TIPO" 
 									data-plano-floor="PISO DEL 1 AL 9" 
 									class="map transition" 
 									points="26.25,1.36 112.88,1.36 112.88,16.62 115.42,16.62 115.42,116.97 62.36,116.97 62.14,150.64 29.99,150.64 29.99,127.82 10.08,127.82 10.08,122.95 0.58,122.95 0.58,105.68 26.14,105.68 "/>
@@ -290,7 +290,7 @@
 								xml:space="preserve">
 								<polygon 
 									data-plano="4" 
-									data-plano-title="3 amb PLANTA TIPO" 
+									data-plano-title="4 amb PLANTA TIPO" 
 									data-plano-floor="PISO DEL 1 AL 9" 
 									class="map transition" 
 									points="0.9,0.78 45.35,0.78 45.33,3.44 102.1,3.44 102.1,96.22 5.37,96.22 5.45,81.18 0.9,81.18 "/>
