@@ -626,6 +626,10 @@ footer .content_frase {
     margin-top: -680px;
   }
 
+  .item_project:last-child {
+    margin-bottom: 30px;
+  }
+
   .item_project {
     overflow: hidden;
   }
@@ -635,7 +639,7 @@ footer .content_frase {
     justify-content: space-between;
     top: 0;
     left: -100%;
-    width: 60%;
+    width: 100%;
     padding: 15px;
     transition: all 0.45s ease-out;
   }
@@ -854,6 +858,11 @@ footer .content_frase {
 @media (min-width: 1200px) {
 
   /* Proyectos */
+
+  .item_project .content_data {
+    width: 70%;
+  }
+
   .item_project .content_data h3 {
     font-size: 1.5rem;
   }
@@ -874,6 +883,10 @@ footer .content_frase {
 @media (min-width: 1400px) {
 
   /* Proyectos */
+  .item_project .content_data {
+    width: 60%;
+  }
+
   .proyectos {
     margin-top: -1065px;
   }

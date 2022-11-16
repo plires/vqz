@@ -285,7 +285,7 @@
 							<img class="img-fluid img_listado" src="./img/home/listado-plaza.jpg" alt="listado plaza">
 						</a>
 						<div class="content_data">
-							<h3 class="bebas">Plaça de les<br>Casernes 1060</h3>
+							<h3 class="bebas">Plaça de les Casernes 1060</h3>
 							<div class="content_icons">
 								<div class="content_caracteristicas">
 									<div class="caracteristica">
@@ -316,7 +316,7 @@
 							<img class="img-fluid img_listado" src="./img/home/listado-carrer.jpg" alt="listado carrer">
 						</a>
 						<div class="content_data">
-							<h3 class="bebas">Plaça de les<br>Casernes 1060</h3>
+							<h3 class="bebas">Carrer de les Presmes 18</h3>
 							<div class="content_icons">
 								<div class="content_caracteristicas">
 									<div class="caracteristica">
