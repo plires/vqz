@@ -115,6 +115,13 @@
 }
 /* Plaça de les Casernas 12 end*/
 
+/* Carrer de les Premses 18 */
+.carrer_18 .video {
+	background: url('../img/obras-individuales/carrer-18/header-carrer.jpg');
+	background-position: 50% 50%;
+}
+/* Carrer de les Premses 18 end*/
+
 /* Sant Honorat */
 .san_honorat_24 .direccion .calle {
 	letter-spacing: 0;

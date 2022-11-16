@@ -310,6 +310,37 @@
 					</div>
 					<!-- Casernes end -->
 
+					<!-- Carrer -->
+					<div data-aos="fade-up" class="col-sm-6 col-md-4 col-lg-3 item_project">
+						<a href="./carrer-18.php" class="content_img">
+							<img class="img-fluid img_listado" src="./img/home/listado-carrer.jpg" alt="listado carrer">
+						</a>
+						<div class="content_data">
+							<h3 class="bebas">Plaça de les<br>Casernes 1060</h3>
+							<div class="content_icons">
+								<div class="content_caracteristicas">
+									<div class="caracteristica">
+										<img class="img-fluid" src="./img/home/icono-espana-color.png" alt="icono espana carrer">
+										<p>españa</p>
+									</div>
+									<div class="caracteristica">
+										<img class="img-fluid" src="./img/home/icono-lanzamiento.png" alt="icono lanzamiento carrer">
+										<p>LANZAMIENTO DICIEMBRE 2022</p>
+									</div>
+									<div class="caracteristica">
+										<img class="img-fluid" src="./img/home/icono-lanzamiento.png" alt="icono entrega carrer">
+										<p>ENTREGA DICIEMBRE 2024</p>
+									</div>
+								</div>
+								<a class="ver_mas transition" href="./carrer-18.php">
+									<i class="fa-solid fa-circle-plus"></i>
+									VER
+								</a>
+							</div>
+						</div>
+					</div>
+					<!-- Carrer end -->
+
 				</div>
 
 			</div>

@@ -45,6 +45,9 @@
 					<li>
 						<a class="transition bebas" href="./placa-casernas-12.php">Plaça de les Casernes 12</a>
 					</li>
+					<li>
+						<a class="transition bebas" href="./carrer-18.php">Carrer de les Premses 18</a>
+					</li>
 				</ul>
 			</li>
 
