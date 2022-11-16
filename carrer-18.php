@@ -235,7 +235,7 @@
 
 			<div data-aos="fade-up" class="content_map">
 
-				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3000.698958115241!2d1.7251067!3d41.22833039999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a3871d51b6cd0f%3A0xfb1a6166b5af7c54!2sPla%C3%A7a%20de%20les%20Casernes%2C%2012%2C%2008800%20Vilanova%20i%20la%20Geltr%C3%BA%2C%20Barcelona%2C%20Espa%C3%B1a!5e0!3m2!1ses-419!2sar!4v1662744796179!5m2!1ses-419!2sar" width="100%" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3000.7055999255404!2d1.7228580157965019!3d41.2281856792791!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a3871d515c1af5%3A0x6ca4a9e338a5873c!2sCarrer%20de%20les%20Premses%2C%2018%2C%2008800%20Vilanova%20i%20la%20Geltr%C3%BA%2C%20Barcelona%2C%20Espa%C3%B1a!5e0!3m2!1ses-419!2sar!4v1668631415020!5m2!1ses-419!2sar" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
 				<div data-aos="fade-left" class="content_medios">
 
