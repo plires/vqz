@@ -184,6 +184,16 @@
 /* Caracteristicas end */
 
 /* Planos Desktop */
+.obra_detalle .planos_proximamente {
+	margin-bottom: 30px;
+}
+
+.obra_detalle .planos_proximamente h2 {
+	text-align: center;
+	color: #d7d7d7;
+	font-size: 2.25rem;
+}
+
 .obra_detalle .planos_desktop {
 	display: none;
 }
@@ -1152,6 +1162,10 @@
 	/* Caracteristicas end */
 
 	/* Avance de Obra */
+	.obra_detalle .planos_proximamente h2 {
+		font-size: 3rem;
+	}
+
 	.obra_detalle .avance .content_title h2 {
 		font-size: 3rem;
 	}

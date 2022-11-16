@@ -89,6 +89,16 @@
 		</section>
 		<!-- Caracteristicas end -->
 
+		<!-- Planos -->
+		<section class="container planos_proximamente">
+			<div class="row">
+				<div class="col-md-12">
+					<h2 data-aos="fade-up" class="bebas">planos disponibles PROXIMAMENTE</h2>
+				</div>
+			</div>
+		</section>
+		<!-- Planos end -->
+
 		<!-- Avance de Obra -->
 		<section class="container avance">
 			<div class="row">
@@ -210,7 +220,7 @@
 					<div class="col-md-8 offset-md-2">
 						<h2 data-aos="fade-up" class="bebas">UBICACIÓN</h2>
 
-						<p data-aos="fade-up" class="featured">VILANOVA I LA GELTRÚ, tierra de buen clima</p>
+						<p data-aos="fade-up" class="featured">VILANOVA Y LA GELTRÚ, tierra de buen clima</p>
 
 						<p data-aos="fade-up">
 							Vilanova i la Geltrú es una ciudad y municipio de la provincia de Barcelona (Cataluña), España, capital de la comarca del Garraf. Se sitúa a 45 km tanto de Barcelona como de Tarragona.
