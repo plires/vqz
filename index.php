@@ -285,7 +285,7 @@
 							<img class="img-fluid img_listado" src="./img/home/listado-plaza.jpg" alt="listado plaza">
 						</a>
 						<div class="content_data">
-							<h3 class="bebas">Plaça de les Casernes 1060</h3>
+							<h3 class="bebas">Plaça de les Casernes 12</h3>
 							<div class="content_icons">
 								<div class="content_caracteristicas">
 									<div class="caracteristica">
