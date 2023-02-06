@@ -182,6 +182,20 @@
 				<div class="col-md-12">
 					<a 
 						data-aos="fade-up"
+						href="./img/obras-individuales/casernas-12/render-large.jpg" 
+						data-lightbox="casernas"
+						data-title="Fachada Plaça de les Casernas"
+						data-alt="Fachada Plaça de les Casernas large">
+						<img class="img-fluid" src="./img/obras-individuales/casernas-12/render-large.jpg" alt="Fachada casernas 12">
+						<div class="content">
+							<h4 class="bebas">Fachada</h4>
+						</div>
+					</a>
+				</div>
+
+				<div class="col-md-12">
+					<a 
+						data-aos="fade-up"
 						href="./img/obras-individuales/casernas-12/emplazamiento-large.jpg" 
 						data-lightbox="casernas"
 						data-title="Emplazamiento Plaça de les Casernas"

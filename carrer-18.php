@@ -182,6 +182,20 @@
 				<div class="col-md-12">
 					<a 
 						data-aos="fade-up"
+						href="./img/obras-individuales/carrer-18/render-large.jpg" 
+						data-lightbox="carrer"
+						data-title="Fachada Carrer de les Premses"
+						data-alt="Fachada Carrer de les Premses large">
+						<img class="img-fluid" src="./img/obras-individuales/carrer-18/render-large.jpg" alt="Fachada Carrer de les Premses">
+						<div class="content">
+							<h4 class="bebas">Fachada</h4>
+						</div>
+					</a>
+				</div>
+
+				<div class="col-md-12">
+					<a 
+						data-aos="fade-up"
 						href="./img/obras-individuales/carrer-18/emplazamiento-large.jpg" 
 						data-lightbox="carrer"
 						data-title="Emplazamiento Carrer de les Premses"
