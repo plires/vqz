@@ -16,6 +16,30 @@
 	padding-bottom: 15px;
 }
 
+.page_contacto .data .bandera {
+	max-width: 30px;
+	height: 100%;
+}
+
+.page_contacto .data .content_data_whit_bandera {
+	display: flex;
+	align-items: center;
+}
+
+.page_contacto .data .content_data_whit_bandera p {
+	border-left: solid 1px rgb(210, 210, 210);
+	padding-left: 5px;
+}
+
+.page_contacto .data .content_data_whit_bandera .content_banderas {
+	height: 100%;
+	padding-right: 5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
 .page_contacto .data .content_data:last-child {
 	border-bottom: none;
 }
@@ -64,11 +88,6 @@
 	/* Data */
 	.page_contacto .data {
 		margin-bottom: 60px;
-	}
-
-	.page_contacto .data .content_data h2,
-	.page_contacto .data .content_data p {
-		padding-left: 30px;
 	}
 
 	.page_contacto .data .content_data h2 {

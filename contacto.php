@@ -41,9 +41,6 @@
 		  <div class="row">
 		  	<div class="col-md-6 offset-md-3">
 		  		<h1 data-aos="fade-right" class="bebas">CONTÁCTANOS</h1>
-		  		<p data-aos="fade-left">
-		  			El paso más importante de un proyecto Es el primero <span>ADELANTE.</span>
-		  		</p>
 		  	</div>
 		  </div>
 		</section>
@@ -54,15 +51,31 @@
 		  <div class="row">
 		  	<div data-aos="fade-up" class="col-md-12 content_data">
 		  		<h2 class="bebas">Ubicación</h2>
-		  		<p>Av. Donato Álvarez 224 Piso 9 "A" (C1406BON)</p>
+		  		<div class="content_data_whit_bandera">
+			  		<div class="content_banderas">
+		  				<img class="bandera" src="./img/home/icono-argentina-color.png" alt="bandera argentina">
+		  			</div>
+		  			<p>Av. Donato Álvarez 224 Piso 9 "A" (C1406BON). CABA - ARGENTINA</p>
+		  		</div>
 		  	</div>
 		  	<div data-aos="fade-up" class="col-md-12 content_data">
 		  		<h2 class="bebas">TelÉfono</h2>
-		  		<p>(+54 11) 4633 - 1200</p>
+		  		<div class="content_data_whit_bandera">
+			  		<div class="content_banderas">
+		  				<img class="bandera" src="./img/home/icono-argentina-color.png" alt="bandera argentina tel">
+		  			</div>
+		  			<p>(+54 11) 4633 - 1200</p>
+		  		</div>
 		  	</div>
 		  	<div data-aos="fade-up" class="col-md-12 content_data">
 		  		<h2 class="bebas">email</h2>
-		  		<p>info@vazquez.net</p>
+		  		<div class="content_data_whit_bandera">
+			  		<div class="content_banderas">
+		  				<img class="bandera" src="./img/home/icono-argentina-color.png" alt="bandera argentina tel">
+			  			<img class="bandera" src="./img/home/icono-espana-color.png" alt="bandera espana mail">
+		  			</div>
+		  			<p>info@vazquez.net</p>
+		  		</div>
 		  	</div>
 		  </div>
 		</section>
