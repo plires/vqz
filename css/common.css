@@ -41,6 +41,13 @@ ul {
   animation: animate_btn 2s infinite;
 }
 
+/* Mensajes de error y exito */
+#msg_contacto,
+#error {
+  z-index: 20!important;
+}
+/* Mensajes de error y exito */
+
 @keyframes animate_btn {
   0% {
     background-color: var(--primary-color);
