@@ -1,165 +1,153 @@
 /* Información */
 .obras .informacion {
-	padding-top: 30px;
-	text-align: center;
-	margin-bottom: 30px;
+  padding-top: 30px;
+  text-align: center;
+  margin-bottom: 30px;
 }
 
 .obras .informacion h1 {
-	font-size: 2rem;
-	color: #989797;
+  font-size: 2rem;
+  color: #989797;
 }
 
 .obras .informacion p {
-	font-size: 1.25rem;
-	margin-bottom: 0;
+  font-size: 1.25rem;
+  margin-bottom: 0;
 }
 
 .obras .informacion p br {
-	display: none;
+  display: none;
 }
 
 .obras .informacion p span {
-	background: black;
-	color: white;
-	padding-left: 5px;
-	padding-right: 5px;
+  background: black;
+  color: white;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 /* Información end */
 
 /* Listado */
 .obras .listado {
-	margin-top: 0;
+  margin-top: 0;
+}
+
+.obras .item_project a:hover .img_listado {
+  opacity: 0.6 !important;
 }
 
 .obras .item_project .img_listado:hover {
-	opacity: 1;
+  opacity: 1;
 }
 
 .obras .item_project .content_data {
-	flex-direction: row;
-	justify-content: space-between;
-	align-items: center;
-	padding-left: 10px;
-	padding-right: 10px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .obras .item_project .content_data {
-	text-align: center;
+  text-align: center;
 }
 
 .obras .item_project .content_data h3 {
-	margin-bottom: 0;
-	border: none;
-	font-size: 1.65rem;
-	text-align: left;
+  margin-bottom: 0;
+  border: none;
+  font-size: 1.65rem;
+  text-align: left;
 }
 
 .obras .item_project .content_data p {
-	margin-bottom: 0;
-	font-size: 0.85rem;
-	text-transform: uppercase;
+  margin-bottom: 0;
+  font-size: 0.85rem;
+  text-transform: uppercase;
 }
 /* Listado end */
 
-
 /* MEDIA QUERIES */
 @media (min-width: 576px) {
+  /* Listado */
+  .obras .item_project .content_data {
+    flex-direction: column;
+    align-items: flex-start;
+  }
 
-	/* Listado */
-	.obras .item_project .content_data {
-		flex-direction: column;
-		align-items: flex-start;
-	}
+  .obras .item_project:last-child {
+    margin-bottom: 30px;
+  }
 
-	.obras .item_project:last-child {
-		margin-bottom: 30px;
-	}
-
-	.obras .item_project .caracteristica {
-		align-self: center;
-	}
-	/* Listado end */
-
+  .obras .item_project .caracteristica {
+    align-self: center;
+  }
+  /* Listado end */
 }
 
 @media (min-width: 768px) {
+  /* Listado */
+  .obras .listado {
+    background: none;
+  }
 
-	/* Listado */
-	.obras .listado {
-		background: none;
-	}
+  .obras .item_project .content_data {
+    width: 50%;
+  }
 
-	.obras .item_project .content_data {
-		width: 50%;
-	}
+  .obras .item_project .content_data h3 {
+    font-size: 1.75rem;
+  }
 
-	.obras .item_project .content_data h3 {
-		font-size: 1.75rem;
-	}
+  .obras .item_project .content_data h3 br {
+    display: inline-block;
+  }
 
-	.obras .item_project .content_data h3 br {
-		display: inline-block;
-	}
-
-	.obras .item_project:last-child {
-		margin-bottom: 30px;
-	}
-	/* Listado end */
-
+  .obras .item_project:last-child {
+    margin-bottom: 30px;
+  }
+  /* Listado end */
 }
 
 @media (min-width: 992px) {
+  /* Información */
+  .obras .informacion {
+    padding-top: 50px;
+    margin-bottom: 50px;
+  }
 
-	/* Información */
-	.obras .informacion {
-		padding-top: 50px;
-		margin-bottom: 50px;
-	}
+  .obras .informacion h1 {
+    font-size: 3rem;
+  }
 
-	.obras .informacion h1 {
-		font-size: 3rem;
-	}
-
-	.obras .informacion p {
-		font-size: 1.4rem;
-	}
-	/* Información end */
-
+  .obras .informacion p {
+    font-size: 1.4rem;
+  }
+  /* Información end */
 }
 
 @media (min-width: 1200px) {
-
 }
 
 @media (min-width: 1400px) {
+  /* Información */
+  .obras .informacion {
+    padding-top: 80px;
+    margin-bottom: 80px;
+  }
 
-	/* Información */
-	.obras .informacion {
-		padding-top: 80px;
-		margin-bottom: 80px;
-	}
+  .obras .informacion h1 {
+    font-size: 3.5rem;
+  }
 
-	.obras .informacion h1 {
-		font-size: 3.5rem;
-	}
+  .obras .informacion p {
+    font-size: 1.5rem;
+  }
 
-	.obras .informacion p {
-		font-size: 1.5rem;
-	}
-
-/*	.obras .informacion p br {
+  /*	.obras .informacion p br {
 		display: inline-block;
 	}*/
-	/* Información end */
-
+  /* Información end */
 }
 
 @media (min-width: 1600px) {
-
 }
-
-
-
-
-
