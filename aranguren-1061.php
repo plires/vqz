@@ -452,7 +452,7 @@
 
 					<div data-aos="fade-up" class="etapa">
 						<div class="content_number">
-							<p id="mamposteria" data-value="0" class="percentage bebas">0</p><span class="bebas">%</span>
+							<p id="mamposteria" data-value="85" class="percentage bebas">0</p><span class="bebas">%</span>
 						</div>
 						<span class="circle">
 							<i class="fa-solid fa-bars-progress"></i>
@@ -462,7 +462,7 @@
 
 					<div data-aos="fade-up" class="etapa">
 						<div class="content_number">
-							<p id="instalaciones" data-value="10" class="percentage bebas">10</p><span class="bebas">%</span>
+							<p id="instalaciones" data-value="35" class="percentage bebas">10</p><span class="bebas">%</span>
 						</div>
 						<span class="circle">
 							<i class="fa-solid fa-bars-progress"></i>
