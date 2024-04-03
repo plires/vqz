@@ -25,7 +25,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description"
     content="Este ático dúplex está distribuido en 2 plantas, en la primera planta encontramos un amplio espacio de salón comedor con la cocina abierta donde poder disfrutar de tu vida cotidiana, amigos y familia con el mar de fondo.">
-  <title>VQZ - Constructora - San Honorat 24 - CABA</title>
+  <title>VQZ - Constructora - San Honorat 24 - España</title>
 
   <!-- Favicons -->
   <?php include('includes/favicon.php'); ?>
@@ -470,7 +470,7 @@
       <div data-aos="fade-up" class="content_map">
 
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2985.2624751836574!2d2.0283713!3d41.56356359999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a493201efb4ccb%3A0x98a3ce5347ef3b47!2sCarrer%20de%20Sant%20Honorat%2C%2024%2C%2008222%20Terrassa%2C%20Barcelona%2C%20Espa%C3%B1a!5e0!3m2!1ses-419!2sar!4v1663168671067!5m2!1ses-419!2sar"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1309.956719026713!2d1.813952268731554!3d41.238496276382605!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a38039ad3ec075%3A0x3da312406a9dc02f!2sCarrer%20de%20Sant%20Honorat%2C%2024%2C%2008870%20Sitges%2C%20Barcelona%2C%20Espa%C3%B1a!5e0!3m2!1ses-419!2sar!4v1712162111536!5m2!1ses-419!2sar"
           width="100%" height="600" style="border:0;" allowfullscreen="" loading="lazy"
           referrerpolicy="no-referrer-when-downgrade"></iframe>
 
