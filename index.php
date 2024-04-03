@@ -282,6 +282,37 @@
           </div>
           <!-- Carrer end -->
 
+          <!-- San Honorat 26 -->
+          <div data-aos="fade-up" class="col-sm-6 col-md-4 col-lg-3 item_project">
+            <a href="./san-honorat-26.php" class="content_img">
+              <img class="img-fluid img_listado" src="./img/home/listado-san-honorat-26.jpg" alt="listado san honorat 26">
+            </a>
+            <div class="content_data">
+              <h3 class="bebas">San Honorat 26</h3>
+              <div class="content_icons">
+                <div class="content_caracteristicas">
+                  <div class="caracteristica">
+                    <img class="img-fluid" src="./img/home/icono-espana-color.png" alt="icono espana san honorat 26">
+                    <p>españa</p>
+                  </div>
+                  <div class="caracteristica">
+                    <img class="img-fluid" src="./img/home/icono-lanzamiento.png" alt="icono lanzamiento plaza">
+                    <p>LANZAMIENTO ENERO 2024</p>
+                  </div>
+                  <div class="caracteristica">
+                    <img class="img-fluid" src="./img/home/icono-lanzamiento.png" alt="icono entrega plaza">
+                    <p>ENTREGA MAYO 2025</p>
+                  </div>
+                </div>
+                <a class="ver_mas transition" href="./san-honorat-26.php">
+                  <i class="fa-solid fa-circle-plus"></i>
+                  VER
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- San Honorat 26 end -->
+
         </div>
 
       </div>

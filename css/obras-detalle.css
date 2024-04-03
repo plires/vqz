@@ -115,6 +115,13 @@
 }
 /* Plaça de les Casernas 12 end*/
 
+/* San Honorat 26 */
+.san_honorat_26 .video {
+  background: url("../img/obras-individuales/san-honorat-26/header-sant-honorat-26.jpg");
+  background-position: 100% 0% !important;
+}
+/* San Honorat 26 end */
+
 /* Carrer de les Premses 18 */
 .carrer_18 .video {
   background: url("../img/obras-individuales/carrer-18/header-carrer.jpg");

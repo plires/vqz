@@ -42,6 +42,9 @@
           <li>
             <a class="transition bebas" href="./carrer-18.php">Carrer de les Premses 18</a>
           </li>
+          <li>
+            <a class="transition bebas" href="./san-honorat-26.php">San Honorat 26</a>
+          </li>
         </ul>
       </li>
 
