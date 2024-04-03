@@ -175,13 +175,13 @@
 				<div class="col-md-12">
 					<a 
 						data-aos="fade-up"
-						href="./img/obras-individuales/muniz-1060/frente-large.jpg" 
+						href="./img/obras-individuales/muniz-1060/muniz-new-03.jpg" 
 						data-lightbox="muniz"
-						data-title="Frente Muñiz 1060"
-						data-alt="Frente Muñiz 1060 large">
-						<img class="img-fluid" src="./img/obras-individuales/muniz-1060/frente.jpg" alt="Frente Muñiz 1060">
+						data-title="Estructuras Muñiz 1060"
+						data-alt="Estructuras Muñiz 2 1060 large">
+						<img class="img-fluid" src="./img/obras-individuales/muniz-1060/muniz-new-03.jpg" alt="Estructuras Muñiz 1060">
 						<div class="content">
-							<h4 class="bebas">Frente</h4>
+							<h4 class="bebas">Estructuras</h4>
 						</div>
 					</a>
 				</div>
@@ -191,13 +191,13 @@
 				<div class="col-md-6">
 					<a 
 						data-aos="fade-up"
-						href="./img/obras-individuales/muniz-1060/vista-cenital-large.jpg" 
+						href="./img/obras-individuales/muniz-1060/muniz-new-02.jpg" 
 						data-lightbox="muniz"
-						data-title="Vista Cenital Muñiz 1060"
-						data-alt="Vista Cenital Muñiz 1060 large">
-						<img class="img-fluid" src="./img/obras-individuales/muniz-1060/vista-cenital.jpg" alt="Vista Cenital Muñiz 1060">
+						data-title="Estructuras Muñiz 1060"
+						data-alt="Estructuras Muñiz 2 1060 large">
+						<img class="img-fluid" src="./img/obras-individuales/muniz-1060/muniz-new-02.jpg" alt="Estructuras Muñiz 1060 - 2">
 						<div class="content">
-							<h4 class="bebas">Vista Cenital</h4>
+							<h4 class="bebas">Estructuras</h4>
 						</div>
 					</a>
 				</div>
@@ -205,13 +205,13 @@
 				<div class="col-md-6">
 					<a 
 						data-aos="fade-up"
-						href="./img/obras-individuales/muniz-1060/terreno-large.jpg" 
+						href="./img/obras-individuales/muniz-1060/muniz-new-01.jpg" 
 						data-lightbox="muniz"
-						data-title="Terreno Muñiz 1060"
-						data-alt="Terreno Muñiz 1060 large">
-						<img class="img-fluid" src="./img/obras-individuales/muniz-1060/terreno.jpg" alt="Terreno Muñiz 1060">
+						data-title="Estructuras Muñiz 1060"
+						data-alt="Estructuras Muñiz 3 1060 large">
+						<img class="img-fluid" src="./img/obras-individuales/muniz-1060/muniz-new-01.jpg" alt="Estructuras Muñiz 1060 - 3">
 						<div class="content">
-							<h4 class="bebas">Terreno</h4>
+							<h4 class="bebas">Estructuras</h4>
 						</div>
 					</a>
 				</div>

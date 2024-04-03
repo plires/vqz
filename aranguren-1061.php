@@ -585,6 +585,53 @@
 					</div>
 			</div>
 
+			<div class="row content_imgs">
+				<div class="col-md-6">
+					<a 
+						data-aos="fade-up"
+						href="./img/obras-individuales/aranguren-1061/estructuras-1-large.jpg" 
+						data-lightbox="aranguren"
+						data-title="Estructuras Aranguren 1061"
+						data-alt="Estructuras Aranguren 1061 large">
+						<img class="img-fluid" src="./img/obras-individuales/aranguren-1061/estructuras-1.jpg" alt="Estructuras Aranguren 1061">
+						<div class="content">
+							<h4 class="bebas">Estructuras</h4>
+						</div>
+					</a>
+				</div>
+
+				<div class="col-md-6">
+					<a 
+						data-aos="fade-up"
+						href="./img/obras-individuales/aranguren-1061/estructuras-2-large.jpg" 
+						data-lightbox="aranguren"
+						data-title="Estructuras Aranguren 1061"
+						data-alt="Estructuras Aranguren 1061 large - 2">
+						<img class="img-fluid" src="./img/obras-individuales/aranguren-1061/estructuras-2.jpg" alt="Estructuras Aranguren 1061 - 2">
+						<div class="content">
+							<h4 class="bebas">Estructuras</h4>
+						</div>
+					</a>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-12">
+					<a 
+						data-aos="fade-up"
+						href="./img/obras-individuales/aranguren-1061/estructuras-3-large.jpg" 
+						data-lightbox="aranguren"
+						data-title="Estructuras Aranguren 1061"
+						data-alt="Estructuras Aranguren 1061 large - 3">
+						<img class="img-fluid" src="./img/obras-individuales/aranguren-1061/estructuras-3.jpg" alt="Estructuras Aranguren 1061 - 3">
+						<div class="content">
+							<h4 class="bebas">Estructuras</h4>
+						</div>
+					</a>
+				</div>
+			</div>
+			
+
 		</section>
 		<!-- Galería end -->
 

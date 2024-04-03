@@ -462,11 +462,11 @@
 				<div class="col-md-6">
 					<a 
 						data-aos="fade-up"
-						href="./img/obras-individuales/donato-221/fachada-large.jpg" 
+						href="./img/obras-individuales/donato-221/donato-new-01.jpg" 
 						data-lightbox="donato"
 						data-title="Fachada Donato Alvarez 221"
 						data-alt="fachada donato alvarez 221 large">
-						<img class="img-fluid" src="./img/obras-individuales/donato-221/fachada.jpg" alt="fachada donato alvarez 221">
+						<img class="img-fluid" src="./img/obras-individuales/donato-221/donato-new-01.jpg" alt="fachada donato alvarez 221">
 						<div class="content">
 							<h4 class="bebas">fachada</h4>
 						</div>
@@ -476,11 +476,27 @@
 				<div class="col-md-6">
 					<a 
 						data-aos="fade-up"
-						href="./img/obras-individuales/donato-221/contrafrente-large.jpg" 
+						href="./img/obras-individuales/donato-221/donato-new-02.jpg" 
 						data-lightbox="donato"
 						data-title="Contrafrente Donato Alvarez 221"
 						data-alt="contrafrente donato alvarez 221 large">
-						<img class="img-fluid" src="./img/obras-individuales/donato-221/contrafrente.jpg" alt="contrafrente donato alvarez 221">
+						<img class="img-fluid" src="./img/obras-individuales/donato-221/donato-new-02.jpg" alt="contrafrente donato alvarez 221">
+						<div class="content">
+							<h4 class="bebas">contrafrente</h4>
+						</div>
+					</a>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-12">
+					<a 
+						data-aos="fade-up"
+						href="./img/obras-individuales/donato-221/donato-new-03.jpg" 
+						data-lightbox="donato"
+						data-title="Contrafrente Donato Alvarez 221"
+						data-alt="contrafrente 2 donato alvarez 221 large">
+						<img class="img-fluid" src="./img/obras-individuales/donato-221/donato-new-03.jpg" alt="contrafrente donato alvarez 221">
 						<div class="content">
 							<h4 class="bebas">contrafrente</h4>
 						</div>

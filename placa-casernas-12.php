@@ -184,8 +184,8 @@
 						data-aos="fade-up"
 						href="./img/obras-individuales/casernas-12/render-large.jpg" 
 						data-lightbox="casernas"
-						data-title="Fachada Plaça de les Casernas"
-						data-alt="Fachada Plaça de les Casernas large">
+						data-title="Fachada Plaça de les Casernes"
+						data-alt="Fachada Plaça de les Casernes large">
 						<img class="img-fluid" src="./img/obras-individuales/casernas-12/render-large.jpg" alt="Fachada casernas 12">
 						<div class="content">
 							<h4 class="bebas">Fachada</h4>
@@ -198,7 +198,7 @@
 						data-aos="fade-up"
 						href="./img/obras-individuales/casernas-12/emplazamiento-large.jpg" 
 						data-lightbox="casernas"
-						data-title="Emplazamiento Plaça de les Casernas"
+						data-title="Emplazamiento Plaça de les Casernes"
 						data-alt="Emplazamiento Plaça de les Casernas large">
 						<img class="img-fluid" src="./img/obras-individuales/casernas-12/emplazamiento.jpg" alt="emplazamiento casernas 12">
 						<div class="content">
@@ -207,20 +207,36 @@
 					</a>
 				</div>
 
-				<div class="col-md-12">
+			</div>
+
+			<div class="row">
+				<div class="col-md-6">
 					<a 
 						data-aos="fade-up"
 						href="./img/obras-individuales/casernas-12/emplazamiento-2-large.jpg" 
 						data-lightbox="casernas"
-						data-title="Emplazamiento Plaça de les Casernas"
+						data-title="Emplazamiento Plaça de les Casernes"
 						data-alt="Emplazamiento Plaça de les Casernas large">
-						<img class="img-fluid" src="./img/obras-individuales/casernas-12/emplazamiento-2.jpg" alt="emplazamiento casernas 12">
+						<img class="img-fluid" src="./img/obras-individuales/casernas-12/emplazamiento-2.jpg" alt="Emplazamiento Plaça de les Casernas 12">
 						<div class="content">
 							<h4 class="bebas">Emplazamiento</h4>
 						</div>
 					</a>
 				</div>
 
+				<div class="col-md-6">
+					<a 
+						data-aos="fade-up"
+						href="./img/obras-individuales/casernas-12/emplazamiento-3-large.jpg" 
+						data-lightbox="casernas"
+						data-title="Emplazamiento Plaça de les Casernes"
+						data-alt="Emplazamiento Plaça de les Casernas large">
+						<img class="img-fluid" src="./img/obras-individuales/casernas-12/emplazamiento-3.jpg" alt="Emplazamiento Plaça de les Casernas 12 - 2">
+						<div class="content">
+							<h4 class="bebas">Emplazamiento</h4>
+						</div>
+					</a>
+				</div>
 			</div>
 			
 		</section>
