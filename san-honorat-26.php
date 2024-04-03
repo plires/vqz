@@ -8,7 +8,7 @@
   echo "
 	<script>
 		var section_detalle = true
-		var obra san_honorat_26'
+		var obra = 'san_honorat_26'
 	</script>
 	";
 

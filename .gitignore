@@ -78,4 +78,4 @@ $RECYCLE.BIN/
 *.lnk
 
 .env
-/dist
+dist/bundle.js
