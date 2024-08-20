@@ -38,249 +38,272 @@
 
 /* Video Info */
 .home .video_info {
-	position: relative;
-	top: -350px;
-	z-index: 2;
+  position: relative;
+  top: -350px;
+  z-index: 2;
 }
 
 .home .video_info .content {
-	position: relative;
-	max-width: 80%;
+  position: relative;
+  max-width: 80%;
 }
 
 .home .video_info .content .img {
-	background: white;
-	padding: 20px;
+  background: white;
+  padding: 20px;
 }
 
 .home .video_info .content .content_frase {
-	background: white;
-	padding: 20px;
-	top: -90px;
-	position: relative;
-	right: -73px;
+  background: white;
+  padding: 20px;
+  top: -90px;
+  position: relative;
+  right: -73px;
 }
 
 .home .video_info .content .content_frase h1 {
-	font-size: 3rem;
-	color: var(--primary-color);
+  font-size: 3rem;
+  color: var(--primary-color);
 }
 
 .home .video_info .content .content_frase h1 span {
-	display: inline-block;
-	background: black;
-	padding: 9px 9px 3px 9px;
-	color: white;
-	line-height: 1;
+  display: inline-block;
+  background: black;
+  padding: 9px 9px 3px 9px;
+  color: white;
+  line-height: 1;
 }
 /* Video Info end */
 
 /* Ubicaciones */
 .home .ubicaciones {
-	margin-bottom: 60px;
+  margin-bottom: 60px;
 }
 
 .home .ubicaciones .content_mapa {
-	margin-bottom: 15px;
+  margin-bottom: 15px;
 }
 
 .home .ubicaciones .content_frase {
-	display: flex;
-	justify-content: center;
-	align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .home .ubicaciones h2 {
-	font-size: 3rem;
-	color: var(--primary-color);
-	margin-bottom: 0;
-	text-align: center;
+  font-size: 3rem;
+  color: var(--primary-color);
+  margin-bottom: 0;
+  text-align: center;
 }
 
 .home .ubicaciones h2 span {
-	display: inline-block;
-	background: black;
-	padding: 9px 9px 3px 9px;
-	color: white;
-	line-height: 1;
+  display: inline-block;
+  background: black;
+  padding: 9px 9px 3px 9px;
+  color: white;
+  line-height: 1;
 }
 /* Ubicaciones end */
 
+/* New Video */
+.new_video {
+  margin-bottom: 60px;
+}
 
-
+.hytPlayerWrap {
+  display: inline-block;
+  position: relative;
+}
+.hytPlayerWrap.ended::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  cursor: pointer;
+  background-color: black;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 64px 64px;
+  background-image: url(data:image/svg+xml;utf8;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgNTEwIDUxMCI+PHBhdGggZD0iTTI1NSAxMDJWMEwxMjcuNSAxMjcuNSAyNTUgMjU1VjE1M2M4NC4xNSAwIDE1MyA2OC44NSAxNTMgMTUzcy02OC44NSAxNTMtMTUzIDE1My0xNTMtNjguODUtMTUzLTE1M0g1MWMwIDExMi4yIDkxLjggMjA0IDIwNCAyMDRzMjA0LTkxLjggMjA0LTIwNC05MS44LTIwNC0yMDQtMjA0eiIgZmlsbD0iI0ZGRiIvPjwvc3ZnPg==);
+}
+.hytPlayerWrap.paused::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  cursor: pointer;
+  background-color: black;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 40px 40px;
+  background-image: url(data:image/svg+xml;utf8;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEiIHdpZHRoPSIxNzA2LjY2NyIgaGVpZ2h0PSIxNzA2LjY2NyIgdmlld0JveD0iMCAwIDEyODAgMTI4MCI+PHBhdGggZD0iTTE1Ny42MzUgMi45ODRMMTI2MC45NzkgNjQwIDE1Ny42MzUgMTI3Ny4wMTZ6IiBmaWxsPSIjZmZmIi8+PC9zdmc+);
+}
+/* New Video end */
 
 /* MEDIA QUERIES */
 @media (min-width: 576px) {
+  /* Video */
+  .home .video {
+    height: 60vh;
+    min-height: 60vh;
+  }
 
-	/* Video */
-	.home .video {
-	  height: 60vh;
-	  min-height: 60vh;
-	}
+  .home .video video {
+  }
+  /* Video end */
 
-	.home .video video {
-	}
-	/* Video end */
+  /* Video Info */
+  .home .video_info .content .content_frase {
+    max-width: 300px;
+  }
 
-	/* Video Info */
-	.home .video_info .content .content_frase {
-		max-width: 300px;
-	}
+  .home .video_info .content .content_frase h1 {
+    font-size: 3.5rem;
+  }
 
-	.home .video_info .content .content_frase h1 {
-		font-size: 3.5rem;
-	}
+  .home .video_info {
+    top: -420px;
+    z-index: 0;
+  }
 
-	.home .video_info {
-		top: -420px;
-		z-index: 0;
-	}
+  .home .video_info .content .content_frase {
+    top: -323px;
+    right: -255px;
+    min-height: 320px;
+  }
+  /* Video Info end */
 
-	.home .video_info .content .content_frase {
-		top: -323px;
-		right: -255px;
-		min-height: 320px;
-	}
-	/* Video Info end */
+  /* Ubicaciones */
+  .home .ubicaciones .content_mapa {
+    margin-bottom: 60px;
+  }
 
-	/* Ubicaciones */
-	.home .ubicaciones .content_mapa {
-		margin-bottom: 60px;
-	}
-
-	.home .ubicaciones h2 {
-		font-size: 3.5rem;
-	}
-	/* Ubicaciones end */
-
+  .home .ubicaciones h2 {
+    font-size: 3.5rem;
+  }
+  /* Ubicaciones end */
 }
 
 @media (min-width: 768px) {
+  /* Video */
+  .home .video {
+    height: 75vh;
+    min-height: 75vh;
+  }
+  /* Video end */
 
-	/* Video */
-	.home .video {
-		height: 75vh;
-		min-height: 75vh;
-	}
-	/* Video end */
+  /* Video Info */
+  .home .video_info {
+    top: -500px;
+  }
 
-	/* Video Info */
-	.home .video_info {
-		top: -500px;
-	}
+  .home .video_info .content .img {
+    padding: 30px;
+  }
 
-	.home .video_info .content .img {
-		padding: 30px;
-	}
+  .home .video_info .content .content_frase {
+    right: -325px;
+    max-width: 355px;
+    padding: 30px;
+  }
 
-	.home .video_info .content .content_frase {
-		right: -325px;
-		max-width: 355px;
-		padding: 30px;
-	}
+  .home .video_info .content .content_frase h1 {
+    font-size: 4rem;
+  }
+  /* Video Info end */
 
+  /* Ubicaciones */
+  .home .ubicaciones h2 {
+    font-size: 4rem;
+  }
 
-	.home .video_info .content .content_frase h1 {
-		font-size: 4rem;
-	}
-	/* Video Info end */
-
-	/* Ubicaciones */
-	.home .ubicaciones h2 {
-		font-size: 4rem;
-	}
-
-	.home .ubicaciones .content_mapa {
-		margin-bottom: 0;
-		padding: 0;
-	}
-	/* Ubicaciones end */
-
+  .home .ubicaciones .content_mapa {
+    margin-bottom: 0;
+    padding: 0;
+  }
+  /* Ubicaciones end */
 }
 
 @media (min-width: 992px) {
+  /* Video */
+  .home .video {
+    height: 80vh;
+    min-height: 80vh;
+  }
+  /* Video end */
 
-	/* Video */
-	.home .video {
-		height: 80vh;
-		min-height: 80vh;
-	}
-	/* Video end */
+  /* Video Info */
+  .home .video_info .content {
+    max-width: 65%;
+  }
 
-	/* Video Info */
-	.home .video_info .content {
-		max-width: 65%;
-	}
+  .home .video_info {
+    top: -555px;
+  }
 
-	.home .video_info {
-		top: -555px;
-	}
+  .home .video_info .content .content_frase {
+    top: -480px;
+    right: -480px;
+    max-width: 405px;
+    height: 500px;
+  }
 
-	.home .video_info .content .content_frase {
-		top: -480px;
-		right: -480px;
-		max-width: 405px;
-		height: 500px;
-	}
+  .home .video_info .content .content_frase h1 {
+    font-size: 4.5rem;
+  }
+  /* Video Info end */
 
-	.home .video_info .content .content_frase h1 {
-		font-size: 4.5rem;
-	}
-	/* Video Info end */
-
-	/* Ubicaciones */
-	.home .ubicaciones h2 {
-		font-size: 4.5rem;
-	}
-	/* Ubicaciones end */
-
+  /* Ubicaciones */
+  .home .ubicaciones h2 {
+    font-size: 4.5rem;
+  }
+  /* Ubicaciones end */
 }
 
 @media (min-width: 1200px) {
+  /* Video Info */
+  .home .video_info .content {
+    max-width: 55%;
+    margin-left: 9%;
+  }
 
-	/* Video Info */
-	.home .video_info .content {
-		max-width: 55%;
-		margin-left: 9%;
-	}
+  .home .video_info .content .content_frase {
+    top: -550px;
+    right: -435px;
+    max-width: 465px;
+    height: 540px;
+  }
 
-	.home .video_info .content .content_frase {
-		top: -550px;
-		right: -435px;
-		max-width: 465px;
-		height: 540px;
-	}
+  .home .video_info .content .content_frase h1 {
+    font-size: 5.5rem;
+  }
+  /* Video Info end */
 
-	.home .video_info .content .content_frase h1 {
-		font-size: 5.5rem;
-	}
-	/* Video Info end */
-
-	/* Ubicaciones */
-	.home .ubicaciones h2 {
-		font-size: 5rem;
-	}
-	/* Ubicaciones end */
-
+  /* Ubicaciones */
+  .home .ubicaciones h2 {
+    font-size: 5rem;
+  }
+  /* Ubicaciones end */
 }
 
 @media (min-width: 1400px) {
+  /* Video Info */
+  .home .video_info .content {
+    max-width: 50%;
+    margin-left: 15%;
+  }
 
-	/* Video Info */
-	.home .video_info .content {
-		max-width: 50%;
-		margin-left: 15%;
-	}
-
-	.home .video_info .content .content_frase {
-		top: -590px;
-		height: 580px;
-	}
-	/* Video Info end */
-
+  .home .video_info .content .content_frase {
+    top: -590px;
+    height: 580px;
+  }
+  /* Video Info end */
 }
 
 @media (min-width: 1600px) {
-
 }
-

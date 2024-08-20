@@ -1,8 +1,8 @@
 <?php
-	
-	require ('includes/config.inc.php');
-	require ('includes/get-variable-handling.php');
-  $current = 'home';
+
+require('includes/config.inc.php');
+require('includes/get-variable-handling.php');
+$current = 'home';
 
 ?>
 
@@ -319,6 +319,22 @@
 
     </section>
     <!-- Proyectos end -->
+
+    <!-- Nuevo Video -->
+    <section class="container new_video wow zoomIn">
+      <div class="row">
+        <div class="col-md-12">
+
+          <div class="hytPlayerWrapOuter">
+            <div class="hytPlayerWrap ratio ratio-16x9">
+              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/NG-YtmEhrYM?rel=0&enablejsapi=1" frameborder="0"></iframe>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <!-- Nuevo Video end -->
 
     <!-- Ubicaciones -->
     <section class="container-fluid ubicaciones">
