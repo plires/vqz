@@ -141,12 +141,12 @@ $current = 'home';
                     <p>argentina</p>
                   </div>
                   <div class="caracteristica">
-                    <img class="img-fluid" src="./img/home/icono-entrega.png" alt="icono entrega donato">
-                    <p>ENTREGA JUNIO 2023</p>
+                    <img class="img-fluid" src="./img/home/icono-entrega.png" alt="icono entrega nicasio">
+                    <p>ENTREGA INMEDIATA</p>
                   </div>
                   <div class="caracteristica">
-                    <img class="img-fluid" src="./img/home/icono-ultimas-unidades.png" alt="icono ultimas donato">
-                    <p>UNIDADES EN VENTA</p>
+                    <img class="img-fluid" src="./img/home/icono-ultimas-unidades.png" alt="icono ultimas nicasio">
+                    <p>ÚLTIMAS UNIDADES</p>
                   </div>
                 </div>
                 <a class="ver_mas transition" href="./donato-221.php">
