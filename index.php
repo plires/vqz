@@ -96,37 +96,6 @@ $current = 'home';
 
         <div class="row">
 
-          <!-- Nicasio -->
-          <div data-aos="fade-up" class="col-sm-6 col-md-4 col-lg-3 item_project">
-            <a href="./nicasio-480.php" class="content_img">
-              <img class="img-fluid img_listado" src="./img/home/listado-nicasio.jpg" alt="listado nicasio">
-            </a>
-            <div class="content_data">
-              <h3 class="bebas">Nicasio <br>Oroño 480</h3>
-              <div class="content_icons">
-                <div class="content_caracteristicas">
-                  <div class="caracteristica">
-                    <img class="img-fluid" src="./img/home/icono-argentina-color.png" alt="icono argentina nicasio">
-                    <p>argentina</p>
-                  </div>
-                  <div class="caracteristica">
-                    <img class="img-fluid" src="./img/home/icono-entrega.png" alt="icono entrega nicasio">
-                    <p>ENTREGA INMEDIATA</p>
-                  </div>
-                  <div class="caracteristica">
-                    <img class="img-fluid" src="./img/home/icono-ultimas-unidades.png" alt="icono ultimas nicasio">
-                    <p>ÚLTIMAS UNIDADES</p>
-                  </div>
-                </div>
-                <a class="ver_mas transition" href="./nicasio-480.php">
-                  <i class="fa-solid fa-circle-plus"></i>
-                  VER
-                </a>
-              </div>
-            </div>
-          </div>
-          <!-- Nicasio end -->
-
           <!-- Donato -->
           <div data-aos="fade-up" class="col-sm-6 col-md-4 col-lg-3 item_project">
             <a href="./donato-221.php" class="content_img">
@@ -356,11 +325,11 @@ $current = 'home';
                 </a>
               </div>
 
-              <div class="carousel-item">
+              <!-- <div class="carousel-item">
                 <a href="./nicasio-480.php">
                   <img src="./img/home/mapa-nicasio.jpg" class="d-block w-100" alt="mapa nicasio">
                 </a>
-              </div>
+              </div> -->
 
               <div class="carousel-item">
                 <a href="./muniz-1060.php">

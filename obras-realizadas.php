@@ -59,6 +59,21 @@ $current = 'obras';
         <div class="col-md-10 offset-md-1">
           <div class="row">
 
+            <!-- Nicasion Oroño 480 -->
+            <div data-aos="fade-up" class="col-sm-6 col-lg-4 item_project">
+              <a href="./nicasio-480.php">
+                <img class="transition img-fluid img_listado" src="./img/obras/nicasio.jpg" alt="listado nicasio">
+                <div class="content_data">
+                  <h3 class="bebas">NICASIO OROÑO<br>480</h3>
+                  <div class="caracteristica">
+                    <img class="img-fluid" src="./img/home/icono-argentina.png" alt="icono argentina nicasio">
+                    <p>argentina</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <!-- Nicasion Oroño 480 end -->
+
             <!-- Sant Honorat 24 -->
             <div data-aos="fade-up" class="col-sm-6 col-lg-4 item_project">
               <a href="./san-honorat-24.php">
