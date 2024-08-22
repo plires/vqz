@@ -1046,10 +1046,6 @@
     align-items: center;
   }
 
-  .aranguren_1061 .galeria .content_imgs .col-md-6:first-child img {
-    min-height: 468px;
-  }
-
   .aranguren_1061
     .galeria
     .content_imgs
@@ -1250,10 +1246,6 @@
   .aranguren_1061 .galeria .content_imgs .col-md-6 {
     min-height: 680px;
   }
-
-  .aranguren_1061 .galeria .content_imgs .col-md-6:first-child img {
-    min-height: 628px;
-  }
   /* Aranguren 1061 end */
   /* Galeria end */
 
@@ -1421,9 +1413,6 @@
   .aranguren_1061 .galeria .content_imgs .col-md-6 {
     min-height: 800px;
   }
-  .aranguren_1061 .galeria .content_imgs .col-md-6:first-child img {
-    min-height: 748px;
-  }
   /* Aranguren 1061 end */
   /* Galeria end */
 
@@ -1476,9 +1465,6 @@
   /* Aranguren 1061 */
   .aranguren_1061 .galeria .content_imgs .col-md-6 {
     min-height: 920px;
-  }
-  .aranguren_1061 .galeria .content_imgs .col-md-6:first-child img {
-    min-height: 868px;
   }
   /* Aranguren 1061 end */
   /* Galeria end */

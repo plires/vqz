@@ -173,7 +173,7 @@ $current = 'home';
                   </div>
                   <div class="caracteristica">
                     <img class="img-fluid" src="./img/home/icono-entrega.png" alt="icono entrega aranguren">
-                    <p>ENTREGA DICIEMBRE 2024</p>
+                    <p>ENTREGA MARZO 2025</p>
                   </div>
                   <div class="caracteristica">
                     <img class="img-fluid" src="./img/home/icono-obra.png" alt="icono obra aranguren">
