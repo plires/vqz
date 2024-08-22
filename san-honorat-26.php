@@ -1,11 +1,11 @@
 <?php
-	
-	require ('includes/config.inc.php');
-	require ('includes/get-variable-handling.php');
-  $current = 'obra_curso';
-  $obra = 'san_honorat_26';
 
-  echo "
+require('includes/config.inc.php');
+require('includes/get-variable-handling.php');
+$current = 'obra_curso';
+$obra = 'san_honorat_26';
+
+echo "
 	<script>
 		var section_detalle = true
 		var obra = 'san_honorat_26'
@@ -86,7 +86,7 @@
 
       <div class="row">
         <div class="col-md-8 offset-md-2 col-lg-6 offset-lg-3">
-          <h2 class="bebas ultimas_unidades">¡ENTREGA MAYO 2025!</h2>
+          <h2 class="bebas ultimas_unidades">¡ENTREGA JUNIO 2026!</h2>
         </div>
       </div>
 

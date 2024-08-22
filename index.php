@@ -301,7 +301,7 @@ $current = 'home';
                   </div>
                   <div class="caracteristica">
                     <img class="img-fluid" src="./img/home/icono-lanzamiento.png" alt="icono entrega plaza">
-                    <p>ENTREGA MAYO 2025</p>
+                    <p>ENTREGA JUNIO 2026</p>
                   </div>
                 </div>
                 <a class="ver_mas transition" href="./san-honorat-26.php">
