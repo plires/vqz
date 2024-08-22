@@ -1,11 +1,11 @@
 <?php
-	
-	require ('includes/config.inc.php');
-	require ('includes/get-variable-handling.php');
-  $current = 'obra_curso';
-  $obra = 'placa_casernas_12';
 
-  echo "
+require('includes/config.inc.php');
+require('includes/get-variable-handling.php');
+$current = 'obra_curso';
+$obra = 'placa_casernas_12';
+
+echo "
 	<script>
 		var section_detalle = true
 		var obra = 'placa_casernas_12'
@@ -16,10 +16,11 @@
 
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
 	<!-- Tag Manager Head -->
 	<?php include_once("./includes/tag_manager_head.php"); ?>
-	
+
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="Un edificio con unidades de calidad, construido con los mejores materiales y accesorios de primera línea.">
@@ -31,10 +32,11 @@
 	<link rel="stylesheet" type="text/css" href="./node_modules/normalize.css/normalize.css">
 	<link rel="stylesheet" type="text/css" href="./fontawesome/css/all.min.css">
 	<link rel="stylesheet" type="text/css" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="./node_modules/aos/dist/aos.css"/>
-	<link rel="stylesheet" type="text/css" href="./node_modules/lightbox2/dist/css/lightbox.min.css"/>
+	<link rel="stylesheet" type="text/css" href="./node_modules/aos/dist/aos.css" />
+	<link rel="stylesheet" type="text/css" href="./node_modules/lightbox2/dist/css/lightbox.min.css" />
 	<link rel="stylesheet" type="text/css" href="./css/app.css">
 </head>
+
 <body>
 	<!-- Tag Manager Body -->
 	<?php include_once("./includes/tag_manager_body.php"); ?>
@@ -54,38 +56,38 @@
 		<!-- Video -->
 		<section class="first_section video_content">
 			<div class="video"></div>
-		  <div data-aos="fade-left" class="direccion">
-		  	<h1>
-		  		<span class="calle bebas">Plaça de les Casernes</span>
-		  		<span class="numero bebas">12</span>
-		  	</h1>
-		  </div>
+			<div data-aos="fade-left" class="direccion">
+				<h1>
+					<span class="calle bebas">Plaça de les Casernes</span>
+					<span class="numero bebas">12</span>
+				</h1>
+			</div>
 		</section>
 		<!-- Video end -->
 
 		<!-- Caracteristicas -->
 		<section class="container caracteristicas">
-		  
-		  <div class="row">
-		  	<div class="col-md-6">
-		  		<h2 data-aos="fade-up" class="bebas">ALGO<br><span>NUEVO ESTÁ<br>LLEGANDO</span></h2>
-		  	</div>
-		  	<div class="col-md-6">
-		  		<p data-aos="fade-up">
-		  			Estamos poniendo en marcha un nuevo proyecto que transformará el barrio. Muy pronto vas a conocer todos los detalles.
-		  		</p>
-		  		<p data-aos="fade-up">
-						Un edificio con unidades de calidad, construido con los mejores materiales y accesorios de primera línea.
-		  		</p>
-		  	</div>
-		  </div>
 
-		  <div class="row">
-		  	<div class="col-md-8 offset-md-2 col-lg-6 offset-lg-3">
-		  		<h2 class="bebas ultimas_unidades">Comienzo de Obra DICIEMbre 2022</h2>
-		  	</div>
-		  </div>
-		  
+			<div class="row">
+				<div class="col-md-6">
+					<h2 data-aos="fade-up" class="bebas">ALGO<br><span>NUEVO ESTÁ<br>LLEGANDO</span></h2>
+				</div>
+				<div class="col-md-6">
+					<p data-aos="fade-up">
+						Estamos poniendo en marcha un nuevo proyecto que transformará el barrio. Muy pronto vas a conocer todos los detalles.
+					</p>
+					<p data-aos="fade-up">
+						Un edificio con unidades de calidad, construido con los mejores materiales y accesorios de primera línea.
+					</p>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-8 offset-md-2 col-lg-6 offset-lg-3">
+					<h2 class="bebas ultimas_unidades">entrega DICIEMbre 2025</h2>
+				</div>
+			</div>
+
 		</section>
 		<!-- Caracteristicas end -->
 
@@ -121,7 +123,7 @@
 
 					<div data-aos="fade-up" class="etapa">
 						<div class="content_number">
-							<p id="excavacion" data-value="50" class="percentage bebas">50</p><span class="bebas">%</span>
+							<p id="excavacion" data-value="100" class="percentage bebas">100</p><span class="bebas">%</span>
 						</div>
 						<span class="circle">
 							<i class="fa-solid fa-bars-progress"></i>
@@ -131,7 +133,7 @@
 
 					<div data-aos="fade-up" class="etapa">
 						<div class="content_number">
-							<p id="extructuras" data-value="0" class="percentage bebas">0</p><span class="bebas">%</span>
+							<p id="extructuras" data-value="60" class="percentage bebas">60</p><span class="bebas">%</span>
 						</div>
 						<span class="circle">
 							<i class="fa-solid fa-bars-progress"></i>
@@ -180,9 +182,9 @@
 			<div class="row">
 
 				<div class="col-md-12">
-					<a 
+					<a
 						data-aos="fade-up"
-						href="./img/obras-individuales/casernas-12/render-large.jpg" 
+						href="./img/obras-individuales/casernas-12/render-large.jpg"
 						data-lightbox="casernas"
 						data-title="Fachada Plaça de les Casernes"
 						data-alt="Fachada Plaça de les Casernes large">
@@ -193,52 +195,56 @@
 					</a>
 				</div>
 
-				<div class="col-md-12">
-					<a 
-						data-aos="fade-up"
-						href="./img/obras-individuales/casernas-12/emplazamiento-large.jpg" 
-						data-lightbox="casernas"
-						data-title="Emplazamiento Plaça de les Casernes"
-						data-alt="Emplazamiento Plaça de les Casernas large">
-						<img class="img-fluid" src="./img/obras-individuales/casernas-12/emplazamiento.jpg" alt="emplazamiento casernas 12">
-						<div class="content">
-							<h4 class="bebas">Emplazamiento</h4>
-						</div>
-					</a>
-				</div>
-
 			</div>
 
 			<div class="row">
 				<div class="col-md-6">
-					<a 
+					<a
 						data-aos="fade-up"
-						href="./img/obras-individuales/casernas-12/emplazamiento-2-large.jpg" 
+						href="./img/obras-individuales/casernas-12/estructuras-1.jpg"
 						data-lightbox="casernas"
-						data-title="Emplazamiento Plaça de les Casernes"
-						data-alt="Emplazamiento Plaça de les Casernas large">
-						<img class="img-fluid" src="./img/obras-individuales/casernas-12/emplazamiento-2.jpg" alt="Emplazamiento Plaça de les Casernas 12">
+						data-title="Estructuras Plaça de les Casernes"
+						data-alt="estructuras Plaça de les Casernas large">
+						<img class="img-fluid" src="./img/obras-individuales/casernas-12/estructuras-1.jpg" alt="Estructuras Plaça de les Casernas 12">
 						<div class="content">
-							<h4 class="bebas">Emplazamiento</h4>
+							<h4 class="bebas">Estructuras</h4>
 						</div>
 					</a>
 				</div>
 
 				<div class="col-md-6">
-					<a 
+					<a
 						data-aos="fade-up"
-						href="./img/obras-individuales/casernas-12/emplazamiento-3-large.jpg" 
+						href="./img/obras-individuales/casernas-12/estructuras-2.jpg"
 						data-lightbox="casernas"
-						data-title="Emplazamiento Plaça de les Casernes"
-						data-alt="Emplazamiento Plaça de les Casernas large">
-						<img class="img-fluid" src="./img/obras-individuales/casernas-12/emplazamiento-3.jpg" alt="Emplazamiento Plaça de les Casernas 12 - 2">
+						data-title="Estructuras Plaça de les Casernes"
+						data-alt="estructuras Plaça de les Casernas large">
+						<img class="img-fluid" src="./img/obras-individuales/casernas-12/estructuras-2.jpg" alt="Estructuras Plaça de les Casernas 12">
 						<div class="content">
-							<h4 class="bebas">Emplazamiento</h4>
+							<h4 class="bebas">Estructuras</h4>
 						</div>
 					</a>
 				</div>
 			</div>
-			
+
+			<div class="row">
+
+				<div class="col-md-12">
+					<a
+						data-aos="fade-up"
+						href="./img/obras-individuales/casernas-12/living.jpg"
+						data-lightbox="casernas"
+						data-title="Living Plaça de les Casernes"
+						data-alt="Living Plaça de les Casernes large">
+						<img class="img-fluid" src="./img/obras-individuales/casernas-12/living.jpg" alt="Living casernas 12">
+						<div class="content">
+							<h4 class="bebas">Living</h4>
+						</div>
+					</a>
+				</div>
+
+			</div>
+
 		</section>
 		<!-- Galería end -->
 
