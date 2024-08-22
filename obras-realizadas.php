@@ -1,8 +1,8 @@
 <?php
-	
-	require ('includes/config.inc.php');
-	require ('includes/get-variable-handling.php');
-  $current = 'obras';
+
+require('includes/config.inc.php');
+require('includes/get-variable-handling.php');
+$current = 'obras';
 
 ?>
 
@@ -66,8 +66,8 @@
                 <div class="content_data">
                   <h3 class="bebas">SANT HONORAT <br>24</h3>
                   <div class="caracteristica">
-                    <img class="img-fluid" src="./img/home/icono-argentina.png" alt="icono argentina honorat">
-                    <p>argentina</p>
+                    <img class="img-fluid" src="./img/home/icono-espana.png" alt="icono españa honorat">
+                    <p>españa</p>
                   </div>
                 </div>
               </a>

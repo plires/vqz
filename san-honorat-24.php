@@ -1,11 +1,11 @@
 <?php
-	
-	require ('includes/config.inc.php');
-	require ('includes/get-variable-handling.php');
-  $current = 'obra_curso';
-  $obra = 'san_honorat_24';
 
-  echo "
+require('includes/config.inc.php');
+require('includes/get-variable-handling.php');
+$current = 'obra_curso';
+$obra = 'san_honorat_24';
+
+echo "
 	<script>
 		var section_detalle = true
 		var obra = 'san_honorat_24'
@@ -119,7 +119,7 @@
 
       <div class="row">
         <div class="col-md-8 offset-md-2 col-lg-6 offset-lg-3">
-          <h2 data-aos="fade-up" class="bebas ultimas_unidades">¡2 ULTIMAS UNIDADES! - entrega inmediata</h2>
+          <h2 data-aos="fade-up" class="bebas ultimas_unidades">obra finalizada</h2>
         </div>
       </div>
 

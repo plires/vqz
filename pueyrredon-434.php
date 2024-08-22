@@ -1,11 +1,11 @@
 <?php
-	
-	require ('includes/config.inc.php');
-	require ('includes/get-variable-handling.php');
-  $current = 'obra_curso';
-  $obra = 'pueyrredon_434';
 
-  echo "
+require('includes/config.inc.php');
+require('includes/get-variable-handling.php');
+$current = 'obra_curso';
+$obra = 'pueyrredon_434';
+
+echo "
 	<script>
 		var section_detalle = true
 		var obra = 'pueyrredon_434'
@@ -123,7 +123,7 @@
 
       <div class="row">
         <div class="col-md-8 offset-md-2 col-lg-6 offset-lg-3">
-          <h2 class="bebas ultimas_unidades">Entrega inmediata - Ultima unidad</h2>
+          <h2 class="bebas ultimas_unidades">obra finalizada</h2>
         </div>
       </div>
 
