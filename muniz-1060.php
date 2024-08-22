@@ -1,11 +1,11 @@
 <?php
-	
-	require ('includes/config.inc.php');
-	require ('includes/get-variable-handling.php');
-  $current = 'obra_curso';
-  $obra = 'muniz_1060';
 
-  echo "
+require('includes/config.inc.php');
+require('includes/get-variable-handling.php');
+$current = 'obra_curso';
+$obra = 'muniz_1060';
+
+echo "
 	<script>
 		var section_detalle = true
 		var obra = 'muniz_1060'
@@ -16,10 +16,11 @@
 
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
 	<!-- Tag Manager Head -->
 	<?php include_once("./includes/tag_manager_head.php"); ?>
-	
+
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="Un edificio de calidad con unidades de 2 y 3 ambientes construido con los mejores materiales y accesorios de primera línea.">
@@ -31,10 +32,11 @@
 	<link rel="stylesheet" type="text/css" href="./node_modules/normalize.css/normalize.css">
 	<link rel="stylesheet" type="text/css" href="./fontawesome/css/all.min.css">
 	<link rel="stylesheet" type="text/css" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="./node_modules/aos/dist/aos.css"/>
-	<link rel="stylesheet" type="text/css" href="./node_modules/lightbox2/dist/css/lightbox.min.css"/>
+	<link rel="stylesheet" type="text/css" href="./node_modules/aos/dist/aos.css" />
+	<link rel="stylesheet" type="text/css" href="./node_modules/lightbox2/dist/css/lightbox.min.css" />
 	<link rel="stylesheet" type="text/css" href="./css/app.css">
 </head>
+
 <body>
 	<!-- Tag Manager Body -->
 	<?php include_once("./includes/tag_manager_body.php"); ?>
@@ -54,42 +56,42 @@
 		<!-- Video -->
 		<section class="first_section video_content">
 			<div class="video">
-			  <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
-			    <source src="videos/muniz.mp4" type="video/mp4">
-			  </video>
+				<video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+					<source src="videos/muniz.mp4" type="video/mp4">
+				</video>
 			</div>
-		  <div data-aos="fade-left" class="direccion">
-		  	<h1>
-		  		<span class="calle bebas">Muñiz</span>
-		  		<span class="numero bebas">1060</span>
-		  	</h1>
-		  </div>
+			<div data-aos="fade-left" class="direccion">
+				<h1>
+					<span class="calle bebas">Muñiz</span>
+					<span class="numero bebas">1060</span>
+				</h1>
+			</div>
 		</section>
 		<!-- Video end -->
 
 		<!-- Caracteristicas -->
 		<section class="container caracteristicas">
-		  
-		  <div class="row">
-		  	<div class="col-md-6">
-		  		<h2 data-aos="fade-up" class="bebas">ALGO<br><span>NUEVO ESTÁ<br>LLEGANDO</span></h2>
-		  	</div>
-		  	<div class="col-md-6">
-		  		<p data-aos="fade-up">
-		  			Estamos poniendo en marcha un nuevo proyecto que transformará el barrio. Muy pronto vas a conocer todos los detalles.
-		  		</p>
-		  		<p data-aos="fade-up">
-						Un edificio de calidad con unidades de 2 y 3 ambientes construido con los mejores materiales y accesorios de primera línea.
-		  		</p>
-		  	</div>
-		  </div>
 
-		  <div class="row">
-		  	<div class="col-md-8 offset-md-2 col-lg-6 offset-lg-3">
-		  		<h2 class="bebas ultimas_unidades">Lanzamiento octubre 2022 - entrega diciembre 2024</h2>
-		  	</div>
-		  </div>
-		  
+			<div class="row">
+				<div class="col-md-6">
+					<h2 data-aos="fade-up" class="bebas">ALGO<br><span>NUEVO ESTÁ<br>LLEGANDO</span></h2>
+				</div>
+				<div class="col-md-6">
+					<p data-aos="fade-up">
+						Estamos poniendo en marcha un nuevo proyecto que transformará el barrio. Muy pronto vas a conocer todos los detalles.
+					</p>
+					<p data-aos="fade-up">
+						Un edificio de calidad con unidades de 2 y 3 ambientes construido con los mejores materiales y accesorios de primera línea.
+					</p>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-8 offset-md-2 col-lg-6 offset-lg-3">
+					<h2 class="bebas ultimas_unidades">entrega abril 2026</h2>
+				</div>
+			</div>
+
 		</section>
 		<!-- Caracteristicas end -->
 
@@ -125,7 +127,7 @@
 
 					<div data-aos="fade-up" class="etapa">
 						<div class="content_number">
-							<p id="extructuras" data-value="100" class="percentage bebas">1000</p><span class="bebas">%</span>
+							<p id="extructuras" data-value="100" class="percentage bebas">100</p><span class="bebas">%</span>
 						</div>
 						<span class="circle">
 							<i class="fa-solid fa-bars-progress"></i>
@@ -135,7 +137,7 @@
 
 					<div data-aos="fade-up" class="etapa">
 						<div class="content_number">
-							<p id="mamposteria" data-value="0" class="percentage bebas">0</p><span class="bebas">%</span>
+							<p id="mamposteria" data-value="10" class="percentage bebas">10</p><span class="bebas">%</span>
 						</div>
 						<span class="circle">
 							<i class="fa-solid fa-bars-progress"></i>
@@ -173,15 +175,15 @@
 
 			<div class="row">
 				<div class="col-md-12">
-					<a 
+					<a
 						data-aos="fade-up"
-						href="./img/obras-individuales/muniz-1060/muniz-new-03.jpg" 
+						href="./img/obras-individuales/muniz-1060/hall.jpg"
 						data-lightbox="muniz"
-						data-title="Estructuras Muñiz 1060"
-						data-alt="Estructuras Muñiz 2 1060 large">
-						<img class="img-fluid" src="./img/obras-individuales/muniz-1060/muniz-new-03.jpg" alt="Estructuras Muñiz 1060">
+						data-title="Hall Muñiz 1060"
+						data-alt="Hall Muñiz 2 1060 large">
+						<img class="img-fluid" src="./img/obras-individuales/muniz-1060/hall.jpg" alt="hall Muñiz 1060">
 						<div class="content">
-							<h4 class="bebas">Estructuras</h4>
+							<h4 class="bebas">Hall</h4>
 						</div>
 					</a>
 				</div>
@@ -189,29 +191,45 @@
 
 			<div class="row">
 				<div class="col-md-6">
-					<a 
+					<a
 						data-aos="fade-up"
-						href="./img/obras-individuales/muniz-1060/muniz-new-02.jpg" 
+						href="./img/obras-individuales/muniz-1060/fachada-1.jpg"
 						data-lightbox="muniz"
-						data-title="Estructuras Muñiz 1060"
-						data-alt="Estructuras Muñiz 2 1060 large">
-						<img class="img-fluid" src="./img/obras-individuales/muniz-1060/muniz-new-02.jpg" alt="Estructuras Muñiz 1060 - 2">
+						data-title="Fachada Muñiz 1060"
+						data-alt="Fachada Muñiz 2 1060 large">
+						<img class="img-fluid" src="./img/obras-individuales/muniz-1060/fachada-1.jpg" alt="Fachada Muñiz 1060 - 2">
 						<div class="content">
-							<h4 class="bebas">Estructuras</h4>
+							<h4 class="bebas">Fachada</h4>
 						</div>
 					</a>
 				</div>
 
 				<div class="col-md-6">
-					<a 
+					<a
 						data-aos="fade-up"
-						href="./img/obras-individuales/muniz-1060/muniz-new-01.jpg" 
+						href="./img/obras-individuales/muniz-1060/fachada-2.jpg"
 						data-lightbox="muniz"
-						data-title="Estructuras Muñiz 1060"
-						data-alt="Estructuras Muñiz 3 1060 large">
-						<img class="img-fluid" src="./img/obras-individuales/muniz-1060/muniz-new-01.jpg" alt="Estructuras Muñiz 1060 - 3">
+						data-title="Fachada Muñiz 1060"
+						data-alt="Fachada Muñiz 3 1060 large">
+						<img class="img-fluid" src="./img/obras-individuales/muniz-1060/fachada-2.jpg" alt="Fachada Muñiz 1060 - 3">
 						<div class="content">
-							<h4 class="bebas">Estructuras</h4>
+							<h4 class="bebas">Fachada</h4>
+						</div>
+					</a>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-12">
+					<a
+						data-aos="fade-up"
+						href="./img/obras-individuales/muniz-1060/living.jpg"
+						data-lightbox="muniz"
+						data-title="Living Muñiz 1060"
+						data-alt="Living Muñiz 2 1060 large">
+						<img class="img-fluid" src="./img/obras-individuales/muniz-1060/living.jpg" alt="Living Muñiz 1060">
+						<div class="content">
+							<h4 class="bebas">Living</h4>
 						</div>
 					</a>
 				</div>
@@ -229,7 +247,7 @@
 						<h2 data-aos="fade-up" class="bebas">UBICACIÓN</h2>
 
 						<p data-aos="fade-up" class="featured">
-							 CABALLITO, Corazón de la ciudad.
+							CABALLITO, Corazón de la ciudad.
 						</p>
 
 						<p data-aos="fade-up">

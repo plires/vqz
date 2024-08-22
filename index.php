@@ -203,12 +203,12 @@ $current = 'home';
                     <p>argentina</p>
                   </div>
                   <div class="caracteristica">
-                    <img class="img-fluid" src="./img/home/icono-lanzamiento.png" alt="icono lanzamiento muniz">
-                    <p>LANZAMIENTO OCTUBRE 2022</p>
+                    <img class="img-fluid" src="./img/home/icono-entrega.png" alt="icono entrega aranguren">
+                    <p>ENTREGA ABRIL 2026</p>
                   </div>
                   <div class="caracteristica">
-                    <img class="img-fluid" src="./img/home/icono-lanzamiento.png" alt="icono entrega muniz">
-                    <p>ENTREGA DICIEMBRE 2024</p>
+                    <img class="img-fluid" src="./img/home/icono-obra.png" alt="icono obra aranguren">
+                    <p>EN OBRA</p>
                   </div>
                 </div>
                 <a class="ver_mas transition" href="./muniz-1060.php">

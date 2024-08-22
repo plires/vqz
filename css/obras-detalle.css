@@ -1086,7 +1086,8 @@
   /* Nicasio 480 end */
 
   /* Muñiz 1060 */
-  .muniz_1060 .galeria .row:first-child {
+  .muniz_1060 .galeria .row:nth-child(1),
+  .muniz_1060 .galeria .row:nth-child(2) {
     margin-bottom: 30px;
   }
   /* Muñiz 1060 end */
