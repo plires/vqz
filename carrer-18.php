@@ -1,11 +1,11 @@
 <?php
-	
-	require ('includes/config.inc.php');
-	require ('includes/get-variable-handling.php');
-  $current = 'obra_curso';
-  $obra = 'carrer_18';
 
-  echo "
+require('includes/config.inc.php');
+require('includes/get-variable-handling.php');
+$current = 'obra_curso';
+$obra = 'carrer_18';
+
+echo "
 	<script>
 		var section_detalle = true
 		var obra = 'carrer_18'
@@ -16,10 +16,11 @@
 
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
 	<!-- Tag Manager Head -->
 	<?php include_once("./includes/tag_manager_head.php"); ?>
-	
+
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="Estamos poniendo en marcha un nuevo proyecto que transformará la zona. Muy pronto vas a conocer todos los detalles.">
@@ -31,10 +32,11 @@
 	<link rel="stylesheet" type="text/css" href="./node_modules/normalize.css/normalize.css">
 	<link rel="stylesheet" type="text/css" href="./fontawesome/css/all.min.css">
 	<link rel="stylesheet" type="text/css" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="./node_modules/aos/dist/aos.css"/>
-	<link rel="stylesheet" type="text/css" href="./node_modules/lightbox2/dist/css/lightbox.min.css"/>
+	<link rel="stylesheet" type="text/css" href="./node_modules/aos/dist/aos.css" />
+	<link rel="stylesheet" type="text/css" href="./node_modules/lightbox2/dist/css/lightbox.min.css" />
 	<link rel="stylesheet" type="text/css" href="./css/app.css">
 </head>
+
 <body>
 	<!-- Tag Manager Body -->
 	<?php include_once("./includes/tag_manager_body.php"); ?>
@@ -54,38 +56,38 @@
 		<!-- Video -->
 		<section class="first_section video_content">
 			<div class="video"></div>
-		  <div data-aos="fade-left" class="direccion">
-		  	<h1>
-		  		<span class="calle bebas">Carrer de les Premses</span>
-		  		<span class="numero bebas">18</span>
-		  	</h1>
-		  </div>
+			<div data-aos="fade-left" class="direccion">
+				<h1>
+					<span class="calle bebas">Carrer de les Premses</span>
+					<span class="numero bebas">18</span>
+				</h1>
+			</div>
 		</section>
 		<!-- Video end -->
 
 		<!-- Caracteristicas -->
 		<section class="container caracteristicas">
-		  
-		  <div class="row">
-		  	<div class="col-md-6">
-		  		<h2 data-aos="fade-up" class="bebas">ALGO<br><span>NUEVO ESTÁ<br>LLEGANDO</span></h2>
-		  	</div>
-		  	<div class="col-md-6">
-		  		<p data-aos="fade-up">
-		  			Estamos poniendo en marcha un nuevo proyecto que transformará el barrio. Muy pronto vas a conocer todos los detalles.
-		  		</p>
-		  		<p data-aos="fade-up">
-						Un edificio con unidades de calidad, construido con los mejores materiales y accesorios de primera línea.
-		  		</p>
-		  	</div>
-		  </div>
 
-		  <div class="row">
-		  	<div class="col-md-8 offset-md-2 col-lg-6 offset-lg-3">
-		  		<h2 class="bebas ultimas_unidades">Comienzo de Obra DICIEMbre 2022</h2>
-		  	</div>
-		  </div>
-		  
+			<div class="row">
+				<div class="col-md-6">
+					<h2 data-aos="fade-up" class="bebas">ALGO<br><span>NUEVO ESTÁ<br>LLEGANDO</span></h2>
+				</div>
+				<div class="col-md-6">
+					<p data-aos="fade-up">
+						Estamos poniendo en marcha un nuevo proyecto que transformará el barrio. Muy pronto vas a conocer todos los detalles.
+					</p>
+					<p data-aos="fade-up">
+						Un edificio con unidades de calidad, construido con los mejores materiales y accesorios de primera línea.
+					</p>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-8 offset-md-2 col-lg-6 offset-lg-3">
+					<h2 class="bebas ultimas_unidades">ENTREGA DICIEMBRE 2025</h2>
+				</div>
+			</div>
+
 		</section>
 		<!-- Caracteristicas end -->
 
@@ -111,7 +113,7 @@
 
 					<div data-aos="fade-up" class="etapa">
 						<div class="content_number">
-							<p id="demolicion" data-value="0" class="percentage bebas">0</p><span class="bebas">%</span>
+							<p id="demolicion" data-value="100" class="percentage bebas">100</p><span class="bebas">%</span>
 						</div>
 						<span class="circle first">
 							<i class="fa-solid fa-bars-progress"></i>
@@ -121,7 +123,7 @@
 
 					<div data-aos="fade-up" class="etapa">
 						<div class="content_number">
-							<p id="excavacion" data-value="0" class="percentage bebas">0</p><span class="bebas">%</span>
+							<p id="excavacion" data-value="100" class="percentage bebas">100</p><span class="bebas">%</span>
 						</div>
 						<span class="circle">
 							<i class="fa-solid fa-bars-progress"></i>
@@ -131,7 +133,7 @@
 
 					<div data-aos="fade-up" class="etapa">
 						<div class="content_number">
-							<p id="extructuras" data-value="0" class="percentage bebas">0</p><span class="bebas">%</span>
+							<p id="extructuras" data-value="60" class="percentage bebas">60</p><span class="bebas">%</span>
 						</div>
 						<span class="circle">
 							<i class="fa-solid fa-bars-progress"></i>
@@ -180,9 +182,9 @@
 			<div class="row">
 
 				<div class="col-md-12">
-					<a 
+					<a
 						data-aos="fade-up"
-						href="./img/obras-individuales/carrer-18/render-large.jpg" 
+						href="./img/obras-individuales/carrer-18/render-large.jpg"
 						data-lightbox="carrer"
 						data-title="Fachada Carrer de les Premses"
 						data-alt="Fachada Carrer de les Premses large">
@@ -194,35 +196,63 @@
 				</div>
 
 				<div class="col-md-12">
-					<a 
+					<a
 						data-aos="fade-up"
-						href="./img/obras-individuales/carrer-18/emplazamiento-large.jpg" 
+						href="./img/obras-individuales/carrer-18/fachada.jpg"
 						data-lightbox="carrer"
-						data-title="Emplazamiento Carrer de les Premses"
-						data-alt="Emplazamiento Carrer de les Premses large">
-						<img class="img-fluid" src="./img/obras-individuales/carrer-18/emplazamiento.jpg" alt="emplazamiento carrer 18">
+						data-title="Fachada Carrer de les Premses"
+						data-alt="Fachada Carrer de les Premses large">
+						<img class="img-fluid" src="./img/obras-individuales/carrer-18/fachada.jpg" alt="Fachada carrer 18">
 						<div class="content">
-							<h4 class="bebas">Emplazamiento</h4>
+							<h4 class="bebas">Fachada</h4>
 						</div>
 					</a>
 				</div>
 
 				<div class="col-md-12">
-					<a 
+					<a
 						data-aos="fade-up"
-						href="./img/obras-individuales/carrer-18/emplazamiento-2-large.jpg" 
+						href="./img/obras-individuales/carrer-18/interior-1.jpg"
 						data-lightbox="carrer"
-						data-title="Emplazamiento Carrer de les Premses"
-						data-alt="Emplazamiento Carrer de les Premses large">
-						<img class="img-fluid" src="./img/obras-individuales/carrer-18/emplazamiento-2.jpg" alt="emplazamiento carrer 18">
+						data-title="Interior Carrer de les Premses"
+						data-alt="Interior Carrer de les Premses - 1">
+						<img class="img-fluid" src="./img/obras-individuales/carrer-18/interior-1.jpg" alt="Interior carrer 18 - 1">
 						<div class="content">
-							<h4 class="bebas">Emplazamiento</h4>
+							<h4 class="bebas">Interior</h4>
+						</div>
+					</a>
+				</div>
+
+				<div class="col-md-6">
+					<a
+						data-aos="fade-up"
+						href="./img/obras-individuales/carrer-18/interior-2.jpg"
+						data-lightbox="carrer"
+						data-title="Interior Carrer de les Premses"
+						data-alt="Interior Carrer de les Premses - 2">
+						<img class="img-fluid" src="./img/obras-individuales/carrer-18/interior-2.jpg" alt="Interior carrer 18 - 2">
+						<div class="content">
+							<h4 class="bebas">Interior</h4>
+						</div>
+					</a>
+				</div>
+
+				<div class="col-md-6">
+					<a
+						data-aos="fade-up"
+						href="./img/obras-individuales/carrer-18/interior-3.jpg"
+						data-lightbox="carrer"
+						data-title="Interior Carrer de les Premses"
+						data-alt="Interior Carrer de les Premses - 3">
+						<img class="img-fluid" src="./img/obras-individuales/carrer-18/interior-3.jpg" alt="Interior carrer 18 - 3">
+						<div class="content">
+							<h4 class="bebas">Interior</h4>
 						</div>
 					</a>
 				</div>
 
 			</div>
-			
+
 		</section>
 		<!-- Galería end -->
 

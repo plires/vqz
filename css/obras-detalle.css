@@ -1101,6 +1101,14 @@
     margin-top: 0;
   }
   /* Plaça de les Casernas 12 end*/
+
+  /* Carrer de les Premses 18 */
+  .carrer_18 .galeria .col-md-12,
+  .carrer_18 .galeria .col-md-6 {
+    margin-top: 30px;
+  }
+  /* Carrer de les Premses 18 */
+
   /* Galeria end */
 }
 

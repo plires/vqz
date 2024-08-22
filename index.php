@@ -270,7 +270,7 @@ $current = 'home';
                   </div>
                   <div class="caracteristica">
                     <img class="img-fluid" src="./img/home/icono-lanzamiento.png" alt="icono entrega carrer">
-                    <p>ENTREGA DICIEMBRE 2024</p>
+                    <p>ENTREGA DICIEMBRE 2025</p>
                   </div>
                 </div>
                 <a class="ver_mas transition" href="./carrer-18.php">
