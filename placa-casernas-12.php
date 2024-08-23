@@ -91,15 +91,132 @@ echo "
 		</section>
 		<!-- Caracteristicas end -->
 
-		<!-- Planos -->
-		<section class="container planos_proximamente">
+		<!-- Planos Mobile -->
+		<section data-aos="fade-up" class="container planos_mobile">
 			<div class="row">
-				<div class="col-md-12">
-					<h2 data-aos="fade-up" class="bebas">planos disponibles PROXIMAMENTE</h2>
+				<div class="col-sm-12">
+
+					<h2 class="bebas">Planos Plaça de les Casernes <br>Pisos 1, 2 y 3</h2>
+
+					<div id="carouselPlanosMobile" class="carousel slide carousel-fade" data-bs-ride="carousel">
+						<div class="carousel-inner">
+
+							<div class="carousel-item active">
+								<h4 class="bebas">Primera</h4>
+								<img
+									src="./img/obras-individuales/casernas-12/slide-mobile/segundo-primera.png"
+									class="d-block w-100"
+									alt="segunda primera">
+							</div>
+
+							<div class="carousel-item">
+								<h4 class="bebas">Segunda</h4>
+								<img
+									src="./img/obras-individuales/casernas-12/slide-mobile/segundo-segunda.png"
+									class="d-block w-100"
+									alt="segunda segunda">
+							</div>
+
+						</div>
+						<button class="carousel-control-prev" type="button" data-bs-target="#carouselPlanosMobile" data-bs-slide="prev">
+							<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+							<span class="visually-hidden">Previous</span>
+						</button>
+						<button class="carousel-control-next" type="button" data-bs-target="#carouselPlanosMobile" data-bs-slide="next">
+							<span class="carousel-control-next-icon" aria-hidden="true"></span>
+							<span class="visually-hidden">Next</span>
+						</button>
+					</div>
+
 				</div>
 			</div>
 		</section>
-		<!-- Planos end -->
+		<!-- Planos Mobile end -->
+
+		<!-- Planos Desktop -->
+		<section class="container-fluid planos_desktop">
+			<div class="container">
+
+				<div class="row">
+					<h2 id="title_floor" class="bebas">Planos Plaça de les Casernes <br>Pisos 1, 2 y 3</h2>
+					<h3 data-aos="fade-up" class="bebas" id="title_ambiente">Primera</h3>
+				</div>
+
+				<div class="row">
+
+					<div class="col-sm-6 content_plano">
+						<div data-aos="fade-up" class="content_map">
+							<img class="img-fluid" src="./img/obras-individuales/casernas-12/planos-casernes.png" alt="plano casernas 12">
+
+							<svg
+								id="map1"
+								version="1.1"
+								xmlns="http://www.w3.org/2000/svg"
+								xmlns:xlink="http://www.w3.org/1999/xlink"
+								x="0px"
+								y="0px"
+								viewBox="0 0 116 150"
+								style="enable-background:new 0 0 116 150;"
+								xml:space="preserve">
+								<path
+									data-plano="1"
+									data-plano-title="Planos Plaça de les Casernes <br>Pisos 1, 2 y 3"
+									data-plano-floor="Primera"
+									class="map transition active"
+									d="M441.7,44.8h-40.8v-3.6c0,0,0,0,0,0c0-3.8,0-7.5,0-11.2c0-3.7,0-7.4,0-11.1c0-3.8,0-7.5,0-11.3
+										c0-1.4,0-2.7,0-4.1v-1h-91.9v42.3h-38.7H261h-91.6V2.5H77.1v42.3H55.2c0,42.3,0,84.7,0,127c0,0.4,0,0.8,0,1.3c0,0.3,0,0.7,0.2,0.9
+										c0.6,0.5,0.4,1.1,0.5,1.8c0,13.2,0,26.3,0,39.5c0,0.4,0.1,0.9-0.1,1.1c-0.9,1.1-0.5,2.3-0.6,3.5c-0.1,1.5,0,2.9,0,4.6
+										c-0.9,0-1.5,0-2.2,0c-15.9,0-31.8,0-47.7,0c-0.7,0-1.3,0.1-2,0.1c0,31.4,0,62.6,0,94c14.1-2.5,28-5,42-7.5c13.9-2.5,27.8-5,41.8-7.5
+										c14-2.5,28-5,41.9-7.5c13.9-2.5,27.9-5,41.8-7.5c14-2.5,27.9-5,42-7.5c6,33.9,12.1,67.6,18.1,101.5c82.1-14.2,164-28.4,245.8-42.6
+										C476.8,338.1,446,78.7,441.7,44.8z" />
+							</svg>
+
+							<svg
+								id="map2"
+								version="1.1"
+								xmlns="http://www.w3.org/2000/svg"
+								xmlns:xlink="http://www.w3.org/1999/xlink"
+								x="0px"
+								y="0px"
+								viewBox="0 0 116 150"
+								style="enable-background:new 0 0 116 150;"
+								xml:space="preserve">
+								<path
+									data-plano="2"
+									data-plano-title="Planos Plaça de les Casernes <br>Pisos 1, 2 y 3"
+									data-plano-floor="segunda"
+									class="map transition"
+									d="M444.6,231.4c-7.8,0-15.5,0-23.3,0c-1.6,0-2.2-0.6-2.2-2.1c0-11.7,0-23.5,0-35.2c0-0.4-0.1-0.9,0.1-1.1
+										c0.7-0.6,0.5-1.4,0.5-2.2c0-26.3,0-52.5,0-78.8c0-19.7,0-39.4-0.1-59.1c0-0.6,0-1.1-0.1-1.8c-3.8,0-7.3,0-10.9,0
+										c-3.6,0-7.3,0-10.9,0c-3.6,0-7.2,0-10.8,0c-3.3,0-6.6,0.1-9.9-0.1h-1.9V8.9h-94.6v42.3h-2.7c-12.9,0-25.8,0-38.7,0
+										c-2.2,0-4.4,0-6.6,0c-27.1,0-54.1,0-81.2,0h-2V8.9H54.5v42.3h-1.8c0,0,0,0,0,0.1c-0.7,0-1.3,0-1.9,0c-6.3,0-12.5,0-18.8,0
+										c-6.8,0-13.6,0-20.3,0c-4.2,0-7.4,2.7-8.2,6.8c-0.4,1.8,0,3.5,0.6,5.2c3.4,9.1,6.8,18.3,10.2,27.4c3.9,10.4,7.7,20.9,11.6,31.3
+										c0.2,0.6,0.4,1.2,0.9,1.6c0.6,0.4,0.8,0.9,1,1.5c0.9,2.3,1.7,4.6,2.6,6.9c4.1,11,8.2,22.1,12.3,33.1c0.2,0.5,0.6,1.2,0.4,1.5
+										c-0.5,0.9-0.1,1.5,0.2,2.2c10.4,28,17.3,47.4,27.7,75.4c0,0,0,0,0,0.1l0.5,1.3l-11.4,4.2l48.6,130.9l11.7-4.4l0.5,1.4c0,0,0,0,0,0
+										c3.1,8.5,1.9,5.3,4.9,13.6c106.9-18.4,213.8-36.8,320.6-55.2c0-34.9,0-69.6,0-104.4C445.8,231.4,445.2,231.4,444.6,231.4z" />
+							</svg>
+
+						</div>
+					</div>
+
+					<div data-aos="fade-up" class="col-sm-6 content_render">
+
+						<img
+							data-render="1"
+							class="img-fluid render active"
+							src="./img/obras-individuales/casernas-12/planos-segunda-primera.png"
+							alt="plano casernas 12 - A">
+
+						<img
+							data-render="2"
+							class="img-fluid render"
+							src="./img/obras-individuales/casernas-12/planos-segunda-segunda.png"
+							alt="plano casernas 12 - B">
+
+					</div>
+				</div>
+		</section>
+		<!-- Planos Desktop end -->
 
 		<!-- Avance de Obra -->
 		<section class="container avance">
@@ -189,6 +306,24 @@ echo "
 						data-title="Fachada Plaça de les Casernes"
 						data-alt="Fachada Plaça de les Casernes large">
 						<img class="img-fluid" src="./img/obras-individuales/casernas-12/render-large.jpg" alt="Fachada casernas 12">
+						<div class="content">
+							<h4 class="bebas">Fachada</h4>
+						</div>
+					</a>
+				</div>
+
+			</div>
+
+			<div class="row">
+
+				<div class="col-md-12">
+					<a
+						data-aos="fade-up"
+						href="./img/obras-individuales/casernas-12/fachada-2.jpg"
+						data-lightbox="casernas"
+						data-title="Fachada Plaça de les Casernes"
+						data-alt="Fachada Plaça de les Casernes large">
+						<img class="img-fluid" src="./img/obras-individuales/casernas-12/fachada-2.jpg" alt="Fachada casernas 12 - 2">
 						<div class="content">
 							<h4 class="bebas">Fachada</h4>
 						</div>
