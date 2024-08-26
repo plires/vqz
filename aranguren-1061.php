@@ -530,7 +530,23 @@ echo "
 						data-alt="Vista 3 Aranguren 1061 large">
 						<img class="img-fluid" src="./img/obras-individuales/aranguren-1061/vista-3.jpg" alt="Vista 3 Aranguren 1061">
 						<div class="content">
-							<h4 class="bebas">Vista 3</h4>
+							<h4 class="bebas">Interiores</h4>
+						</div>
+					</a>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-12">
+					<a
+						href="./img/obras-individuales/aranguren-1061/vista-4.jpg"
+						class="last"
+						data-lightbox="aranguren"
+						data-title="Vista 4 Aranguren 1061"
+						data-alt="Vista 4 Aranguren 1061 large">
+						<img class="img-fluid" src="./img/obras-individuales/aranguren-1061/vista-4.jpg" alt="Vista 4 Aranguren 1061">
+						<div class="content">
+							<h4 class="bebas">Interiores</h4>
 						</div>
 					</a>
 				</div>

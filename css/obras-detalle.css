@@ -1196,20 +1196,10 @@
     align-items: center;
   }
 
-  .aranguren_1061
-    .galeria
-    .content_imgs
-    .col-md-6:last-child
-    .col-md-12:first-child {
-    padding-bottom: 20px;
-  }
-
-  .aranguren_1061
-    .galeria
-    .content_imgs
-    .col-md-6:last-child
-    .col-md-12:first-child {
-    padding-bottom: 20px;
+  .aranguren_1061 .galeria .row:nth-child(2),
+  .aranguren_1061 .galeria .row:nth-child(3),
+  .aranguren_1061 .galeria .row:nth-child(4) {
+    margin-bottom: 30px;
   }
   /* Aranguren 1061 end*/
 
