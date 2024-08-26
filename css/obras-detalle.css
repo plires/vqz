@@ -685,6 +685,104 @@
   }
   /* Casernes 12 end */
 
+  /* Muñiz 1060 */
+  .muniz_1060 #map1 {
+    position: absolute !important;
+    bottom: inherit !important;
+    right: inherit !important;
+    width: 43% !important;
+    height: 28.7% !important;
+    z-index: 1 !important;
+    left: 4.7%;
+    top: 11.6%;
+    overflow: visible !important;
+  }
+
+  .muniz_1060 #map2 {
+    position: absolute;
+    top: 11.6% !important;
+    left: 50.1% !important;
+    width: 43.1% !important;
+    height: 29% !important;
+    overflow: visible !important;
+  }
+
+  .muniz_1060 #map3 {
+    position: absolute;
+    top: 44.71% !important;
+    left: 0.7% !important;
+    width: 42.5% !important;
+    height: 28.9% !important;
+    overflow: visible !important;
+  }
+
+  .muniz_1060 #map4 {
+    position: absolute;
+    top: 44.9% !important;
+    left: 22.9% !important;
+    width: 43% !important;
+    height: 29.9% !important;
+    overflow: visible !important;
+  }
+
+  .muniz_1060 #map5 {
+    position: absolute;
+    top: 38.1% !important;
+    left: 51.1% !important;
+    width: 42.9% !important;
+    height: 28.9% !important;
+    overflow: visible !important;
+  }
+
+  .muniz_1060 #map6 {
+    position: absolute;
+    top: 38.1% !important;
+    left: 73.2% !important;
+    width: 42.9% !important;
+    height: 28.9% !important;
+    overflow: visible !important;
+  }
+
+  .muniz_1060 #map7 {
+    position: absolute;
+    top: 83.8% !important;
+    left: 25.5% !important;
+    width: 42.9% !important;
+    height: 28.9% !important;
+    overflow: visible !important;
+    z-index: 2;
+  }
+
+  .muniz_1060 #map8 {
+    position: absolute;
+    top: 72.3% !important;
+    left: 26.1% !important;
+    width: 42.9% !important;
+    height: 28.9% !important;
+    overflow: visible !important;
+  }
+
+  .muniz_1060 #map9 {
+    position: absolute;
+    top: 72.3% !important;
+    left: 53.1% !important;
+    width: 42.9% !important;
+    height: 28.9% !important;
+    overflow: visible !important;
+  }
+
+  .muniz_1060 #map10 {
+    position: absolute;
+    top: 81.3% !important;
+    left: 50.7% !important;
+    width: 42.9% !important;
+    height: 28.9% !important;
+    overflow: visible !important;
+    z-index: 3;
+  }
+
+  /* Muñiz 1060 end */
+
   /* Aranguren 1061 */
   .aranguren_1061 #map1 {
     position: absolute;
