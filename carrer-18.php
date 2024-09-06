@@ -24,7 +24,7 @@ echo "
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="Estamos poniendo en marcha un nuevo proyecto que transformará la zona. Muy pronto vas a conocer todos los detalles.">
-	<title>VQZ - Constructora - Carrer de les Premses 18</title>
+	<title>VQZ - Constructora - Carrer Premses 18</title>
 
 	<!-- Favicons -->
 	<?php include('includes/favicon.php'); ?>
@@ -58,7 +58,7 @@ echo "
 			<div class="video"></div>
 			<div data-aos="fade-left" class="direccion">
 				<h1>
-					<span class="calle bebas">Carrer de les Premses</span>
+					<span class="calle bebas">Carrer Premses</span>
 					<span class="numero bebas">18</span>
 				</h1>
 			</div>
@@ -84,7 +84,7 @@ echo "
 
 			<div class="row">
 				<div class="col-md-8 offset-md-2 col-lg-6 offset-lg-3">
-					<h2 class="bebas ultimas_unidades">ENTREGA DICIEMBRE 2025</h2>
+					<h2 class="bebas ultimas_unidades">ENTREGA JULIO 2025</h2>
 				</div>
 			</div>
 
@@ -96,13 +96,13 @@ echo "
 			<div class="row">
 				<div class="col-sm-12">
 
-					<h2 class="bebas">Planos Carrer de les Premses</h2>
+					<h2 class="bebas">Planos Carrer Premses</h2>
 
 					<div id="carouselPlanosMobile" class="carousel slide carousel-fade" data-bs-ride="carousel">
 						<div class="carousel-inner">
 
 							<div class="carousel-item active">
-								<h4 class="bebas">Planta Primera</h4>
+								<h4 class="bebas">Primer Piso</h4>
 								<img
 									src="./img/obras-individuales/carrer-18/slide-mobile/planta-primera.png"
 									class="d-block w-100"
@@ -110,7 +110,7 @@ echo "
 							</div>
 
 							<div class="carousel-item">
-								<h4 class="bebas">Planta Segunda</h4>
+								<h4 class="bebas">Segundo y Tercer Piso</h4>
 								<img
 									src="./img/obras-individuales/carrer-18/slide-mobile/planta-segunda.png"
 									class="d-block w-100"
@@ -138,8 +138,8 @@ echo "
 			<div class="container">
 
 				<div class="row">
-					<h2 id="title_floor" class="bebas">Planos Carrer de les Premses</h2>
-					<h3 data-aos="fade-up" class="bebas" id="title_ambiente">Planta Segunda</h3>
+					<h2 id="title_floor" class="bebas">Planos Carrer Premses</h2>
+					<h3 data-aos="fade-up" class="bebas" id="title_ambiente">Segundo y Tercer Piso</h3>
 				</div>
 
 				<div class="row">
@@ -160,9 +160,9 @@ echo "
 								xml:space="preserve">
 								<path
 									data-plano="1"
-									data-plano-title="Planta Primera"
-									data-plano-floor="Planos Carrer de les Premses"
-									class="map transition"
+									data-plano-title="Primer Piso"
+									data-plano-floor="Planos Carrer Premses"
+									class="map transition active"
 									d="M13.4,156c0-0.1,0-0.4-0.1-0.4c-0.3-0.1-0.6-0.1-1.1-0.2c0.3-0.4,0.6-0.7,0.9-0.9c-0.3-0.4-0.6-0.7-1-1.1
 										c0.3-0.2,0.7-0.6,0.3-1.1c-0.3-0.4-0.7-0.6-1.3-1c0.6,0.1,1,0.1,1.7,0.2c-0.4-0.4-0.6-0.6-0.8-0.8c0.1,0,0.2-0.1,0.2-0.1
 										c0.5,0.2,1,0.2,1.5,0c0.4-0.1,0.8,0,1.3,0c0.2-0.7-0.2-1.6,0.5-2.3c0.3,0.2,0.7,0.4,1.1,0.7c0.2-0.5,0.2-1.2,1-1.2
@@ -215,9 +215,9 @@ echo "
 								xml:space="preserve">
 								<path
 									data-plano="2"
-									data-plano-title="Planta Segunda"
-									data-plano-floor="Planos Carrer de les Premses"
-									class="map transition active"
+									data-plano-title="Segundo y Tercer Piso"
+									data-plano-floor="Planos Carrer Premses"
+									class="map transition"
 									d="M9,146.1c0.6-0.7,1.4-0.7,2.3-0.6c0.1-0.7,0.3-1.4,0.5-2.2c0.4,0.2,0.8,0.4,1.3,0.7c-0.1-0.8,0.4-1,1-1.2
 										c0.1,0.2,0.3,0.4,0.4,0.6c0.6,0.2,1.3-0.5,1.4-1.5c0.1,0.3,0.2,0.5,0.4,0.9c0.2-0.4,0.2-0.7,0.4-0.9c0.2-0.2,0.5-0.2,0.8-0.3
 										c-0.2-1.3-0.5-2.5-0.7-3.8c-1.3,0.2-2.5,0.4-3.8,0.6c-0.4-1.9-0.7-3.6-1.1-5.3c-0.3,1.3,0.2,2.5,0.3,3.8c-0.1,0-0.3,0.1-0.6,0.1
@@ -265,13 +265,13 @@ echo "
 
 						<img
 							data-render="1"
-							class="img-fluid render"
+							class="img-fluid render active"
 							src="./img/obras-individuales/carrer-18/planos-primer-planta.png"
 							alt="plano carrer presmes 18 - A">
 
 						<img
 							data-render="2"
-							class="img-fluid render active"
+							class="img-fluid render"
 							src="./img/obras-individuales/carrer-18/planos-segunda-planta.png"
 							alt="plano carrer presmes 18 - B">
 
@@ -367,9 +367,9 @@ echo "
 						data-aos="fade-up"
 						href="./img/obras-individuales/carrer-18/render-large.jpg"
 						data-lightbox="carrer"
-						data-title="Fachada Carrer de les Premses"
-						data-alt="Fachada Carrer de les Premses large">
-						<img class="img-fluid" src="./img/obras-individuales/carrer-18/render-large.jpg" alt="Fachada Carrer de les Premses">
+						data-title="Fachada Carrer Premses"
+						data-alt="Fachada Carrer Premses large">
+						<img class="img-fluid" src="./img/obras-individuales/carrer-18/render-large.jpg" alt="Fachada Carrer Premses">
 						<div class="content">
 							<h4 class="bebas">Fachada</h4>
 						</div>
@@ -381,8 +381,8 @@ echo "
 						data-aos="fade-up"
 						href="./img/obras-individuales/carrer-18/fachada.jpg"
 						data-lightbox="carrer"
-						data-title="Fachada Carrer de les Premses"
-						data-alt="Fachada Carrer de les Premses large">
+						data-title="Fachada Carrer Premses"
+						data-alt="Fachada Carrer Premses large">
 						<img class="img-fluid" src="./img/obras-individuales/carrer-18/fachada.jpg" alt="Fachada carrer 18">
 						<div class="content">
 							<h4 class="bebas">Fachada</h4>
@@ -395,8 +395,8 @@ echo "
 						data-aos="fade-up"
 						href="./img/obras-individuales/carrer-18/interior-1.jpg"
 						data-lightbox="carrer"
-						data-title="Interior Carrer de les Premses"
-						data-alt="Interior Carrer de les Premses - 1">
+						data-title="Interior Carrer Premses"
+						data-alt="Interior Carrer Premses - 1">
 						<img class="img-fluid" src="./img/obras-individuales/carrer-18/interior-1.jpg" alt="Interior carrer 18 - 1">
 						<div class="content">
 							<h4 class="bebas">Interior</h4>
@@ -409,8 +409,8 @@ echo "
 						data-aos="fade-up"
 						href="./img/obras-individuales/carrer-18/interior-2.jpg"
 						data-lightbox="carrer"
-						data-title="Interior Carrer de les Premses"
-						data-alt="Interior Carrer de les Premses - 2">
+						data-title="Interior Carrer Premses"
+						data-alt="Interior Carrer Premses - 2">
 						<img class="img-fluid" src="./img/obras-individuales/carrer-18/interior-2.jpg" alt="Interior carrer 18 - 2">
 						<div class="content">
 							<h4 class="bebas">Interior</h4>
@@ -423,8 +423,8 @@ echo "
 						data-aos="fade-up"
 						href="./img/obras-individuales/carrer-18/interior-3.jpg"
 						data-lightbox="carrer"
-						data-title="Interior Carrer de les Premses"
-						data-alt="Interior Carrer de les Premses - 3">
+						data-title="Interior Carrer Premses"
+						data-alt="Interior Carrer Premses - 3">
 						<img class="img-fluid" src="./img/obras-individuales/carrer-18/interior-3.jpg" alt="Interior carrer 18 - 3">
 						<div class="content">
 							<h4 class="bebas">Interior</h4>

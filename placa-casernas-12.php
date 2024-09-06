@@ -84,7 +84,7 @@ echo "
 
 			<div class="row">
 				<div class="col-md-8 offset-md-2 col-lg-6 offset-lg-3">
-					<h2 class="bebas ultimas_unidades">entrega DICIEMbre 2025</h2>
+					<h2 class="bebas ultimas_unidades">entrega julio 2025</h2>
 				</div>
 			</div>
 
@@ -102,7 +102,7 @@ echo "
 						<div class="carousel-inner">
 
 							<div class="carousel-item active">
-								<h4 class="bebas">Primera</h4>
+								<h4 class="bebas"></h4>
 								<img
 									src="./img/obras-individuales/casernas-12/slide-mobile/segundo-primera.png"
 									class="d-block w-100"
@@ -139,7 +139,7 @@ echo "
 
 				<div class="row">
 					<h2 id="title_floor" class="bebas">Planos Plaça de les Casernes <br>Pisos 1, 2 y 3</h2>
-					<h3 data-aos="fade-up" class="bebas" id="title_ambiente">Primera</h3>
+					<h3 data-aos="fade-up" class="bebas" id="title_ambiente"></h3>
 				</div>
 
 				<div class="row">
@@ -161,7 +161,7 @@ echo "
 								<path
 									data-plano="1"
 									data-plano-title="Planos Plaça de les Casernes <br>Pisos 1, 2 y 3"
-									data-plano-floor="Primera"
+									data-plano-floor=""
 									class="map transition active"
 									d="M441.7,44.8h-40.8v-3.6c0,0,0,0,0,0c0-3.8,0-7.5,0-11.2c0-3.7,0-7.4,0-11.1c0-3.8,0-7.5,0-11.3
 										c0-1.4,0-2.7,0-4.1v-1h-91.9v42.3h-38.7H261h-91.6V2.5H77.1v42.3H55.2c0,42.3,0,84.7,0,127c0,0.4,0,0.8,0,1.3c0,0.3,0,0.7,0.2,0.9
@@ -330,36 +330,6 @@ echo "
 					</a>
 				</div>
 
-			</div>
-
-			<div class="row">
-				<div class="col-md-6">
-					<a
-						data-aos="fade-up"
-						href="./img/obras-individuales/casernas-12/estructuras-1.jpg"
-						data-lightbox="casernas"
-						data-title="Estructuras Plaça de les Casernes"
-						data-alt="estructuras Plaça de les Casernas large">
-						<img class="img-fluid" src="./img/obras-individuales/casernas-12/estructuras-1.jpg" alt="Estructuras Plaça de les Casernas 12">
-						<div class="content">
-							<h4 class="bebas">Estructuras</h4>
-						</div>
-					</a>
-				</div>
-
-				<div class="col-md-6">
-					<a
-						data-aos="fade-up"
-						href="./img/obras-individuales/casernas-12/estructuras-2.jpg"
-						data-lightbox="casernas"
-						data-title="Estructuras Plaça de les Casernes"
-						data-alt="estructuras Plaça de les Casernas large">
-						<img class="img-fluid" src="./img/obras-individuales/casernas-12/estructuras-2.jpg" alt="Estructuras Plaça de les Casernas 12">
-						<div class="content">
-							<h4 class="bebas">Estructuras</h4>
-						</div>
-					</a>
-				</div>
 			</div>
 
 			<div class="row">

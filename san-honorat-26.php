@@ -25,7 +25,7 @@ echo "
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description"
     content="Un edificio con unidades de calidad, construido con los mejores materiales y accesorios de primera línea.">
-  <title>VQZ - Constructora - San Honorat 26 - España</title>
+  <title>VQZ - Constructora - Sant Honorat 26 - España</title>
 
   <!-- Favicons -->
   <?php include('includes/favicon.php'); ?>
@@ -59,7 +59,7 @@ echo "
       <div class="video"></div>
       <div data-aos="fade-left" class="direccion">
         <h1>
-          <span class="calle bebas">San Honorat</span>
+          <span class="calle bebas">Sant Honorat</span>
           <span class="numero bebas">26</span>
         </h1>
       </div>
@@ -86,7 +86,7 @@ echo "
 
       <div class="row">
         <div class="col-md-8 offset-md-2 col-lg-6 offset-lg-3">
-          <h2 class="bebas ultimas_unidades">¡ENTREGA JUNIO 2026!</h2>
+          <h2 class="bebas ultimas_unidades">¡ENTREGA 2026!</h2>
         </div>
       </div>
 
@@ -184,9 +184,9 @@ echo "
       <div class="row">
         <div class="col-md-6">
           <a data-aos="fade-up" href="./img/obras-individuales/san-honorat-26/san-honorat-26-1.jpg"
-            data-lightbox="san_honorat_26" data-title="Vista San Honorat 26" data-alt="Vista san honorat 26 large">
+            data-lightbox="san_honorat_26" data-title="Vista Sant Honorat 26" data-alt="Vista sant honorat 26 large">
             <img class="img-fluid" src="./img/obras-individuales/san-honorat-26/san-honorat-26-1.jpg"
-              alt="Vista san honorat 26">
+              alt="Vista sant honorat 26">
             <div class="content">
               <h4 class="bebas">Vista</h4>
             </div>
@@ -195,10 +195,10 @@ echo "
 
         <div class="col-md-6">
           <a data-aos="fade-up" href="./img/obras-individuales/san-honorat-26/san-honorat-26-2.jpg"
-            data-lightbox="san_honorat_26" data-title="Emplazamiento San Honorat 26"
-            data-alt="Emplazamiento san honorat 26 large -2">
+            data-lightbox="san_honorat_26" data-title="Emplazamiento Sant Honorat 26"
+            data-alt="Emplazamiento sant honorat 26 large -2">
             <img class="img-fluid" src="./img/obras-individuales/san-honorat-26/san-honorat-26-2.jpg"
-              alt="Emplazamiento san honorat 26 - 2">
+              alt="Emplazamiento sant honorat 26 - 2">
             <div class="content">
               <h4 class="bebas">EMPLAZAMIENTO</h4>
             </div>
@@ -210,10 +210,10 @@ echo "
 
         <div class="col-md-12">
           <a data-aos="fade-up" href="./img/obras-individuales/san-honorat-26/san-honorat-26-3.jpg"
-            data-lightbox="san_honorat_26" data-title="Emplazamiento San Honorat 26"
-            data-alt="Emplazamiento san honorat 26 large - 3">
+            data-lightbox="san_honorat_26" data-title="Emplazamiento Sant Honorat 26"
+            data-alt="Emplazamiento sant honorat 26 large - 3">
             <img class="img-fluid" src="./img/obras-individuales/san-honorat-26/san-honorat-26-3.jpg"
-              alt="Emplazamiento san honorat 26 - 3">
+              alt="Emplazamiento sant honorat 26 - 3">
             <div class="content">
               <h4 class="bebas">EMPLAZAMIENTO</h4>
             </div>

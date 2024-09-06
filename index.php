@@ -204,11 +204,11 @@ $current = 'home';
                   </div>
                   <div class="caracteristica">
                     <img class="img-fluid" src="./img/home/icono-lanzamiento.png" alt="icono lanzamiento plaza">
-                    <p>LANZAMIENTO DICIEMBRE 2022</p>
+                    <p>LANZAMIENTO MARZO 2024</p>
                   </div>
                   <div class="caracteristica">
                     <img class="img-fluid" src="./img/home/icono-lanzamiento.png" alt="icono entrega plaza">
-                    <p>ENTREGA DICIEMBRE 2025</p>
+                    <p>ENTREGA JULIO 2025</p>
                   </div>
                 </div>
                 <a class="ver_mas transition" href="./placa-casernas-12.php">
@@ -226,7 +226,7 @@ $current = 'home';
               <img class="img-fluid img_listado" src="./img/home/listado-carrer.jpg" alt="listado carrer">
             </a>
             <div class="content_data">
-              <h3 class="bebas">Carrer de les Presmes 18</h3>
+              <h3 class="bebas">Carrer Premses 18</h3>
               <div class="content_icons">
                 <div class="content_caracteristicas">
                   <div class="caracteristica">
@@ -235,11 +235,11 @@ $current = 'home';
                   </div>
                   <div class="caracteristica">
                     <img class="img-fluid" src="./img/home/icono-lanzamiento.png" alt="icono lanzamiento carrer">
-                    <p>LANZAMIENTO DICIEMBRE 2022</p>
+                    <p>LANZAMIENTO MARZO 2024</p>
                   </div>
                   <div class="caracteristica">
                     <img class="img-fluid" src="./img/home/icono-lanzamiento.png" alt="icono entrega carrer">
-                    <p>ENTREGA DICIEMBRE 2025</p>
+                    <p>ENTREGA JULIO 2025</p>
                   </div>
                 </div>
                 <a class="ver_mas transition" href="./carrer-18.php">
@@ -266,11 +266,11 @@ $current = 'home';
                   </div>
                   <div class="caracteristica">
                     <img class="img-fluid" src="./img/home/icono-lanzamiento.png" alt="icono lanzamiento plaza">
-                    <p>LANZAMIENTO ENERO 2024</p>
+                    <p>LANZAMIENTO ENERO 2025</p>
                   </div>
                   <div class="caracteristica">
                     <img class="img-fluid" src="./img/home/icono-lanzamiento.png" alt="icono entrega plaza">
-                    <p>ENTREGA JUNIO 2026</p>
+                    <p>ENTREGA 2026</p>
                   </div>
                 </div>
                 <a class="ver_mas transition" href="./san-honorat-26.php">

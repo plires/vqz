@@ -612,6 +612,38 @@ echo "
 				</div>
 			</div>
 
+			<div class="row">
+				<div class="col-md-12">
+					<a
+						data-aos="fade-up"
+						href="./img/obras-individuales/muniz-1060/interior-1.jpg"
+						data-lightbox="muniz"
+						data-title="Living Muñiz 1060"
+						data-alt="Living Muñiz 3 1060 large">
+						<img class="img-fluid" src="./img/obras-individuales/muniz-1060/interior-1.jpg" alt="interior 1 - Muñiz 1060">
+						<div class="content">
+							<h4 class="bebas">Interior</h4>
+						</div>
+					</a>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-12">
+					<a
+						data-aos="fade-up"
+						href="./img/obras-individuales/muniz-1060/interior-2.jpg"
+						data-lightbox="muniz"
+						data-title="Living Muñiz 1060"
+						data-alt="Living Muñiz 3 1060 large">
+						<img class="img-fluid" src="./img/obras-individuales/muniz-1060/interior-2.jpg" alt="interior 2 - Muñiz 1060">
+						<div class="content">
+							<h4 class="bebas">Interior</h4>
+						</div>
+					</a>
+				</div>
+			</div>
+
 		</section>
 		<!-- Galería end -->
 
