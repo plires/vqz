@@ -296,7 +296,7 @@ $current = 'home';
 
           <div class="hytPlayerWrapOuter">
             <div class="hytPlayerWrap ratio ratio-16x9">
-              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/NG-YtmEhrYM?rel=0&enablejsapi=1" frameborder="0"></iframe>
+              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/7xBGvZEdJvM?rel=0&enablejsapi=1" frameborder="0"></iframe>
             </div>
           </div>
 

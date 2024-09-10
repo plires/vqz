@@ -144,7 +144,7 @@ echo "
 
 							<div class="carousel-item">
 								<h2 class="bebas">PISO 7</h2>
-								<h4 class="bebas">duplex 4 Amb - planta baja</h4>
+								<h4 class="bebas">duplex 4 Amb.</h4>
 								<img
 									src="./img/obras-individuales/aranguren-1061/slide-mobile/piso-7-4-amb-mobile-b.jpg"
 									class="d-block w-100"
@@ -218,7 +218,7 @@ echo "
 
 				<div class="row">
 					<h2 data-aos="fade-up" id="title_floor" class="bebas">PISO 8 FRENTE</h2>
-					<h3 data-aos="fade-up" class="bebas" id="title_ambiente">Duplex - 4 amb. Planta baja</h3>
+					<h3 data-aos="fade-up" class="bebas" id="title_ambiente">Duplex - 4 amb.</h3>
 				</div>
 
 				<div class="row">
@@ -241,7 +241,7 @@ echo "
 								<path
 									data-plano="1"
 									data-plano-title="Duplex - 4 amb. Planta alta"
-									data-plano-floor="PISO 7 FRENTE"
+									data-plano-floor="PISOS 1 AL 6"
 									class="map transition"
 									d="M248.9,84.34c-0.24,0.71,0.71,64.79,0,65.03c-0.71,0.24-9.05,0-9.05,0v92.9h-63.12v-24.06L2.1,218.81L0.83,0.73
 									h98.24l-0.55,51.22l-14.69-0.01l0.06,64.08l102.37-0.07l-0.06-31.68L248.9,84.34z" />
@@ -260,7 +260,7 @@ echo "
 								<path
 									data-plano="2"
 									data-plano-title="4 amb"
-									data-plano-floor="PISO 7 FRENTE"
+									data-plano-floor="PISOS 1 AL 6"
 									class="map transition"
 									d="M258.69,72.62v132.95h-60.78v-20.54L26.27,185.3V97.26H0.31V9.5h25.96V0.43h95.59l0.31,42.95h-14.35
 									l-0.31,54.96h101.7V72.72L258.69,72.62z" />
@@ -278,7 +278,7 @@ echo "
 								xml:space="preserve">
 								<path
 									data-plano="3"
-									data-plano-title="Duplex - 4 amb. Planta baja"
+									data-plano-title="Duplex - 4 amb."
 									data-plano-floor="PISO 8 FRENTE"
 									class="map transition active"
 									d="M114.22,45.52c-0.13,0.38,0.38,34.83,0,34.96c-0.38,0.13-4.87,0-4.87,0v49.95H75.42v-12.93l-74.79,0.26V0.57
