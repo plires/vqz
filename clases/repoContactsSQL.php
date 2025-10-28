@@ -6,16 +6,24 @@ class RepoContactsSQL extends repoContacts
 {
   protected $conexion;
 
-  public function __construct($conexion) 
+  public function __construct($conexion)
   {
     $this->conexion = $conexion;
+  }
+
+  /**
+   * Obtener la conexión PDO para usar en otras clases
+   */
+  public function getConexion()
+  {
+    return $this->conexion;
   }
 
   public function saveContactFormContactInBDD($post)
   {
 
     try {
-      
+
       $sql = "INSERT INTO contacts values(default, :name, :email, :phone, :comments, :origin, :created_at)";
       $stmt = $this->conexion->prepare($sql);
       $stmt->bindValue(":name", $post['name'], PDO::PARAM_STR);
@@ -24,11 +32,10 @@ class RepoContactsSQL extends repoContacts
       $stmt->bindValue(":comments", $post['comments'], PDO::PARAM_STR);
       $stmt->bindValue(":origin", $post['origin'], PDO::PARAM_STR);
       $stmt->bindValue(":created_at", date("Y-m-d H:i:s"), PDO::PARAM_STR);
-        
+
       $save = $stmt->execute();
 
       return $save;
-
     } catch (Exception $e) {
 
       $section = $_POST['section'];
@@ -36,11 +43,6 @@ class RepoContactsSQL extends repoContacts
 
       header("Location: " . BASE . "index.php?errors=" . urlencode(serialize($errors)) . "#error");
       die();
-
     }
-
   }
-
 }
-
-?>
