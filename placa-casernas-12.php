@@ -84,7 +84,7 @@ echo "
 
 			<div class="row">
 				<div class="col-md-8 offset-md-2 col-lg-6 offset-lg-3">
-					<h2 class="bebas ultimas_unidades">entrega julio 2025</h2>
+					<h2 class="bebas ultimas_unidades">entrega inmediata<br />últimas unidades</h2>
 				</div>
 			</div>
 
@@ -250,7 +250,7 @@ echo "
 
 					<div data-aos="fade-up" class="etapa">
 						<div class="content_number">
-							<p id="extructuras" data-value="60" class="percentage bebas">60</p><span class="bebas">%</span>
+							<p id="extructuras" data-value="100" class="percentage bebas">100</p><span class="bebas">%</span>
 						</div>
 						<span class="circle">
 							<i class="fa-solid fa-bars-progress"></i>
@@ -260,7 +260,7 @@ echo "
 
 					<div data-aos="fade-up" class="etapa">
 						<div class="content_number">
-							<p id="mamposteria" data-value="0" class="percentage bebas">0</p><span class="bebas">%</span>
+							<p id="mamposteria" data-value="100" class="percentage bebas">100</p><span class="bebas">%</span>
 						</div>
 						<span class="circle">
 							<i class="fa-solid fa-bars-progress"></i>
@@ -270,7 +270,7 @@ echo "
 
 					<div data-aos="fade-up" class="etapa">
 						<div class="content_number">
-							<p id="instalaciones" data-value="0" class="percentage bebas">0</p><span class="bebas">%</span>
+							<p id="instalaciones" data-value="100" class="percentage bebas">100</p><span class="bebas">%</span>
 						</div>
 						<span class="circle">
 							<i class="fa-solid fa-bars-progress"></i>
@@ -280,7 +280,7 @@ echo "
 
 					<div data-aos="fade-up" class="etapa">
 						<div class="content_number">
-							<p id="terminaciones" data-value="0" class="percentage bebas">0</p><span class="bebas">%</span>
+							<p id="terminaciones" data-value="100" class="percentage bebas">100</p><span class="bebas">%</span>
 						</div>
 						<span class="circle last">
 							<i class="fa-solid fa-bars-progress"></i>
@@ -301,11 +301,11 @@ echo "
 				<div class="col-md-12">
 					<a
 						data-aos="fade-up"
-						href="./img/obras-individuales/casernas-12/render-large.jpg"
+						href="./img/obras-individuales/casernas-12/frente-large.jpg"
 						data-lightbox="casernas"
 						data-title="Fachada Plaça de les Casernes"
 						data-alt="Fachada Plaça de les Casernes large">
-						<img class="img-fluid" src="./img/obras-individuales/casernas-12/render-large.jpg" alt="Fachada casernas 12">
+						<img class="img-fluid" src="./img/obras-individuales/casernas-12/frente.jpg" alt="Fachada casernas 12 - 2">
 						<div class="content">
 							<h4 class="bebas">Fachada</h4>
 						</div>
@@ -315,39 +315,113 @@ echo "
 			</div>
 
 			<div class="row">
-
-				<div class="col-md-12">
+				<div class="col-md-6">
 					<a
 						data-aos="fade-up"
-						href="./img/obras-individuales/casernas-12/fachada-2.jpg"
+						href="./img/obras-individuales/casernas-12/frente-1-large.jpg"
 						data-lightbox="casernas"
-						data-title="Fachada Plaça de les Casernes"
-						data-alt="Fachada Plaça de les Casernes large">
-						<img class="img-fluid" src="./img/obras-individuales/casernas-12/fachada-2.jpg" alt="Fachada casernas 12 - 2">
+						data-title="Frente Plaça de les Casernes"
+						data-alt="Frente Plaça de les Casernes large">
+						<img class="img-fluid" src="./img/obras-individuales/casernas-12/frente-1.jpg" alt="Frente Plaça de les Casernes">
 						<div class="content">
-							<h4 class="bebas">Fachada</h4>
+							<h4 class="bebas">Frente</h4>
 						</div>
 					</a>
 				</div>
 
+				<div class="col-md-6">
+					<a
+						data-aos="fade-up"
+						href="./img/obras-individuales/casernas-12/frente-2-large.jpg"
+						data-lightbox="casernas"
+						data-title="Frente Plaça de les Casernes"
+						data-alt="Frente 2 Plaça de les Casernes large">
+						<img class="img-fluid" src="./img/obras-individuales/casernas-12/frente-2.jpg" alt="Frente 2 Plaça de les Casernes">
+						<div class="content">
+							<h4 class="bebas">Frente</h4>
+						</div>
+					</a>
+				</div>
 			</div>
 
 			<div class="row">
-
 				<div class="col-md-12">
 					<a
 						data-aos="fade-up"
-						href="./img/obras-individuales/casernas-12/living.jpg"
+						href="./img/obras-individuales/casernas-12/casernas-1.jpg"
 						data-lightbox="casernas"
 						data-title="Living Plaça de les Casernes"
 						data-alt="Living Plaça de les Casernes large">
-						<img class="img-fluid" src="./img/obras-individuales/casernas-12/living.jpg" alt="Living casernas 12">
+						<img class="img-fluid" src="./img/obras-individuales/casernas-12/casernas-1.jpg" alt="Living casernas 12">
 						<div class="content">
 							<h4 class="bebas">Living</h4>
 						</div>
 					</a>
 				</div>
+			</div>
 
+			<div class="row">
+				<div class="col-md-12">
+					<a
+						data-aos="fade-up"
+						href="./img/obras-individuales/casernas-12/casernas-2.jpg"
+						data-lightbox="casernas"
+						data-title="Baño Plaça de les Casernes"
+						data-alt="Baño Plaça de les Casernes large">
+						<img class="img-fluid" src="./img/obras-individuales/casernas-12/casernas-2.jpg" alt="Baño casernas 12">
+						<div class="content">
+							<h4 class="bebas">Baño</h4>
+						</div>
+					</a>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-12">
+					<a
+						data-aos="fade-up"
+						href="./img/obras-individuales/casernas-12/casernas-3.jpg"
+						data-lightbox="casernas"
+						data-title="Escalera Plaça de les Casernes"
+						data-alt="Escalera Plaça de les Casernes large">
+						<img class="img-fluid" src="./img/obras-individuales/casernas-12/casernas-3.jpg" alt="Escalera casernas 12">
+						<div class="content">
+							<h4 class="bebas">Escalera</h4>
+						</div>
+					</a>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-12">
+					<a
+						data-aos="fade-up"
+						href="./img/obras-individuales/casernas-12/casernas-4.jpg"
+						data-lightbox="casernas"
+						data-title="Dormitorio Plaça de les Casernes"
+						data-alt="Dormitorio Plaça de les Casernes large">
+						<img class="img-fluid" src="./img/obras-individuales/casernas-12/casernas-4.jpg" alt="Dormitorio casernas 12">
+						<div class="content">
+							<h4 class="bebas">Dormitorio</h4>
+						</div>
+					</a>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-12">
+					<a
+						data-aos="fade-up"
+						href="./img/obras-individuales/casernas-12/casernas-5.jpg"
+						data-lightbox="casernas"
+						data-title="Cocina Plaça de les Casernes"
+						data-alt="Cocina Plaça de les Casernes large">
+						<img class="img-fluid" src="./img/obras-individuales/casernas-12/casernas-5.jpg" alt="Cocina casernas 12">
+						<div class="content">
+							<h4 class="bebas">Cocina</h4>
+						</div>
+					</a>
+				</div>
 			</div>
 
 		</section>

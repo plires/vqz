@@ -94,7 +94,7 @@
 
 /* Plaça de les Casernas 12 */
 .placa_casernas_12 .video {
-  background: url("../img/obras-individuales/casernas-12/header-casernas.jpg");
+  background: url("../img/obras-individuales/casernas-12/header-casernas-mod.jpg");
   background-size: auto;
   min-height: 45vh;
   background-repeat: no-repeat;
@@ -121,13 +121,6 @@
   background-position: 100% 0% !important;
 }
 /* San Honorat 26 end */
-
-/* Carrer de les Premses 18 */
-.carrer_18 .video {
-  background: url("../img/obras-individuales/carrer-18/header-carrer.jpg");
-  background-position: 50% 50%;
-}
-/* Carrer de les Premses 18 end*/
 
 /* Sant Honorat */
 .san_honorat_24 .direccion .calle {
@@ -756,32 +749,6 @@
   }
   /* Casernes 12 end */
 
-  /* Carrer Presmes 18 */
-  .carrer_18 #map1 {
-    position: absolute;
-    bottom: inherit !important;
-    right: inherit !important;
-    width: 19.9% !important;
-    height: 27.5% !important;
-    z-index: 1;
-    overflow: visible;
-    top: 18.6%;
-    left: 0.2%;
-  }
-
-  .carrer_18 #map2 {
-    position: absolute;
-    top: 43.55% !important;
-    left: 1% !important;
-    bottom: inherit !important;
-    right: inherit !important;
-    width: 19.8% !important;
-    height: 27.4% !important;
-    z-index: 1;
-    overflow: visible;
-  }
-  /* Carrer Presmes 18 end */
-
   /* Aranguren 1061 */
   .aranguren_1061 #map1 {
     position: absolute;
@@ -1236,7 +1203,10 @@
   .placa_casernas_12 .galeria .row:nth-child(1),
   .placa_casernas_12 .galeria .row:nth-child(2),
   .placa_casernas_12 .galeria .row:nth-child(3),
-  .placa_casernas_12 .galeria .row:nth-child(4) {
+  .placa_casernas_12 .galeria .row:nth-child(4),
+  .placa_casernas_12 .galeria .row:nth-child(5),
+  .placa_casernas_12 .galeria .row:nth-child(6),
+  .placa_casernas_12 .galeria .row:nth-child(7) {
     margin-top: 30px;
   }
 
@@ -1244,13 +1214,6 @@
     margin-top: 0;
   }
   /* Plaça de les Casernas 12 end*/
-
-  /* Carrer de les Premses 18 */
-  .carrer_18 .galeria .col-md-12,
-  .carrer_18 .galeria .col-md-6 {
-    margin-top: 30px;
-  }
-  /* Carrer de les Premses 18 */
 
   /* Galeria end */
 }
