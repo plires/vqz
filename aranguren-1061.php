@@ -118,7 +118,7 @@ echo "
 
 			<div class="row">
 				<div class="col-md-8 offset-md-2 col-lg-6 offset-lg-3">
-					<h2 data-aos="fade-up" class="bebas ultimas_unidades">Entrega Marzo 2025</h2>
+					<h2 data-aos="fade-up" class="bebas ultimas_unidades">Obra 100% terminada.<br>Venta de unidades con escritura dirécta</h2>
 				</div>
 			</div>
 
@@ -454,7 +454,7 @@ echo "
 
 					<div data-aos="fade-up" class="etapa">
 						<div class="content_number">
-							<p id="mamposteria" data-value="90" class="percentage bebas">90</p><span class="bebas">%</span>
+							<p id="mamposteria" data-value="100" class="percentage bebas">100</p><span class="bebas">%</span>
 						</div>
 						<span class="circle">
 							<i class="fa-solid fa-bars-progress"></i>
@@ -464,7 +464,7 @@ echo "
 
 					<div data-aos="fade-up" class="etapa">
 						<div class="content_number">
-							<p id="instalaciones" data-value="65" class="percentage bebas">65</p><span class="bebas">%</span>
+							<p id="instalaciones" data-value="100" class="percentage bebas">100</p><span class="bebas">%</span>
 						</div>
 						<span class="circle">
 							<i class="fa-solid fa-bars-progress"></i>
@@ -474,7 +474,7 @@ echo "
 
 					<div data-aos="fade-up" class="etapa">
 						<div class="content_number">
-							<p id="terminaciones" data-value="0" class="percentage bebas">0</p><span class="bebas">%</span>
+							<p id="terminaciones" data-value="100" class="percentage bebas">100</p><span class="bebas">%</span>
 						</div>
 						<span class="circle last">
 							<i class="fa-solid fa-bars-progress"></i>
@@ -494,11 +494,11 @@ echo "
 				<div class="col-md-6">
 					<a
 						data-aos="fade-up"
-						href="./img/obras-individuales/aranguren-1061/fachada-large.jpg"
+						href="./img/obras-individuales/aranguren-1061/fachada-large-mod.jpg"
 						data-lightbox="aranguren"
 						data-title="Fachada Aranguren 1061"
 						data-alt="fachada Aranguren 1061 large">
-						<img class="img-fluid" src="./img/obras-individuales/aranguren-1061/fachada.jpg" alt="fachada Aranguren 1061">
+						<img class="img-fluid" src="./img/obras-individuales/aranguren-1061/fachada-mod.jpg" alt="fachada Aranguren 1061">
 						<div class="content">
 							<h4 class="bebas">fachada</h4>
 						</div>
@@ -508,27 +508,41 @@ echo "
 				<div class="col-md-6">
 					<a
 						data-aos="fade-up"
-						href="./img/obras-individuales/aranguren-1061/contrafrente-large.jpg"
+						href="./img/obras-individuales/aranguren-1061/cocina-large.jpg"
 						data-lightbox="aranguren"
-						data-title="Contrafrente Aranguren 1061"
-						data-alt="Contrafrente Aranguren 1061 large">
-						<img class="img-fluid" src="./img/obras-individuales/aranguren-1061/contrafrente.jpg" alt="Contrafrente Aranguren 1061">
+						data-title="Cocina Aranguren 1061"
+						data-alt="Cocina Aranguren 1061 large">
+						<img class="img-fluid" src="./img/obras-individuales/aranguren-1061/cocina.jpg" alt="Cocina Aranguren 1061">
 						<div class="content">
-							<h4 class="bebas">Contrafrente</h4>
+							<h4 class="bebas">Interiores</h4>
 						</div>
 					</a>
 				</div>
 			</div>
 
-			<div class="row">
-				<div class="col-md-12">
+			<div class="row content_imgs">
+				<div class="col-md-6">
 					<a
-						href="./img/obras-individuales/aranguren-1061/vista-3-large.jpg"
-						class="last"
+						data-aos="fade-up"
+						href="./img/obras-individuales/aranguren-1061/dormitorio-large.jpg"
 						data-lightbox="aranguren"
-						data-title="Vista 3 Aranguren 1061"
-						data-alt="Vista 3 Aranguren 1061 large">
-						<img class="img-fluid" src="./img/obras-individuales/aranguren-1061/vista-3.jpg" alt="Vista 3 Aranguren 1061">
+						data-title="Dormitorio Aranguren 1061"
+						data-alt="Dormitorio Aranguren 1061 large">
+						<img class="img-fluid" src="./img/obras-individuales/aranguren-1061/dormitorio.jpg" alt="Dormitorio Aranguren 1061">
+						<div class="content">
+							<h4 class="bebas">Interiores</h4>
+						</div>
+					</a>
+				</div>
+
+				<div class="col-md-6">
+					<a
+						data-aos="fade-up"
+						href="./img/obras-individuales/aranguren-1061/bano-large.jpg"
+						data-lightbox="aranguren"
+						data-title="Baño Aranguren 1061"
+						data-alt="Baño Aranguren 1061 large">
+						<img class="img-fluid" src="./img/obras-individuales/aranguren-1061/bano.jpg" alt="Baño Aranguren 1061">
 						<div class="content">
 							<h4 class="bebas">Interiores</h4>
 						</div>
@@ -539,12 +553,28 @@ echo "
 			<div class="row">
 				<div class="col-md-12">
 					<a
-						href="./img/obras-individuales/aranguren-1061/vista-4.jpg"
+						href="./img/obras-individuales/aranguren-1061/living-large.jpg"
 						class="last"
 						data-lightbox="aranguren"
-						data-title="Vista 4 Aranguren 1061"
-						data-alt="Vista 4 Aranguren 1061 large">
-						<img class="img-fluid" src="./img/obras-individuales/aranguren-1061/vista-4.jpg" alt="Vista 4 Aranguren 1061">
+						data-title="Living Aranguren 1061"
+						data-alt="Living Aranguren 1061 large">
+						<img class="img-fluid" src="./img/obras-individuales/aranguren-1061/living.jpg" alt="Living Aranguren 1061">
+						<div class="content">
+							<h4 class="bebas">Interiores</h4>
+						</div>
+					</a>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-12">
+					<a
+						href="./img/obras-individuales/aranguren-1061/barra-large.jpg"
+						class="last"
+						data-lightbox="aranguren"
+						data-title="Barra Aranguren 1061"
+						data-alt="Barra Aranguren 1061 large">
+						<img class="img-fluid" src="./img/obras-individuales/aranguren-1061/barra.jpg" alt="Barra Aranguren 1061">
 						<div class="content">
 							<h4 class="bebas">Interiores</h4>
 						</div>

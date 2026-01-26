@@ -130,7 +130,7 @@ $current = 'home';
           <!-- Aranguren -->
           <div data-aos="fade-up" class="col-sm-6 col-md-4 col-lg-3 item_project">
             <a href="./aranguren-1061.php" class="content_img">
-              <img class="img-fluid img_listado" src="./img/home/listado-aranguren.jpg" alt="listado aranguren">
+              <img class="img-fluid img_listado" src="./img/home/listado-aranguren-mod.jpg" alt="listado aranguren">
             </a>
             <div class="content_data">
               <h3 class="bebas">aranguren <br>1061</h3>
@@ -141,12 +141,12 @@ $current = 'home';
                     <p>argentina</p>
                   </div>
                   <div class="caracteristica">
-                    <img class="img-fluid" src="./img/home/icono-entrega.png" alt="icono entrega aranguren">
-                    <p>ENTREGA MARZO 2025</p>
+                    <img class="img-fluid" src="./img/home/icono-entrega.png" alt="icono entrega nicasio">
+                    <p>ENTREGA INMEDIATA</p>
                   </div>
                   <div class="caracteristica">
-                    <img class="img-fluid" src="./img/home/icono-obra.png" alt="icono obra aranguren">
-                    <p>EN OBRA</p>
+                    <img class="img-fluid" src="./img/home/icono-ultimas-unidades.png" alt="icono ultimas nicasio">
+                    <p>ÚLTIMAS UNIDADES</p>
                   </div>
                 </div>
                 <a class="ver_mas transition" href="./aranguren-1061.php">
