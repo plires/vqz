@@ -30,6 +30,9 @@
           <li>
             <a class="transition bebas" href="./muniz-1060.php">muniz 1060</a>
           </li>
+          <li>
+            <a class="transition bebas" href="./puan-888.php">puan 888</a>
+          </li>
         </ul>
       </li>
 

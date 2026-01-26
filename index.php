@@ -251,6 +251,37 @@ $current = 'home';
           </div>
           <!-- San Honorat 26 end -->
 
+          <!-- Puan 888 -->
+          <div data-aos="fade-up" class="col-sm-6 col-md-4 col-lg-3 item_project">
+            <a href="./puan-888.php" class="content_img">
+              <img class="img-fluid img_listado" src="./img/home/listado-puan-888.jpg" alt="listado puan 888">
+            </a>
+            <div class="content_data">
+              <h3 class="bebas">Puan 888</h3>
+              <div class="content_icons">
+                <div class="content_caracteristicas">
+                  <div class="caracteristica">
+                    <img class="img-fluid" src="./img/home/icono-argentina-color.png" alt="icono argentina puan">
+                    <p>argentina</p>
+                  </div>
+                  <div class="caracteristica">
+                    <img class="img-fluid" src="./img/home/icono-lanzamiento.png" alt="icono lanzamiento puan">
+                    <p>LANZAMIENTO MARZO 2026</p>
+                  </div>
+                  <div class="caracteristica">
+                    <img class="img-fluid" src="./img/home/icono-obra.png" alt="icono obra puan">
+                    <p>EN OBRA</p>
+                  </div>
+                </div>
+                <a class="ver_mas transition" href="./puan-888.php">
+                  <i class="fa-solid fa-circle-plus"></i>
+                  VER
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- Puan 888 end -->
+
         </div>
 
       </div>
