@@ -88,7 +88,7 @@ echo "
 
 			<div class="row">
 				<div class="col-md-8 offset-md-2 col-lg-6 offset-lg-3">
-					<h2 class="bebas ultimas_unidades">entrega abril 2026</h2>
+					<h2 class="bebas ultimas_unidades">entrega agosto 2026</h2>
 				</div>
 			</div>
 
@@ -514,7 +514,7 @@ echo "
 
 					<div data-aos="fade-up" class="etapa">
 						<div class="content_number">
-							<p id="mamposteria" data-value="10" class="percentage bebas">10</p><span class="bebas">%</span>
+							<p id="mamposteria" data-value="90" class="percentage bebas">90</p><span class="bebas">%</span>
 						</div>
 						<span class="circle">
 							<i class="fa-solid fa-bars-progress"></i>
@@ -524,7 +524,7 @@ echo "
 
 					<div data-aos="fade-up" class="etapa">
 						<div class="content_number">
-							<p id="instalaciones" data-value="0" class="percentage bebas">0</p><span class="bebas">%</span>
+							<p id="instalaciones" data-value="50" class="percentage bebas">50</p><span class="bebas">%</span>
 						</div>
 						<span class="circle">
 							<i class="fa-solid fa-bars-progress"></i>
@@ -534,7 +534,7 @@ echo "
 
 					<div data-aos="fade-up" class="etapa">
 						<div class="content_number">
-							<p id="terminaciones" data-value="0" class="percentage bebas">0</p><span class="bebas">%</span>
+							<p id="terminaciones" data-value="20" class="percentage bebas">20</p><span class="bebas">%</span>
 						</div>
 						<span class="circle last">
 							<i class="fa-solid fa-bars-progress"></i>
@@ -570,11 +570,11 @@ echo "
 				<div class="col-md-6">
 					<a
 						data-aos="fade-up"
-						href="./img/obras-individuales/muniz-1060/fachada-1.jpg"
+						href="./img/obras-individuales/muniz-1060/fachada-large-mod.jpg"
 						data-lightbox="muniz"
 						data-title="Fachada Muñiz 1060"
 						data-alt="Fachada Muñiz 2 1060 large">
-						<img class="img-fluid" src="./img/obras-individuales/muniz-1060/fachada-1.jpg" alt="Fachada Muñiz 1060 - 2">
+						<img class="img-fluid" src="./img/obras-individuales/muniz-1060/fachada-mod.jpg" alt="Fachada Muñiz 1060 - 2">
 						<div class="content">
 							<h4 class="bebas">Fachada</h4>
 						</div>
@@ -584,11 +584,11 @@ echo "
 				<div class="col-md-6">
 					<a
 						data-aos="fade-up"
-						href="./img/obras-individuales/muniz-1060/fachada-2.jpg"
+						href="./img/obras-individuales/muniz-1060/fachada-2-large-mod.jpg"
 						data-lightbox="muniz"
 						data-title="Fachada Muñiz 1060"
 						data-alt="Fachada Muñiz 3 1060 large">
-						<img class="img-fluid" src="./img/obras-individuales/muniz-1060/fachada-2.jpg" alt="Fachada Muñiz 1060 - 3">
+						<img class="img-fluid" src="./img/obras-individuales/muniz-1060/fachada-2-mod.jpg" alt="Fachada Muñiz 1060 - 3">
 						<div class="content">
 							<h4 class="bebas">Fachada</h4>
 						</div>
