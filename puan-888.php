@@ -23,7 +23,7 @@ echo "
 
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Un edificio de calidad con unidades de 2 y 3 ambientes construido con los mejores materiales y accesorios de primera línea.">
+  <meta name="description" content="Edificio de viviendas a metros del Parque Chacabuco. Unidades de 1 y 2 ambientes de 16 unidades con local comercial en PB.">
   <title>VQZ - Constructora - Puan 888 - CABA</title>
 
   <!-- Favicons -->
