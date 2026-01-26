@@ -86,7 +86,7 @@ echo "
 
       <div class="row">
         <div class="col-md-8 offset-md-2 col-lg-6 offset-lg-3">
-          <h2 class="bebas ultimas_unidades">¡ENTREGA 2026!</h2>
+          <h2 class="bebas ultimas_unidades">¡ENTREGA MAYO 2027!</h2>
         </div>
       </div>
 
@@ -115,7 +115,7 @@ echo "
 
           <div data-aos="fade-up" class="etapa">
             <div class="content_number">
-              <p id="demolicion" data-value="0" class="percentage bebas">0</p><span class="bebas">%</span>
+              <p id="demolicion" data-value="100" class="percentage bebas">100</p><span class="bebas">%</span>
             </div>
             <span class="circle first">
               <i class="fa-solid fa-bars-progress"></i>
@@ -125,7 +125,7 @@ echo "
 
           <div data-aos="fade-up" class="etapa">
             <div class="content_number">
-              <p id="excavacion" data-value="0" class="percentage bebas">0</p><span class="bebas">%</span>
+              <p id="excavacion" data-value="100" class="percentage bebas">100</p><span class="bebas">%</span>
             </div>
             <span class="circle">
               <i class="fa-solid fa-bars-progress"></i>
@@ -135,7 +135,7 @@ echo "
 
           <div data-aos="fade-up" class="etapa">
             <div class="content_number">
-              <p id="extructuras" data-value="0" class="percentage bebas">0</p><span class="bebas">%</span>
+              <p id="extructuras" data-value="5" class="percentage bebas">5</p><span class="bebas">%</span>
             </div>
             <span class="circle">
               <i class="fa-solid fa-bars-progress"></i>
@@ -182,44 +182,44 @@ echo "
     <section class="container galeria">
 
       <div class="row">
-        <div class="col-md-6">
-          <a data-aos="fade-up" href="./img/obras-individuales/san-honorat-26/san-honorat-26-1.jpg"
-            data-lightbox="san_honorat_26" data-title="Vista Sant Honorat 26" data-alt="Vista sant honorat 26 large">
-            <img class="img-fluid" src="./img/obras-individuales/san-honorat-26/san-honorat-26-1.jpg"
-              alt="Vista sant honorat 26">
+
+        <div class="col-md-12">
+          <a data-aos="fade-up" href="./img/obras-individuales/san-honorat-26/frente-large.jpg"
+            data-lightbox="san_honorat_26" data-title="Frente Sant Honorat 26"
+            data-alt="Frente sant honorat 26 large - 3">
+            <img class="img-fluid" src="./img/obras-individuales/san-honorat-26/frente.jpg"
+              alt="Frente sant honorat 26 - 3">
             <div class="content">
-              <h4 class="bebas">Vista</h4>
+              <h4 class="bebas">FRENTE</h4>
             </div>
           </a>
         </div>
 
-        <div class="col-md-6">
-          <a data-aos="fade-up" href="./img/obras-individuales/san-honorat-26/san-honorat-26-2.jpg"
-            data-lightbox="san_honorat_26" data-title="Emplazamiento Sant Honorat 26"
-            data-alt="Emplazamiento sant honorat 26 large -2">
-            <img class="img-fluid" src="./img/obras-individuales/san-honorat-26/san-honorat-26-2.jpg"
-              alt="Emplazamiento sant honorat 26 - 2">
-            <div class="content">
-              <h4 class="bebas">EMPLAZAMIENTO</h4>
-            </div>
-          </a>
-        </div>
       </div>
 
       <div class="row">
-
-        <div class="col-md-12">
-          <a data-aos="fade-up" href="./img/obras-individuales/san-honorat-26/san-honorat-26-3.jpg"
-            data-lightbox="san_honorat_26" data-title="Emplazamiento Sant Honorat 26"
-            data-alt="Emplazamiento sant honorat 26 large - 3">
-            <img class="img-fluid" src="./img/obras-individuales/san-honorat-26/san-honorat-26-3.jpg"
-              alt="Emplazamiento sant honorat 26 - 3">
+        <div class="col-md-6">
+          <a data-aos="fade-up" href="./img/obras-individuales/san-honorat-26/obra-1-large.jpg"
+            data-lightbox="san_honorat_26" data-title="Estructuras Sant Honorat 26" data-alt="Estructuras sant honorat 26 large">
+            <img class="img-fluid" src="./img/obras-individuales/san-honorat-26/obra-1.jpg"
+              alt="Estructuras sant honorat 26">
             <div class="content">
-              <h4 class="bebas">EMPLAZAMIENTO</h4>
+              <h4 class="bebas">ESTRUCTURAS</h4>
             </div>
           </a>
         </div>
 
+        <div class="col-md-6">
+          <a data-aos="fade-up" href="./img/obras-individuales/san-honorat-26/obra-2-large.jpg"
+            data-lightbox="san_honorat_26" data-title="Estructuras Sant Honorat 26"
+            data-alt="Estructuras sant honorat 26 large -2">
+            <img class="img-fluid" src="./img/obras-individuales/san-honorat-26/obra-2.jpg"
+              alt="Estructuras sant honorat 26 - 2">
+            <div class="content">
+              <h4 class="bebas">ESTRUCTURAS</h4>
+            </div>
+          </a>
+        </div>
       </div>
 
     </section>
