@@ -313,6 +313,37 @@ $current = 'home';
           </div>
           <!-- Alberdi 1271 end -->
 
+          <!-- Hortiguera 627 -->
+          <div data-aos="fade-up" class="col-sm-6 col-md-4 col-lg-3 item_project">
+            <a href="./hortiguera-627.php" class="content_img">
+              <img class="img-fluid img_listado" src="./img/home/listado-hortiguera-627.jpg" alt="listado hortiguera 627">
+            </a>
+            <div class="content_data">
+              <h3 class="bebas">Hortiguera 627</h3>
+              <div class="content_icons">
+                <div class="content_caracteristicas">
+                  <div class="caracteristica">
+                    <img class="img-fluid" src="./img/home/icono-argentina-color.png" alt="icono argentina hortiguera">
+                    <p>argentina</p>
+                  </div>
+                  <div class="caracteristica">
+                    <img class="img-fluid" src="./img/home/icono-lanzamiento.png" alt="icono lanzamiento hortiguera">
+                    <p>LANZAMIENTO AGOSTO 2026</p>
+                  </div>
+                  <div class="caracteristica">
+                    <img class="img-fluid" src="./img/home/icono-obra.png" alt="icono obra hortiguera">
+                    <p>EN OBRA</p>
+                  </div>
+                </div>
+                <a class="ver_mas transition" href="./hortiguera-627.php">
+                  <i class="fa-solid fa-circle-plus"></i>
+                  VER
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- Hortiguera 627 end -->
+
         </div>
 
       </div>
