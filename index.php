@@ -282,6 +282,37 @@ $current = 'home';
           </div>
           <!-- Puan 888 end -->
 
+          <!-- Alberdi 1271 -->
+          <div data-aos="fade-up" class="col-sm-6 col-md-4 col-lg-3 item_project">
+            <a href="./alberdi-1271.php" class="content_img">
+              <img class="img-fluid img_listado" src="./img/home/listado-alberdi-1271.jpg" alt="listado alberdi 1271">
+            </a>
+            <div class="content_data">
+              <h3 class="bebas">J.B. Alberdi 1271</h3>
+              <div class="content_icons">
+                <div class="content_caracteristicas">
+                  <div class="caracteristica">
+                    <img class="img-fluid" src="./img/home/icono-argentina-color.png" alt="icono argentina alberdi">
+                    <p>argentina</p>
+                  </div>
+                  <div class="caracteristica">
+                    <img class="img-fluid" src="./img/home/icono-lanzamiento.png" alt="icono lanzamiento alberdi">
+                    <p>LANZAMIENTO DICIEMBRE 2026</p>
+                  </div>
+                  <div class="caracteristica">
+                    <img class="img-fluid" src="./img/home/icono-obra.png" alt="icono obra alberdi">
+                    <p>EN OBRA</p>
+                  </div>
+                </div>
+                <a class="ver_mas transition" href="./alberdi-1271.php">
+                  <i class="fa-solid fa-circle-plus"></i>
+                  VER
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- Alberdi 1271 end -->
+
         </div>
 
       </div>

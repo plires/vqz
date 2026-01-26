@@ -126,6 +126,21 @@
 }
 /* Puan 888 end */
 
+/* Alberdi 1271 */
+.alberdi_1271 .direccion .numero {
+  text-align: center;
+  font-size: 8rem;
+  letter-spacing: initial;
+  padding-left: 0;
+}
+
+.alberdi_1271 .direccion .calle {
+  text-align: center;
+  letter-spacing: 5px;
+  padding-left: 0;
+}
+/* Alberdi 1271 end*/
+
 /* San Honorat 26 */
 .san_honorat_26 .video {
   background: url("../img/obras-individuales/san-honorat-26/header-sant-honorat-26.jpg");
@@ -1009,6 +1024,13 @@
   }
   /* Aranguren 1061 end */
 
+  /* Alberdi 1271 */
+  .alberdi_1271 .direccion .calle {
+    letter-spacing: 15px;
+    padding-left: 25px;
+  }
+  /* Alberdi 1271 end*/
+
   /* Pueyrredon 434 */
   .pueyrredon_434 .direccion .calle {
     padding-left: 0;
@@ -1179,6 +1201,18 @@
     margin-bottom: 30px;
   }
   /* Aranguren 1061 end*/
+
+  /* Alberdi 1271 */
+  .alberdi_1271 .direccion .numero {
+    font-size: 20rem;
+  }
+
+  .alberdi_1271 .direccion .calle {
+    font-size: 3.5rem;
+    letter-spacing: 15px !important;
+    padding-left: 25px !important;
+  }
+  /* Alberdi 1271 end*/
 
   /* Pueyrredon 434 */
   .pueyrredon_434 .galeria .content_imgs .col-md-6 {
