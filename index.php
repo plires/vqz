@@ -376,6 +376,30 @@ $current = 'home';
             <div class="carousel-inner">
 
               <div class="carousel-item active">
+                <a href="./alberdi-1271.php">
+                  <img src="./img/home/mapa-alberdi.jpg" class="d-block w-100" alt="mapa donato">
+                </a>
+              </div>
+
+              <div class="carousel-item">
+                <a href="./hortiguera-627.php">
+                  <img src="./img/home/mapa-hortiguera.jpg" class="d-block w-100" alt="mapa donato">
+                </a>
+              </div>
+
+              <div class="carousel-item">
+                <a href="./puan-888.php">
+                  <img src="./img/home/mapa-puan.jpg" class="d-block w-100" alt="mapa donato">
+                </a>
+              </div>
+
+              <div class="carousel-item">
+                <a href="./donato-221.php">
+                  <img src="./img/home/mapa-donato.jpg" class="d-block w-100" alt="mapa donato">
+                </a>
+              </div>
+
+              <div class="carousel-item">
                 <a href="./donato-221.php">
                   <img src="./img/home/mapa-donato.jpg" class="d-block w-100" alt="mapa donato">
                 </a>
@@ -386,12 +410,6 @@ $current = 'home';
                   <img src="./img/home/mapa-aranguren.jpg" class="d-block w-100" alt="mapa aranguren">
                 </a>
               </div>
-
-              <!-- <div class="carousel-item">
-                <a href="./nicasio-480.php">
-                  <img src="./img/home/mapa-nicasio.jpg" class="d-block w-100" alt="mapa nicasio">
-                </a>
-              </div> -->
 
               <div class="carousel-item">
                 <a href="./muniz-1060.php">
