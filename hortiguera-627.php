@@ -57,7 +57,7 @@ echo "
     <section class="first_section video_content">
       <div class="video">
         <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
-          <source src="videos/aranguren-1061.mp4" type="video/mp4">
+          <source src="videos/hortiguera.mp4" type="video/mp4">
         </video>
       </div>
       <div data-aos="fade-left" class="direccion">

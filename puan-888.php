@@ -55,10 +55,14 @@ echo "
 
     <!-- Video -->
     <section class="first_section video_content">
-      <div class="video"></div>
+      <div class="video">
+        <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+          <source src="videos/puan.mp4" type="video/mp4">
+        </video>
+      </div>
       <div data-aos="fade-left" class="direccion">
         <h1>
-          <span class="calle bebas">Puan</span>
+          <span class="calle bebas">puan</span>
           <span class="numero bebas">888</span>
         </h1>
       </div>
