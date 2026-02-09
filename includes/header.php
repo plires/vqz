@@ -25,9 +25,6 @@
             <a class="transition bebas" href="./aranguren-1061.php">aranguren 1061</a>
           </li>
           <li>
-            <a class="transition bebas" href="./nicasio-480.php">Nicasio Oroño 480</a>
-          </li>
-          <li>
             <a class="transition bebas" href="./muniz-1060.php">muniz 1060</a>
           </li>
           <li>
@@ -49,7 +46,7 @@
             <a class="transition bebas" href="./placa-casernas-12.php">Plaça de les Casernes 12</a>
           </li>
           <li>
-            <a class="transition bebas" href="./san-honorat-26.php">San Honorat 26</a>
+            <a class="transition bebas" href="./san-honorat-26.php">Sant Honorat 26</a>
           </li>
         </ul>
       </li>

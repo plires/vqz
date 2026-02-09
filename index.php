@@ -220,13 +220,13 @@ $current = 'home';
           </div>
           <!-- Casernes end -->
 
-          <!-- San Honorat 26 -->
+          <!-- Sant Honorat 26 -->
           <div data-aos="fade-up" class="col-sm-6 col-md-4 col-lg-3 item_project">
             <a href="./san-honorat-26.php" class="content_img">
               <img class="img-fluid img_listado" src="./img/home/listado-san-honorat-26-mod.jpg" alt="listado san honorat 26">
             </a>
             <div class="content_data">
-              <h3 class="bebas">San Honorat 26</h3>
+              <h3 class="bebas">Sant Honorat 26</h3>
               <div class="content_icons">
                 <div class="content_caracteristicas">
                   <div class="caracteristica">
@@ -235,7 +235,7 @@ $current = 'home';
                   </div>
                   <div class="caracteristica">
                     <img class="img-fluid" src="./img/home/icono-lanzamiento.png" alt="icono lanzamiento plaza">
-                    <p>LANZAMIENTO ENERO 2025</p>
+                    <p>LANZAMIENTO ENERO 2026</p>
                   </div>
                   <div class="caracteristica">
                     <img class="img-fluid" src="./img/home/icono-lanzamiento.png" alt="icono entrega plaza">
@@ -249,7 +249,7 @@ $current = 'home';
               </div>
             </div>
           </div>
-          <!-- San Honorat 26 end -->
+          <!-- Sant Honorat 26 end -->
 
           <!-- Puan 888 -->
           <div data-aos="fade-up" class="col-sm-6 col-md-4 col-lg-3 item_project">

@@ -80,7 +80,7 @@ echo "
 
       <div class="row">
         <div class="col-md-8 offset-md-2 col-lg-6 offset-lg-3">
-          <h2 class="bebas ultimas_unidades">inicio de obra marzo 2026</h2>
+          <h2 class="bebas ultimas_unidades">inicio de obra diciembre 2026</h2>
         </div>
       </div>
 
