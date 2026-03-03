@@ -40,16 +40,16 @@ $current = 'home';
     <?php include_once('./includes/header.php'); ?>
 
     <!-- Video -->
-    <section class="video first_section">
+    <!-- <section class="video first_section">
       <div class="overlay"></div>
       <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
         <source src="videos/nubes.mp4" type="video/mp4">
       </video>
-    </section>
+    </section> -->
     <!-- Video end -->
 
     <!-- Video Info -->
-    <section class="container video_info">
+    <!-- <section class="container video_info">
       <div class="row">
         <div class="col-md-12">
           <div class="content">
@@ -80,11 +80,67 @@ $current = 'home';
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
     <!-- Video Info end -->
 
+    <!-- Slide Home -->
+    <div id="carouselHomeSlides" class="carousel slide carrusel_home" data-bs-ride="carousel" data-bs-interval="3000">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselHomeSlides" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselHomeSlides" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselHomeSlides" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <!-- Muñiz -->
+        <div class="carousel-item active muniz">
+          <picture>
+            <source media="(max-width: 768px)" srcset="./img/home/slide/muniz-mobile.webp" type="image/webp">
+            <img class="d-block w-100" src="./img/home/slide/muniz-desktop.webp" alt="Proyecto Muniz">
+          </picture>
+          <a href="./muniz-1060.php" class="direccion transition">
+            <h1>
+              <span class="calle bebas">muñiz</span><br>
+              <span class="numero bebas">1060</span>
+            </h1>
+          </a>
+        </div>
+        <!-- Muñiz -->
+
+        <!-- Donato -->
+        <div class="carousel-item donato">
+          <picture>
+            <source media="(max-width: 768px)" srcset="./img/home/slide/donato-mobile.webp" type="image/webp">
+            <img class="d-block w-100" src="./img/home/slide/donato-desktop.webp" alt="Proyecto Donato">
+          </picture>
+          <a href="./donato-221.php" class="direccion transition">
+            <h2>
+              <span class="calle bebas">donato alvarez</span><br>
+              <span class="numero bebas">221</span>
+            </h2>
+          </a>
+        </div>
+        <!-- Donato -->
+
+        <!-- Casernes -->
+        <div class="carousel-item casernes">
+          <picture>
+            <source media="(max-width: 768px)" srcset="./img/home/slide/casernes-mobile.webp" type="image/webp">
+            <img class="d-block w-100" src="./img/home/slide/casernes-desktop.webp" alt="Proyecto Casernes">
+          </picture>
+          <a href="./placa-casernas-12.php" class="direccion transition">
+            <h2>
+              <span class="calle bebas">Plaça de les Casernes</span><br>
+              <span class="numero bebas">12</span>
+            </h2>
+          </a>
+        </div>
+        <!-- Casernes -->
+      </div>
+    </div>
+    <!-- Slide Home end -->
+
     <!-- Proyectos -->
-    <section class="container-fluid proyectos p-0">
+    <section class="container-fluid proyectos proyectos_home p-0">
 
       <div class="container">
 

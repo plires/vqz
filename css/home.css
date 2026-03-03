@@ -1,79 +1,65 @@
-/* Video */
-.home .video {
-  padding: 0;
-  position: relative;
-  background-color: black;
-  height: 45vh;
-  min-height: 45vh;
-  width: 100%;
-  overflow: hidden;
+/* Carrusel Home */
+.carrusel_home {
+  margin-bottom: 80px;
+  margin-top: 58px;
 }
 
-.home .video video {
+.carrusel_home .carousel-inner {
+  overflow: visible;
+}
+
+.carrusel_home .carousel-indicators {
+  bottom: -80px;
+}
+
+.carrusel_home .carousel-indicators [data-bs-target] {
+  background-color: black;
+}
+
+.carrusel_home .direccion {
   position: absolute;
-  top: 50%;
-  left: 50%;
-  min-width: 100%;
-  min-height: 100%;
-  width: auto;
-  height: auto;
-  z-index: 0;
-  -ms-transform: translateX(-50%) translateY(-50%);
-  -moz-transform: translateX(-50%) translateY(-50%);
-  -webkit-transform: translateX(-50%) translateY(-50%);
-  transform: translateX(-50%) translateY(-50%);
-}
-
-.home .video .overlay {
-  /*position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  background-color: black;
-  opacity: 0.2;
-  z-index: 1;*/
-}
-/* Video end */
-
-/* Video Info */
-.home .video_info {
-  position: relative;
-  top: -350px;
-  z-index: 2;
-}
-
-.home .video_info .content {
-  position: relative;
-  max-width: 80%;
-}
-
-.home .video_info .content .img {
+  bottom: -2rem;
+  right: 1rem;
+  padding: 0.5rem 1rem;
   background: white;
-  padding: 20px;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 
-.home .video_info .content .content_frase {
-  background: white;
-  padding: 20px;
-  top: -90px;
-  position: relative;
-  right: -73px;
+.carrusel_home .direccion:hover {
+  transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  -o-transform: scale(1.05);
 }
 
-.home .video_info .content .content_frase h1 {
-  font-size: 3rem;
-  color: var(--primary-color);
+.carrusel_home h1,
+.carrusel_home h2 {
+  line-height: 0.8;
+  margin-bottom: 0;
+  color: black;
 }
 
-.home .video_info .content .content_frase h1 span {
+.carrusel_home .calle {
+  font-size: 1.5rem;
+  color: #979696;
+  letter-spacing: 0.035em;
   display: inline-block;
-  background: black;
-  padding: 9px 9px 3px 9px;
-  color: white;
-  line-height: 1;
+  margin-bottom: 0.5rem;
 }
-/* Video Info end */
+
+.carrusel_home .numero {
+  font-size: 7rem;
+  display: inline-block;
+}
+/* Carrusel Home end */
+
+/* Proyectos Home */
+.proyectos_home {
+  margin-top: 0 !important;
+}
+/* Proyectos Home end */
 
 /* Ubicaciones */
 .home .ubicaciones {
@@ -147,36 +133,21 @@
 
 /* MEDIA QUERIES */
 @media (min-width: 576px) {
-  /* Video */
-  .home .video {
-    height: 60vh;
-    min-height: 60vh;
+  /* Carrusel Home */
+  .carrusel_home {
+    margin-bottom: 120px;
+    margin-top: 100px;
   }
 
-  .home .video video {
-  }
-  /* Video end */
-
-  /* Video Info */
-  .home .video_info .content .content_frase {
-    max-width: 300px;
+  .carrusel_home .direccion {
+    right: 2rem;
   }
 
-  .home .video_info .content .content_frase h1 {
-    font-size: 3.5rem;
+  .carrusel_home .muniz .calle {
+    font-size: 2.5rem;
+    margin-top: 1rem;
   }
-
-  .home .video_info {
-    top: -420px;
-    z-index: 0;
-  }
-
-  .home .video_info .content .content_frase {
-    top: -323px;
-    right: -255px;
-    min-height: 320px;
-  }
-  /* Video Info end */
+  /* Carrusel Home end */
 
   /* Ubicaciones */
   .home .ubicaciones .content_mapa {
@@ -190,32 +161,23 @@
 }
 
 @media (min-width: 768px) {
-  /* Video */
-  .home .video {
-    height: 75vh;
-    min-height: 75vh;
-  }
-  /* Video end */
-
-  /* Video Info */
-  .home .video_info {
-    top: -500px;
+  /* Carrusel Home */
+  .carrusel_home .direccion {
+    right: 5rem;
   }
 
-  .home .video_info .content .img {
-    padding: 30px;
+  .carrusel_home .calle {
+    font-size: 1.75rem;
   }
 
-  .home .video_info .content .content_frase {
-    right: -325px;
-    max-width: 355px;
-    padding: 30px;
+  .carrusel_home .muniz .calle {
+    font-size: 3.5rem;
   }
 
-  .home .video_info .content .content_frase h1 {
-    font-size: 4rem;
+  .carrusel_home .numero {
+    font-size: 8.5rem;
   }
-  /* Video Info end */
+  /* Carrusel Home end */
 
   /* Ubicaciones */
   .home .ubicaciones h2 {
@@ -230,33 +192,32 @@
 }
 
 @media (min-width: 992px) {
-  /* Video */
-  .home .video {
-    height: 80vh;
-    min-height: 80vh;
-  }
-  /* Video end */
-
-  /* Video Info */
-  .home .video_info .content {
-    max-width: 65%;
+  /* Carrusel Home */
+  .carrusel_home .carousel-indicators {
+    bottom: 0;
   }
 
-  .home .video_info {
-    top: -555px;
+  .carrusel_home .carousel-indicators [data-bs-target] {
+    background-color: white;
   }
 
-  .home .video_info .content .content_frase {
-    top: -480px;
-    right: -480px;
-    max-width: 405px;
-    height: 500px;
+  .carrusel_home .direccion {
+    right: 5rem;
   }
 
-  .home .video_info .content .content_frase h1 {
-    font-size: 4.5rem;
+  .carrusel_home .calle {
+    font-size: 1.75rem;
   }
-  /* Video Info end */
+
+  .carrusel_home .muniz .calle {
+    font-size: 3.5rem;
+    margin-top: 1rem;
+  }
+
+  .carrusel_home .numero {
+    font-size: 8.5rem;
+  }
+  /* Carrusel Home end */
 
   /* Ubicaciones */
   .home .ubicaciones h2 {
@@ -266,23 +227,34 @@
 }
 
 @media (min-width: 1200px) {
-  /* Video Info */
-  .home .video_info .content {
-    max-width: 55%;
-    margin-left: 9%;
+  /* Carrusel Home */
+  .carrusel_home .direccion {
+    right: 8rem;
+  }
+  .carrusel_home .donato .calle {
+    font-size: 2.5rem;
   }
 
-  .home .video_info .content .content_frase {
-    top: -550px;
-    right: -435px;
-    max-width: 465px;
-    height: 540px;
+  .carrusel_home .muniz .calle {
+    font-size: 5rem;
   }
 
-  .home .video_info .content .content_frase h1 {
-    font-size: 5.5rem;
+  .carrusel_home .casernes .calle {
+    font-size: 1.75rem;
   }
-  /* Video Info end */
+
+  .carrusel_home .donato .numero {
+    font-size: 10.5rem;
+  }
+
+  .carrusel_home .muniz .numero {
+    font-size: 7.5rem;
+  }
+
+  .carrusel_home .casernes .numero {
+    font-size: 10.5rem;
+  }
+  /* Carrusel Home end */
 
   /* Ubicaciones */
   .home .ubicaciones h2 {
@@ -291,19 +263,34 @@
   /* Ubicaciones end */
 }
 
-@media (min-width: 1400px) {
-  /* Video Info */
-  .home .video_info .content {
-    max-width: 50%;
-    margin-left: 15%;
-  }
-
-  .home .video_info .content .content_frase {
-    top: -590px;
-    height: 580px;
-  }
-  /* Video Info end */
-}
-
 @media (min-width: 1600px) {
+  /* Carrusel Home */
+  .carrusel_home .direccion {
+    right: 10rem;
+    padding: 1.5rem 1rem;
+  }
+  .carrusel_home .donato .calle {
+    font-size: 3rem;
+  }
+
+  .carrusel_home .donato .numero {
+    font-size: 13rem;
+  }
+
+  .carrusel_home .muniz .calle {
+    font-size: 6rem;
+  }
+
+  .carrusel_home .muniz .numero {
+    font-size: 9rem;
+  }
+
+  .carrusel_home .casernes .calle {
+    font-size: 2rem;
+  }
+
+  .carrusel_home .casernes .numero {
+    font-size: 14rem;
+  }
+  /* Carrusel Home end */
 }
