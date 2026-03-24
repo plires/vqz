@@ -582,6 +582,22 @@ echo "
 				</div>
 			</div>
 
+			<div class="row">
+				<div class="col-md-12">
+					<a
+						href="./img/obras-individuales/aranguren-1061/parrilla-large.jpg"
+						class="last"
+						data-lightbox="aranguren"
+						data-title="Parrilla Aranguren 1061"
+						data-alt="Parrilla Aranguren 1061 large">
+						<img class="img-fluid" src="./img/obras-individuales/aranguren-1061/parrilla.jpg" alt="parrilla Aranguren 1061">
+						<div class="content">
+							<h4 class="bebas">Exteriores</h4>
+						</div>
+					</a>
+				</div>
+			</div>
+
 		</section>
 		<!-- Galería end -->
 
