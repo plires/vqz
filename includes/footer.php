@@ -3,7 +3,7 @@
     <div class="row">
 
       <div class="col-md-4 col-lg-3 logo_footer">
-        <img class="img-fluid" src="./img/footer/logo-vazquez-35.gif" alt="logo vqz footer">
+        <img class="img-fluid" src="./../img/header/logo-vazquez.png" alt="logo vqz footer">
       </div>
 
       <div class="col-md-8 col-lg-6 content_links">
