@@ -15,7 +15,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="Política de cookies de VQZ Constructora: qué cookies utiliza este sitio, con qué finalidad y cómo podés gestionar tu consentimiento.">
-	<title>VQZ - Constructora - Política de Cookies</title>
+	<title>VQZ - Desarrollos - Política de Cookies</title>
 
 	<!-- Favicons -->
 	<?php include('includes/favicon.php'); ?>

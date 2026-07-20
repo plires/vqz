@@ -24,7 +24,7 @@ echo "
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Edificio de viviendas a metros del Parque Chacabuco. Unidades de 3 y 4 ambientes. Excelente ubicación. Consultá por unidades disponibles. VQZ Constructora.">
-  <title>VQZ - Constructora - Hortiguera 627 - CABA</title>
+  <title>VQZ - Desarrollos - Hortiguera 627 - CABA</title>
 
   <!-- Favicons -->
   <?php include('includes/favicon.php'); ?>

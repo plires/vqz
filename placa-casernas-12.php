@@ -24,7 +24,7 @@ echo "
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="Un edificio con unidades de calidad, construido con los mejores materiales y accesorios de primera línea.">
-	<title>VQZ - Constructora - Plaça de les Casernas 12 - CABA</title>
+	<title>VQZ - Desarrollos - Plaça de les Casernas 12 - CABA</title>
 
 	<!-- Favicons -->
 	<?php include('includes/favicon.php'); ?>

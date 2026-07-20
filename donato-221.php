@@ -23,7 +23,7 @@ echo "
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="El edificio cuenta con unidades de 2, 3 y 4 ambientes, posee un luminoso hall de entrada, ascensores amplios con la última tecnología del mercado. El mismo contará con un sistema de vigilancia y cámaras de seguridad las 24 hs mediante una terminal de seguridad monitoreada (Tótem).">
-	<title>VQZ - Constructora - Donato Alvarez 221 CABA</title>
+	<title>VQZ - Desarrollos - Donato Alvarez 221 CABA</title>
 
 	<!-- Favicons -->
 	<?php include('includes/favicon.php'); ?>

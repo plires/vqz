@@ -25,7 +25,7 @@ echo "
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description"
     content="Este ático dúplex está distribuido en 2 plantas, en la primera planta encontramos un amplio espacio de salón comedor con la cocina abierta donde poder disfrutar de tu vida cotidiana, amigos y familia con el mar de fondo.">
-  <title>VQZ - Constructora - San Honorat 24 - España</title>
+  <title>VQZ - Desarrollos - San Honorat 24 - España</title>
 
   <!-- Favicons -->
   <?php include('includes/favicon.php'); ?>

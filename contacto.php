@@ -16,7 +16,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="El paso más importante de un proyecto Es el primero: ADELANTE">
-  <title>VQZ - Constructora - Contacto</title>
+  <title>VQZ - Desarrollos - Contacto</title>
 
   <!-- Favicons -->
   <?php include('includes/favicon.php'); ?>

@@ -24,7 +24,7 @@ echo "
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="El edificio posee un luminoso hall de entrada, y cuenta con ascensores amplios con la última tecnología del mercado.">
-	<title>VQZ - Constructora - Aranguren 1061 - CABA</title>
+	<title>VQZ - Desarrollos - Aranguren 1061 - CABA</title>
 
 	<!-- Favicons -->
 	<?php include('includes/favicon.php'); ?>

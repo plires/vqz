@@ -17,7 +17,7 @@ $current = 'obras';
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description"
     content="Conocé todos los proyectos desarrollados a lo largo de nuestros 35 años de experiencia.">
-  <title>VQZ - Constructora - Obras Realizadas</title>
+  <title>VQZ - Desarrollos - Obras Realizadas</title>
 
   <!-- Favicons -->
   <?php include('includes/favicon.php'); ?>

@@ -25,7 +25,7 @@ echo "
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description"
     content="Un edificio con unidades de calidad, construido con los mejores materiales y accesorios de primera línea.">
-  <title>VQZ - Constructora - Sant Honorat 26 - España</title>
+  <title>VQZ - Desarrollos - Sant Honorat 26 - España</title>
 
   <!-- Favicons -->
   <?php include('includes/favicon.php'); ?>

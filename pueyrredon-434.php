@@ -25,7 +25,7 @@ echo "
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Unidades de 3 y 4 ambientes de alta prestación. El edificio cuenta con un hall de entrada de categoría con ascensores de última generación. 
 ">
-  <title>VQZ - Constructora - Pueyrredon 434 - CABA</title>
+  <title>VQZ - Desarrollos - Pueyrredon 434 - CABA</title>
 
   <!-- Favicons -->
   <?php include('includes/favicon.php'); ?>

@@ -24,7 +24,7 @@ echo "
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="Un edificio de calidad con unidades de 2 y 3 ambientes construido con los mejores materiales y accesorios de primera línea.">
-	<title>VQZ - Constructora - Muñiz 1060 - CABA</title>
+	<title>VQZ - Desarrollos - Muñiz 1060 - CABA</title>
 
 	<!-- Favicons -->
 	<?php include('includes/favicon.php'); ?>

@@ -15,7 +15,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="Política de privacidad de VQZ Constructora: cómo tratamos los datos personales de nuestros usuarios y clientes.">
-	<title>VQZ - Constructora - Política de Privacidad</title>
+	<title>VQZ - Desarrollos - Política de Privacidad</title>
 
 	<!-- Favicons -->
 	<?php include('includes/favicon.php'); ?>

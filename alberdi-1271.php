@@ -24,7 +24,7 @@ echo "
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Edificio en Juan Bautista Alberdi 1271, CABA. Excelente ubicación. Consultá por unidades disponibles. VQZ Constructora.">
-  <title>VQZ - Constructora - Juan Bautista Alberdi 1271 - CABA</title>
+  <title>VQZ - Desarrollos - Juan Bautista Alberdi 1271 - CABA</title>
 
   <!-- Favicons -->
   <?php include('includes/favicon.php'); ?>

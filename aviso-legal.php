@@ -15,7 +15,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="Aviso legal de VQZ Constructora: datos identificativos, condiciones de uso del sitio web y régimen de propiedad intelectual.">
-	<title>VQZ - Constructora - Aviso Legal</title>
+	<title>VQZ - Desarrollos - Aviso Legal</title>
 
 	<!-- Favicons -->
 	<?php include('includes/favicon.php'); ?>

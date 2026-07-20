@@ -17,7 +17,7 @@ $current = 'home';
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description"
     content="A través de los años, Vazquez Obras y Servicios se ha encaminado hacia una actividad integrada, especializándose en la implementación y desarrollo de procesos industriales relacionados con el diseño y la construcción de proyectos de inversión, vivienda y oficinas.">
-  <title>VQZ - Constructora</title>
+  <title>VQZ - Desarrollos</title>
 
   <!-- Favicons -->
   <?php include('includes/favicon.php'); ?>

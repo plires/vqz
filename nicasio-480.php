@@ -25,7 +25,7 @@ echo "
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="El edificio cuenta con unidades de 1 ambiente, posee frente de vidrio templado con terminaciones en acero inoxidable. Cocheras individuales en planta baja con portón automático levadizo.. 
 ">
-	<title>VQZ - Constructora - Nicasio 480 - CABA</title>
+	<title>VQZ - Desarrollos - Nicasio 480 - CABA</title>
 
 	<!-- Favicons -->
 	<?php include('includes/favicon.php'); ?>
