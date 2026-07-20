@@ -35,6 +35,7 @@ echo "
   <link rel="stylesheet" type="text/css" href="./node_modules/aos/dist/aos.css" />
   <link rel="stylesheet" type="text/css" href="./node_modules/lightbox2/dist/css/lightbox.min.css" />
   <link rel="stylesheet" type="text/css" href="./css/app.css">
+	<link rel="stylesheet" type="text/css" href="./css/cookieconsent.css">
 </head>
 
 <body>

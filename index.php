@@ -27,6 +27,7 @@ $current = 'home';
   <link rel="stylesheet" type="text/css" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="./node_modules/aos/dist/aos.css" />
   <link rel="stylesheet" type="text/css" href="./css/app.css">
+	<link rel="stylesheet" type="text/css" href="./css/cookieconsent.css">
 </head>
 
 <body>
