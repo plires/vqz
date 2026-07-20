@@ -617,12 +617,25 @@ footer .content_frase {
   border-top: solid 1px grey;
   padding-top: 5px;
 }
-/* Footer end */
 
+footer .content_legal ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+  gap: 1rem;
+}
+
+footer .content_legal a,
+footer .content_legal li {
+  margin-bottom: 0;
+  font-size: 0.65rem;
+}
+/* Footer end */
 
 /* MEDIA QUERIES */
 @media (min-width: 576px) {
-
   /* Header */
   header .content {
     position: relative;
@@ -825,11 +838,15 @@ footer .content_frase {
     display: flex;
     justify-content: flex-end;
   }
+
+  footer .content_legal ul {
+    flex-direction: row;
+    gap: 2rem;
+  }
   /* Footer end */
 }
 
 @media (min-width: 992px) {
-
   /* Proyectos */
   .proyectos {
     margin-top: -1010px;

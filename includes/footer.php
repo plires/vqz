@@ -33,6 +33,15 @@
         </ul>
       </div>
 
+      <div class="col-md-12 content_legal">
+          <ul>
+            <li><a class="transition" href="./aviso-legal.php">AVISO LEGAL</a></li>
+            <li><a class="transition" href="./politica-privacidad.php">POLÍTICA DE PRIVACIDAD</a></li>
+            <li><a class="transition" href="./politica-cookies.php">POLÍTICA DE COOKIES</a></li>
+            <li><a class="transition js-cookie-preferences" href="javascript:void(0)">CAMBIAR PREFERENCIAS DE COOKIES</a></li>
+          </ul>
+      </div>
+
     </div>
 
     <div class="row">
