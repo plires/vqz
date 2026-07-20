@@ -252,7 +252,10 @@ echo "
 
       <div data-aos="fade-up" class="content_map">
 
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3827.7844034829604!2d-58.44818936783436!3d-34.62521026145914!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca3a271adfdf%3A0x83f23b35a0b78005!2sAv.%20Juan%20Bautista%20Alberdi%201271%2C%20C1406%20Cdad.%20Aut%C3%B3noma%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1769456104703!5m2!1ses!2sar" width="100%" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div class="consent-embed-placeholder" data-embed-type="maps" data-embed-src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3827.7844034829604!2d-58.44818936783436!3d-34.62521026145914!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca3a271adfdf%3A0x83f23b35a0b78005!2sAv.%20Juan%20Bautista%20Alberdi%201271%2C%20C1406%20Cdad.%20Aut%C3%B3noma%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1769456104703!5m2!1ses!2sar" data-embed-title="Mapa de ubicación - Av. Juan Bautista Alberdi 1271">
+          <p>Este contenido está alojado en Google Maps. Para verlo, aceptá las cookies de contenido embebido.</p>
+          <button type="button" class="consent-embed-accept">Aceptar y ver contenido</button>
+        </div>
 
         <div data-aos="fade-left" class="content_medios">
 

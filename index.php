@@ -415,7 +415,10 @@ $current = 'home';
 
           <div class="hytPlayerWrapOuter">
             <div class="hytPlayerWrap ratio ratio-16x9">
-              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/7xBGvZEdJvM?rel=0&enablejsapi=1" frameborder="0"></iframe>
+              <div class="consent-embed-placeholder" data-embed-type="youtube" data-embed-src="https://www.youtube-nocookie.com/embed/7xBGvZEdJvM?rel=0&enablejsapi=1" data-embed-title="Video institucional VQZ Constructora">
+                <p>Este contenido está alojado en YouTube. Para verlo, aceptá las cookies de contenido embebido.</p>
+                <button type="button" class="consent-embed-accept">Aceptar y ver contenido</button>
+              </div>
             </div>
           </div>
 

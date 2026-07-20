@@ -11,7 +11,64 @@ const content_arg = document.getElementById('content_arg')
 const paises = document.getElementsByClassName('pais')
 
 // Conexion con API de Youtube para video en la seccion nosotros (evita videos relacionados al termino)
-document.addEventListener('DOMContentLoaded', function(){if (window.hideYTActivated) return; let onYouTubeIframeAPIReadyCallbacks=[]; for (let playerWrap of document.querySelectorAll(".hytPlayerWrap")){let playerFrame=playerWrap.querySelector("iframe"); let tag=document.createElement('script'); tag.src="https://www.youtube.com/iframe_api"; let firstScriptTag=document.getElementsByTagName('script')[0]; firstScriptTag.parentNode.insertBefore(tag, firstScriptTag); let onPlayerStateChange=function(event){if (event.data==YT.PlayerState.ENDED){playerWrap.classList.add("ended");}else if (event.data==YT.PlayerState.PAUSED){playerWrap.classList.add("paused");}else if (event.data==YT.PlayerState.PLAYING){playerWrap.classList.remove("ended"); playerWrap.classList.remove("paused");}}; let player; onYouTubeIframeAPIReadyCallbacks.push(function(){player=new YT.Player(playerFrame,{events:{'onStateChange': onPlayerStateChange}});}); playerWrap.addEventListener("click", function(){let playerState=player.getPlayerState(); if (playerState==YT.PlayerState.ENDED){player.seekTo(0);}else if (playerState==YT.PlayerState.PAUSED){player.playVideo();}});}window.onYouTubeIframeAPIReady=function(){for (let callback of onYouTubeIframeAPIReadyCallbacks){callback();}}; window.hideYTActivated=true;});
+//
+// Nota (etapa B / consentimiento de cookies): mientras la categoria "embeds"
+// no este aceptada, el iframe de YouTube todavia no existe en el DOM (hay un
+// placeholder en su lugar, ver js/consentEmbeds.js), por eso este init es
+// tolerante a wraps sin iframe. Se expone `window.initHytPlayerWrap` para
+// que consentEmbeds.js pueda re-ejecutar esta inicializacion sobre un wrap
+// puntual una vez que inserta el iframe real (aceptacion inicial o tardia).
+window.onYouTubeIframeAPIReadyCallbacks = window.onYouTubeIframeAPIReadyCallbacks || [];
+
+function initHytPlayerWrap(playerWrap) {
+	let playerFrame = playerWrap.querySelector("iframe");
+	if (!playerFrame) return; // sin consentimiento de "embeds" todavia: nada que inicializar
+
+	if (!window.hytIframeApiTagInserted) {
+		let tag = document.createElement('script');
+		tag.src = "https://www.youtube.com/iframe_api";
+		let firstScriptTag = document.getElementsByTagName('script')[0];
+		firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+		window.hytIframeApiTagInserted = true;
+	}
+
+	let onPlayerStateChange = function(event){
+		if (event.data==YT.PlayerState.ENDED){playerWrap.classList.add("ended");}
+		else if (event.data==YT.PlayerState.PAUSED){playerWrap.classList.add("paused");}
+		else if (event.data==YT.PlayerState.PLAYING){playerWrap.classList.remove("ended"); playerWrap.classList.remove("paused");}
+	};
+
+	let player;
+	let initPlayer = function(){
+		player = new YT.Player(playerFrame, {events: {'onStateChange': onPlayerStateChange}});
+	};
+
+	if (window.YT && window.YT.Player) {
+		initPlayer();
+	} else {
+		window.onYouTubeIframeAPIReadyCallbacks.push(initPlayer);
+	}
+
+	playerWrap.addEventListener("click", function(){
+		if (!player) return;
+		let playerState = player.getPlayerState();
+		if (playerState==YT.PlayerState.ENDED){player.seekTo(0);}
+		else if (playerState==YT.PlayerState.PAUSED){player.playVideo();}
+	});
+}
+
+window.initHytPlayerWrap = initHytPlayerWrap;
+window.onYouTubeIframeAPIReady = function(){
+	for (let callback of window.onYouTubeIframeAPIReadyCallbacks){callback();}
+};
+
+document.addEventListener('DOMContentLoaded', function(){
+	if (window.hideYTActivated) return;
+	for (let playerWrap of document.querySelectorAll(".hytPlayerWrap")){
+		initHytPlayerWrap(playerWrap);
+	}
+	window.hideYTActivated = true;
+});
 
 AOS.init()
 

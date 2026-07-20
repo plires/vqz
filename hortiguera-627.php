@@ -244,7 +244,10 @@ echo "
 
       <div data-aos="fade-up" class="content_map">
 
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3282.977820682198!2d-58.446971923785526!3d-34.63000077294476!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca36987b00bb%3A0xde974a9ea2fdf3ec!2sParque%20Chacabuco%2C%20Hortiguera%20627%2C%20C1406CKM%20Cdad.%20Aut%C3%B3noma%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1769459017706!5m2!1ses!2sar" width="100%" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div class="consent-embed-placeholder" data-embed-type="maps" data-embed-src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3282.977820682198!2d-58.446971923785526!3d-34.63000077294476!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca36987b00bb%3A0xde974a9ea2fdf3ec!2sParque%20Chacabuco%2C%20Hortiguera%20627%2C%20C1406CKM%20Cdad.%20Aut%C3%B3noma%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1769459017706!5m2!1ses!2sar" data-embed-title="Mapa de ubicación - Hortiguera 627">
+          <p>Este contenido está alojado en Google Maps. Para verlo, aceptá las cookies de contenido embebido.</p>
+          <button type="button" class="consent-embed-accept">Aceptar y ver contenido</button>
+        </div>
 
         <div data-aos="fade-left" class="content_medios">
 

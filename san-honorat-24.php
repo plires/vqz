@@ -431,8 +431,10 @@ echo "
 
             <div data-aos="fade-up" class='hytPlayerWrapOuter'>
               <div class='hytPlayerWrap ratio ratio-16x9'>
-                <iframe src='https://www.youtube.com/embed/NQ7LYluGZrA?rel=0&enablejsapi=1' frameborder='0'>
-                </iframe>
+                <div class="consent-embed-placeholder" data-embed-type="youtube" data-embed-src="https://www.youtube-nocookie.com/embed/NQ7LYluGZrA?rel=0&enablejsapi=1" data-embed-title="Video Sant Honorat 24">
+                  <p>Este contenido está alojado en YouTube. Para verlo, aceptá las cookies de contenido embebido.</p>
+                  <button type="button" class="consent-embed-accept">Aceptar y ver contenido</button>
+                </div>
               </div>
             </div>
           </div>
@@ -470,10 +472,10 @@ echo "
 
       <div data-aos="fade-up" class="content_map">
 
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1309.956719026713!2d1.813952268731554!3d41.238496276382605!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a38039ad3ec075%3A0x3da312406a9dc02f!2sCarrer%20de%20Sant%20Honorat%2C%2024%2C%2008870%20Sitges%2C%20Barcelona%2C%20Espa%C3%B1a!5e0!3m2!1ses-419!2sar!4v1712162111536!5m2!1ses-419!2sar"
-          width="100%" height="600" style="border:0;" allowfullscreen="" loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div class="consent-embed-placeholder" data-embed-type="maps" data-embed-src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1309.956719026713!2d1.813952268731554!3d41.238496276382605!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a38039ad3ec075%3A0x3da312406a9dc02f!2sCarrer%20de%20Sant%20Honorat%2C%2024%2C%2008870%20Sitges%2C%20Barcelona%2C%20Espa%C3%B1a!5e0!3m2!1ses-419!2sar!4v1712162111536!5m2!1ses-419!2sar" data-embed-title="Mapa de ubicación - Carrer de Sant Honorat 24">
+          <p>Este contenido está alojado en Google Maps. Para verlo, aceptá las cookies de contenido embebido.</p>
+          <button type="button" class="consent-embed-accept">Aceptar y ver contenido</button>
+        </div>
 
         <div data-aos="fade-left" class="content_medios">
 

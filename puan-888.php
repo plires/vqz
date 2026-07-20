@@ -247,7 +247,10 @@ echo "
 
       <div data-aos="fade-up" class="content_map">
 
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3282.8732559061405!2d-58.44731072378529!3d-34.63264307294403!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca34668e57a7%3A0x866676b97dd2fe3a!2sParque%20Chacabuco%2C%20Pu%C3%A1n%20888%2C%20C1406CQR%20Cdad.%20Aut%C3%B3noma%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1769452677122!5m2!1ses!2sar" width="100%" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div class="consent-embed-placeholder" data-embed-type="maps" data-embed-src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3282.8732559061405!2d-58.44731072378529!3d-34.63264307294403!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca34668e57a7%3A0x866676b97dd2fe3a!2sParque%20Chacabuco%2C%20Pu%C3%A1n%20888%2C%20C1406CQR%20Cdad.%20Aut%C3%B3noma%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1769452677122!5m2!1ses!2sar" data-embed-title="Mapa de ubicación - Puán 888">
+          <p>Este contenido está alojado en Google Maps. Para verlo, aceptá las cookies de contenido embebido.</p>
+          <button type="button" class="consent-embed-accept">Aceptar y ver contenido</button>
+        </div>
 
         <div data-aos="fade-left" class="content_medios">
 

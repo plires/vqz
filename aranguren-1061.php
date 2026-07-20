@@ -627,7 +627,10 @@ echo "
 
 			<div data-aos="fade-up" class="content_map">
 
-				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.5148036155415!2d-58.4479696!3d-34.6164287!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca3d88185b57%3A0xd81e3a5f425088b4!2sDr.%20Juan%20Felipe%20Aranguren%201061%2C%20C1405CRU%20CABA!5e0!3m2!1ses-419!2sar!4v1661373861779!5m2!1ses-419!2sar" width="100%" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+				<div class="consent-embed-placeholder" data-embed-type="maps" data-embed-src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.5148036155415!2d-58.4479696!3d-34.6164287!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca3d88185b57%3A0xd81e3a5f425088b4!2sDr.%20Juan%20Felipe%20Aranguren%201061%2C%20C1405CRU%20CABA!5e0!3m2!1ses-419!2sar!4v1661373861779!5m2!1ses-419!2sar" data-embed-title="Mapa de ubicación - Dr. Juan Felipe Aranguren 1061">
+					<p>Este contenido está alojado en Google Maps. Para verlo, aceptá las cookies de contenido embebido.</p>
+					<button type="button" class="consent-embed-accept">Aceptar y ver contenido</button>
+				</div>
 
 				<div data-aos="fade-left" class="content_medios">
 

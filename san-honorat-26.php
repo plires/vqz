@@ -252,10 +252,10 @@ echo "
 
       <div data-aos="fade-up" class="content_map">
 
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3000.2364646771985!2d1.812385076459013!3d41.23840680522229!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a38039ad8f8adf%3A0x7daa82b318e7f396!2sCarrer%20de%20Sant%20Honorat%2C%2026%2C%2008870%20Sitges%2C%20Barcelona%2C%20Espa%C3%B1a!5e0!3m2!1ses-419!2sar!4v1712162197585!5m2!1ses-419!2sar"
-          width="100%" height="600" style="border:0;" allowfullscreen="" loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div class="consent-embed-placeholder" data-embed-type="maps" data-embed-src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3000.2364646771985!2d1.812385076459013!3d41.23840680522229!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a38039ad8f8adf%3A0x7daa82b318e7f396!2sCarrer%20de%20Sant%20Honorat%2C%2026%2C%2008870%20Sitges%2C%20Barcelona%2C%20Espa%C3%B1a!5e0!3m2!1ses-419!2sar!4v1712162197585!5m2!1ses-419!2sar" data-embed-title="Mapa de ubicación - Carrer de Sant Honorat 26">
+          <p>Este contenido está alojado en Google Maps. Para verlo, aceptá las cookies de contenido embebido.</p>
+          <button type="button" class="consent-embed-accept">Aceptar y ver contenido</button>
+        </div>
 
         <div data-aos="fade-left" class="content_medios">
 
