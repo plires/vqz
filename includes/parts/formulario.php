@@ -64,6 +64,25 @@ $formTime = time();
 		</div>
 	</div>
 
+	<div class="content_consent form-check">
+		<p class="consent_info">
+			Los datos que ingreses en este formulario se usan exclusivamente para responder tu consulta y, si corresponde, contactarte por el medio que elijas (teléfono o email). No se ceden a terceros. Podés ejercer tus derechos de acceso, rectificación o eliminación cuando quieras.
+		</p>
+		<input
+			required="required"
+			type="checkbox"
+			class="form-check-input"
+			id="consent_privacy"
+			name="consent_privacy"
+			value="1">
+		<label class="form-check-label" for="consent_privacy">
+			He leído y acepto la <a href="politica-privacidad.php" target="_blank" rel="noopener">Política de Privacidad</a> *
+		</label>
+		<div class="invalid-feedback">
+			Tenés que aceptar la Política de Privacidad para continuar
+		</div>
+	</div>
+
 	<div class="content_button">
 		<button type="button" id="send" class="btn btn-primary">
 			Enviar

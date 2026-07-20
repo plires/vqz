@@ -24,7 +24,8 @@ class RepoContactsSQL extends repoContacts
 
     try {
 
-      $sql = "INSERT INTO contacts values(default, :name, :email, :phone, :comments, :origin, :created_at)";
+      $sql = "INSERT INTO contacts (name, email, phone, comments, origin, created_at, consent_accepted_at, consent_ip)
+              VALUES (:name, :email, :phone, :comments, :origin, :created_at, :consent_accepted_at, :consent_ip)";
       $stmt = $this->conexion->prepare($sql);
       $stmt->bindValue(":name", $post['name'], PDO::PARAM_STR);
       $stmt->bindValue(":email", $post['email'], PDO::PARAM_STR);
@@ -32,6 +33,8 @@ class RepoContactsSQL extends repoContacts
       $stmt->bindValue(":comments", $post['comments'], PDO::PARAM_STR);
       $stmt->bindValue(":origin", $post['origin'], PDO::PARAM_STR);
       $stmt->bindValue(":created_at", date("Y-m-d H:i:s"), PDO::PARAM_STR);
+      $stmt->bindValue(":consent_accepted_at", date("Y-m-d H:i:s"), PDO::PARAM_STR);
+      $stmt->bindValue(":consent_ip", $this->getRequestIp(), PDO::PARAM_STR);
 
       $save = $stmt->execute();
 
@@ -44,5 +47,16 @@ class RepoContactsSQL extends repoContacts
       header("Location: " . BASE . "index.php?errors=" . urlencode(serialize($errors)) . "#error");
       die();
     }
+  }
+
+  // Prioriza X-Forwarded-For (proxy inverso en producción) sobre REMOTE_ADDR.
+  private function getRequestIp()
+  {
+    if (!empty($_SERVER['HTTP_X_FORWARDED_FOR'])) {
+      $forwardedFor = explode(',', $_SERVER['HTTP_X_FORWARDED_FOR']);
+      return trim($forwardedFor[0]);
+    }
+
+    return $_SERVER['REMOTE_ADDR'] ?? '';
   }
 }

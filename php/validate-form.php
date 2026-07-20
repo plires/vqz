@@ -96,6 +96,11 @@ if ($data['success'] == 1 && $data['score'] >= 0.5) {
 		}
 	}
 
+	// Validación de aceptación de la Política de Privacidad (GDPR)
+	if (empty($_POST['consent_privacy'])) {
+		$errors['error_consent'] = 'Tenés que aceptar la Política de Privacidad para continuar';
+	}
+
 	if (!isset($errors)) {
 
 		// Sanitizar datos antes de guardar
