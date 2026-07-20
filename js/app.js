@@ -24,6 +24,13 @@ function initHytPlayerWrap(playerWrap) {
 	let playerFrame = playerWrap.querySelector("iframe");
 	if (!playerFrame) return; // sin consentimiento de "embeds" todavia: nada que inicializar
 
+	// Evita crear un segundo YT.Player sobre el mismo iframe: puede llamarse
+	// tanto desde el DOMContentLoaded de aca abajo como desde consentEmbeds.js
+	// (aceptacion inicial o tardia), y un doble init genera dos instancias
+	// escuchando postMessage sobre el mismo iframe.
+	if (playerWrap.dataset.ytPlayerInitialized) return;
+	playerWrap.dataset.ytPlayerInitialized = "true";
+
 	if (!window.hytIframeApiTagInserted) {
 		let tag = document.createElement('script');
 		tag.src = "https://www.youtube.com/iframe_api";
@@ -43,11 +50,23 @@ function initHytPlayerWrap(playerWrap) {
 		player = new YT.Player(playerFrame, {events: {'onStateChange': onPlayerStateChange}});
 	};
 
-	if (window.YT && window.YT.Player) {
-		initPlayer();
-	} else {
-		window.onYouTubeIframeAPIReadyCallbacks.push(initPlayer);
-	}
+	let bindWhenApiReady = function(){
+		if (window.YT && window.YT.Player) {
+			initPlayer();
+		} else {
+			window.onYouTubeIframeAPIReadyCallbacks.push(initPlayer);
+		}
+	};
+
+	// Instanciar el YT.Player recien cuando el iframe termino de cargar
+	// youtube-nocookie.com. Si se hace antes, el iframe todavia es about:blank
+	// (hereda el origen de la pagina), y el handshake de la IFrame API postea
+	// mensajes con target origin youtube-nocookie.com contra una ventana que
+	// aun tiene el origen del sitio -> el navegador escupe errores de
+	// postMessage en loop hasta que el iframe carga. Como consentEmbeds.js
+	// inserta el iframe y llama a esta funcion en el mismo tick, el evento
+	// load todavia no disparo, asi que este listener siempre llega a tiempo.
+	playerFrame.addEventListener("load", bindWhenApiReady, { once: true });
 
 	playerWrap.addEventListener("click", function(){
 		if (!player) return;

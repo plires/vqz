@@ -10,15 +10,21 @@ function buildIframe(placeholder) {
   const title = placeholder.dataset.embedTitle
 
   const iframe = document.createElement('iframe')
-  iframe.src = src
   iframe.setAttribute('loading', 'lazy')
   if (title) iframe.setAttribute('title', title)
 
   if (type === 'youtube') {
+    // Sin `origin`, el player de YouTube no puede confirmar a que ventana
+    // padre postear sus mensajes (mas todavia insertando el iframe despues
+    // de la carga inicial, no en el HTML de entrada) y reintenta el
+    // handshake en loop -- de ahi los errores crecientes de postMessage.
+    const originParam = 'origin=' + encodeURIComponent(window.location.origin)
+    iframe.src = src + (src.includes('?') ? '&' : '?') + originParam
     iframe.className = 'embed-responsive-item'
     iframe.setAttribute('frameborder', '0')
     iframe.setAttribute('allowfullscreen', '')
   } else if (type === 'maps') {
+    iframe.src = src
     iframe.setAttribute('width', '100%')
     iframe.setAttribute('height', '600')
     iframe.style.border = '0'
