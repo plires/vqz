@@ -941,15 +941,14 @@ footer .content_legal li {
   /* Proyectos end */
 
   /* Header */
-  header nav a, header nav li {
+  header nav a,
+  header nav li {
     font-size: 4.25rem;
   }
   /* Header end */
-
 }
 
 @media (min-width: 1600px) {
-
 }
 
 /* Consent Privacidad (checkbox del formulario de contacto) */
@@ -1036,7 +1035,90 @@ footer .content_legal li {
 }
 /* Consent Embed Placeholder end */
 
+/* Paginas legales (Aviso Legal, Politica de Privacidad, Politica de Cookies) */
+.legal-page .informacion {
+  padding-top: 56px;
+  padding-bottom: 90px;
+  text-align: left;
+}
 
+.legal-page .titulo {
+  margin-bottom: 32px;
+  text-align: center;
+}
 
+.legal-page h1 {
+  font-family: "Bebas Neue", cursive;
+  font-size: 2.25rem;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: var(--primary-color);
+  margin: 0;
+}
 
+.legal-page .content_data {
+  color: rgba(0, 0, 0, 0.75);
+  font-size: 0.9rem;
+  line-height: 1.7;
+}
 
+.legal-page .content_data h2 {
+  font-family: "Bebas Neue", cursive;
+  font-size: 1.4rem;
+  letter-spacing: 0.02em;
+  color: var(--primary-color);
+  margin-top: 32px;
+  margin-bottom: 10px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.legal-page .content_data h2:first-child {
+  margin-top: 0;
+}
+
+.legal-page .content_data h3 {
+  font-family: "Bebas Neue", cursive;
+  font-size: 1.15rem;
+  letter-spacing: 0.02em;
+  margin-top: 20px;
+  margin-bottom: 6px;
+}
+
+.legal-page .content_data p {
+  font-size: 0.9rem;
+  margin-bottom: 14px;
+  text-align: justify;
+}
+
+.legal-page .content_data ul {
+  padding-left: 1.25rem;
+  list-style: disc;
+  margin-bottom: 14px;
+}
+
+.legal-page .content_data li {
+  font-size: 0.9rem;
+  margin-bottom: 6px;
+}
+
+.legal-page .content_data a {
+  color: var(--primary-color);
+  text-decoration: underline;
+}
+
+.legal-page .content_data table {
+  font-size: 0.8rem;
+  margin-bottom: 14px;
+}
+
+.legal-page .content_data table th {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  background-color: var(--light-color);
+}
+
+.legal-page .content_data small {
+  color: rgba(0, 0, 0, 0.55);
+}
+/* Paginas legales end */
