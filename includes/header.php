@@ -2,7 +2,7 @@
   <div class="row">
     <div class="col-md-12 content">
       <a href="./">
-        <img class="img-fluid logo_header translate" src="./img/header/logo-vazquez.png" alt="logo vqz">
+        <img class="img-fluid logo_header translate" src="./img/header/logo-vazquez.webp" alt="logo vqz">
       </a>
       <i id="btn_menu" class="fa-solid fa-bars transition"></i>
     </div>
