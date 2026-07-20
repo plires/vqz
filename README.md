@@ -40,10 +40,34 @@ Servicios:
 
 | Servicio  | Qué es                          | Acceso                          |
 |-----------|----------------------------------|----------------------------------|
-| `nginx`   | web server                       | http://localhost:8080/sitio/     |
+| `nginx`   | web server (HTTP y HTTPS)        | http://localhost:8080/sitio/ · https://localhost:8443/sitio/ |
 | `php`     | PHP 8.1-FPM (igual que prod)     | (no expuesto directamente)       |
 | `db`      | MySQL 8.0                        | `localhost:3307` (host) / `db:3306` (entre contenedores) |
 | `mailpit` | atrapa el correo saliente local  | UI: http://localhost:8025 · SMTP: `localhost:1025` |
+
+### HTTPS local
+
+`docker/nginx/certs/` (gitignored) tiene el certificado autofirmado para
+`localhost`. Si no existe (clon nuevo, u otra máquina), generarlo antes de
+levantar `nginx`:
+
+```bash
+mkdir -p docker/nginx/certs && cd docker/nginx/certs
+openssl req -x509 -nodes -newkey rsa:2048 -days 825 \
+  -keyout localhost.key -out localhost.crt \
+  -subj "/CN=localhost" \
+  -addext "subjectAltName=DNS:localhost,IP:127.0.0.1"
+cd -
+docker compose up -d nginx
+```
+
+El navegador va a marcar el certificado como no confiable (es autofirmado) —
+hay que aceptar la advertencia una vez. Sirve, entre otras cosas, para
+probar embeds de YouTube sin el ruido de consola ("Failed to execute
+'postMessage' on 'DOMWindow'...") que aparece cuando la página padre es
+HTTP y el iframe HTTPS — un mismatch de protocolo bien documentado en
+varias librerías de embeds de YouTube, cosmético, que no ocurre en
+producción (donde todo corre sobre HTTPS).
 
 ### `.env`
 

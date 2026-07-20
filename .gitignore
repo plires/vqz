@@ -85,3 +85,6 @@ dist/bundle.js
 
 # SDD tooling state
 /.atl
+
+# self-signed local dev TLS cert (regenerated per machine, not for prod)
+/docker/nginx/certs
