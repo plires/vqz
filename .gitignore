@@ -79,3 +79,9 @@ $RECYCLE.BIN/
 
 .env
 dist/bundle.js
+
+# local DB dump used to seed the Docker dev environment
+/backup-bdd
+
+# SDD tooling state
+/.atl
