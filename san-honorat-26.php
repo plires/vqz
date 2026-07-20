@@ -183,29 +183,13 @@ echo "
     <section class="container galeria">
 
       <div class="row">
-
-        <div class="col-md-12">
-          <a data-aos="fade-up" href="./img/obras-individuales/san-honorat-26/frente-large.jpg"
-            data-lightbox="san_honorat_26" data-title="Frente Sant Honorat 26"
-            data-alt="Frente sant honorat 26 large - 3">
-            <img class="img-fluid" src="./img/obras-individuales/san-honorat-26/frente.jpg"
-              alt="Frente sant honorat 26 - 3">
-            <div class="content">
-              <h4 class="bebas">FRENTE</h4>
-            </div>
-          </a>
-        </div>
-
-      </div>
-
-      <div class="row">
         <div class="col-md-6">
-          <a data-aos="fade-up" href="./img/obras-individuales/san-honorat-26/obra-1-large.jpg"
+          <a data-aos="fade-up" href="./img/obras-individuales/san-honorat-26/obra-3-large.jpg"
             data-lightbox="san_honorat_26" data-title="Estructuras Sant Honorat 26" data-alt="Estructuras sant honorat 26 large">
-            <img class="img-fluid" src="./img/obras-individuales/san-honorat-26/obra-1.jpg"
+            <img class="img-fluid" src="./img/obras-individuales/san-honorat-26/obra-3.jpg"
               alt="Estructuras sant honorat 26">
             <div class="content">
-              <h4 class="bebas">ESTRUCTURAS</h4>
+              <h4 class="bebas">FRENTE</h4>
             </div>
           </a>
         </div>
@@ -216,6 +200,21 @@ echo "
             data-alt="Estructuras sant honorat 26 large -2">
             <img class="img-fluid" src="./img/obras-individuales/san-honorat-26/obra-2.jpg"
               alt="Estructuras sant honorat 26 - 2">
+            <div class="content">
+              <h4 class="bebas">ESTRUCTURAS</h4>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <div class="row">
+
+        <div class="col-md-12">
+          <a data-aos="fade-up" href="./img/obras-individuales/san-honorat-26/obra-1-large.jpg"
+            data-lightbox="san_honorat_26" data-title="Estructuras Sant Honorat 26"
+            data-alt="Estructuras sant honorat 26 large - 1">
+            <img class="img-fluid" src="./img/obras-individuales/san-honorat-26/obra-1-large.jpg"
+              alt="Estructuras sant honorat 26 - 1">
             <div class="content">
               <h4 class="bebas">ESTRUCTURAS</h4>
             </div>
